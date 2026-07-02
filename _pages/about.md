@@ -21,13 +21,13 @@ header:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="accent-text">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University** in 2023.
+My name is <span class="accent-text">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
 
 <div class="quote-accent">
 My research focuses on <span class="accent-text">generalizable embodied foundation models for the open world</span>:
   <ul>
-    <li>Building <span class="primary-gradient-text">embodied foundation models</span>🤖 that generalize to open-world objects, skills, and instructions.</li>
-    <li>Studying the <span class="primary-gradient-text">co-design of models and data</span>🔁 to push open-world generalization.</li>
+    <li>Building <span class="primary-gradient-text">embodied foundation models</span>🤖 that generalize across objects, skills, embodiments, scenes, and tasks in unstructured, open-world environments.</li>
+    <li>Studying the <span class="primary-gradient-text">co-evolution of models and data</span>🔁 to scale embodied intelligence from narrow benchmarks to real-world generalization.</li>
   </ul>
 </div>
 
@@ -40,7 +40,10 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <ul>
       <li>My <span class="primary-gradient-text">Research Interests</span>:
         generalizable embodied foundation models for the open world,
-        with a focus on the co-evolution of models and data
+        with a focus on the co-evolution of models and data.
+      </li>
+      <li><span class="primary-gradient-text">Generalization focus</span>:
+        L1 in-domain → L2 distribution shift → L3 compositional → L4 causal-mechanistic → L5 open-world continual.
       </li>
       <li><span class="primary-gradient-text">First / co-first author</span>
         of 7 papers at ECCV, AAAI, MICCAI, and more.
@@ -63,20 +66,21 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <span class='anchor' id='-news'></span>
 # 🔥 News
 <!-- TODO: 你的新闻时间线。格式：一行一条，最新在上。 -->
-- *2026.07*: &nbsp;🎉 RoboBench is accepted to ECCV 2026.
-- *2025.11*: &nbsp;🎉 MoASE is accepted as Oral at AAAI 2026.
+- *2026.07*: &nbsp;🎉 Our work <b>RoboBench</b> is accepted to ECCV 2026. (co-first author)
+- *2025.11*: &nbsp;🎉 Our work <b>MoASE</b> is accepted as Oral at AAAI 2026. (co-first author)
 - *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to NeurIPS 2025.
 - *2025.04*: &nbsp;🎉 RoboMIND is accepted to RSS 2025.
 - *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to ICLR 2025.
-- *2024.07*: &nbsp;🎉 SSD-LLM (LLM as Dataset Analyst) is accepted to ECCV 2024.
-- *2023.12*: &nbsp;🎉 MoFME is accepted to AAAI 2024.
+- *2024.07*: &nbsp;🎉 Our work <b>SSD-LLM</b> is accepted to ECCV 2024. (first author)
+- *2023.12*: &nbsp;🎉 Our work <b>MoFME</b> is accepted to AAAI 2024.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
-- *2022.06*: &nbsp;🎉 RandStainNA is accepted to MICCAI 2022.
+- *2023.06*: &nbsp;🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.
+- *2022.06*: &nbsp;🎉 Our work <b>RandStainNA</b> is accepted to MICCAI 2022. (co-first author)
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
 - *2023.09 - Present*: &nbsp;PhD in Computer Science, Peking University<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">.
-- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University.
+- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;">.
 
 <span class='anchor' id='-publications'></span>
 # 📃 Publications
