@@ -43,7 +43,10 @@ Feel free to reach out if you'd like to discuss research or explore potential co
         with a focus on the co-evolution of models and data
       </li>
       <li><span class="primary-gradient-text">First / co-first author</span>
-        at ECCV, AAAI, MICCAI (and more); ~785 citations, h-index 12
+        of 7 papers at ECCV, AAAI, MICCAI, and more.
+      </li>
+      <li><span class="primary-gradient-text">~785 citations</span>,
+        h-index 12
         <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent">(Google Scholar)</a>.
       </li>
     </ul>
