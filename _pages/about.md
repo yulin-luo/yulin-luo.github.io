@@ -86,7 +86,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2026</div>
-      <img src='images/500x300.png' alt="RoboBench teaser" width="100%">
+      <img src='images/robobench.png' alt="RoboBench teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
@@ -103,7 +103,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2024</div>
-      <img src='images/500x300.png' alt="SSD-LLM teaser" width="100%">
+      <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
@@ -120,7 +120,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Oral, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
-      <img src='images/500x300.png' alt="MoASE teaser" width="100%">
+      <img src='images/moase.png' alt="MoASE teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
@@ -137,7 +137,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">MICCAI 2022</div>
-      <img src='images/500x300.png' alt="RandStainNA teaser" width="100%">
+      <img src='images/randstainna.png' alt="RandStainNA teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
@@ -154,7 +154,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2026</div>
-      <img src='images/500x300.png' alt="Look Before Acting teaser" width="100%">
+      <img src='images/lookbeforeacting.png' alt="Look Before Acting teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
@@ -186,7 +186,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
-      <img src='images/500x300.png' alt="WM-MoE teaser" width="100%">
+      <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
@@ -202,7 +202,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">RSS 2025</div>
-      <img src='images/500x300.png' alt="RoboMIND teaser" width="100%">
+      <img src='images/robomind.png' alt="RoboMIND teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
@@ -218,7 +218,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
-      <img src='images/500x300.png' alt="Draw-and-Understand teaser" width="100%">
+      <img src='images/drawandunderstand.png' alt="Draw-and-Understand teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
@@ -234,7 +234,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
-      <img src='images/500x300.png' alt="SEEA-R1 teaser" width="100%">
+      <img src='images/seear1.png' alt="SEEA-R1 teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
@@ -250,7 +250,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="Conference, CCF-A, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
-      <img src='images/500x300.png' alt="MoFME teaser" width="100%">
+      <img src='images/mofme.png' alt="MoFME teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
