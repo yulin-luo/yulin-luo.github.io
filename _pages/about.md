@@ -61,12 +61,12 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 # 🔥 News
 <!-- TODO: 你的新闻时间线。格式：一行一条，最新在上。 -->
 - *2026.07*: &nbsp;🎉 RoboBench is accepted to ECCV 2026.
-- *2025.11*: &nbsp;🎉 Decomposing the Neurons (MoASE) is accepted as Oral at AAAI 2026.
+- *2025.11*: &nbsp;🎉 MoASE is accepted as Oral at AAAI 2026.
 - *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to NeurIPS 2025.
 - *2025.04*: &nbsp;🎉 RoboMIND is accepted to RSS 2025.
 - *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to ICLR 2025.
-- *2024.07*: &nbsp;🎉 LLM as Dataset Analyst is accepted to ECCV 2024.
-- *2023.12*: &nbsp;🎉 MoFME (Efficient Deweathering Mixture-of-Experts) is accepted to AAAI 2024.
+- *2024.07*: &nbsp;🎉 SSD-LLM (LLM as Dataset Analyst) is accepted to ECCV 2024.
+- *2023.12*: &nbsp;🎉 MoFME is accepted to AAAI 2024.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
 - *2022.06*: &nbsp;🎉 RandStainNA is accepted to MICCAI 2022.
 
@@ -83,13 +83,14 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div id="publications-wrapper">
   <div id="filter-container"></div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, MLLM, Benchmark">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <img src='images/500x300.png' alt="RoboBench teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
+      <div class="paper-short-name">Short name: RoboBench</div>
       <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mingkang Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2026</div>
       <div class="links">
@@ -102,10 +103,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2024</div>
-      <img src='images/500x300.png' alt="LLM as Dataset Analyst teaser" width="100%">
+      <img src='images/500x300.png' alt="SSD-LLM teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
+      <div class="paper-short-name">Short name: SSD-LLM</div>
       <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
       <div class="links">
@@ -122,6 +124,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
+      <div class="paper-short-name">Short name: MoASE</div>
       <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2026 &nbsp;(<b>Oral</b>)</div>
       <div class="links">
@@ -138,6 +141,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
+      <div class="paper-short-name">Short name: RandStainNA</div>
       <div class="authors">Yiqing Shen⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
       <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
       <div class="links">
@@ -154,6 +158,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
+      <div class="paper-short-name">Short name: Look Before Acting</div>
       <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2026</div>
       <div class="links">
@@ -169,6 +174,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>Expert-Level Vision-Language Foundation Model for Real-World Radiology and Comprehensive Evaluation</h3>
+      <div class="paper-short-name">Short name: Radiology VLM</div>
       <div class="authors">Xiaohong Liu⭐️, Guoxing Yang⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, et al.</div>
       <div class="venue">arXiv preprint, 2024</div>
       <div class="links">
@@ -184,6 +190,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
+      <div class="paper-short-name">Short name: WM-MoE</div>
       <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2023</div>
       <div class="links">
@@ -199,6 +206,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
+      <div class="paper-short-name">Short name: RoboMIND</div>
       <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
       <div class="venue">Robotics: Science and Systems (RSS), 2025</div>
       <div class="links">
@@ -207,13 +215,14 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Conference, CCF-A, MLLM">
+  <div class='paper-box floating-card' data-tags="Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <img src='images/500x300.png' alt="Draw-and-Understand teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
+      <div class="paper-short-name">Short name: Draw-and-Understand</div>
       <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
       <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
       <div class="links">
@@ -229,6 +238,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
+      <div class="paper-short-name">Short name: SEEA-R1</div>
       <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
       <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
       <div class="links">
@@ -240,10 +250,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box floating-card' data-tags="Conference, CCF-A, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
-      <img src='images/500x300.png' alt="Efficient Deweathering MoE teaser" width="100%">
+      <img src='images/500x300.png' alt="MoFME teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
+      <div class="paper-short-name">Short name: MoFME</div>
       <div class="authors">Rongyu Zhang, <span class="primary-gradient-text">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</div>
       <div class="links">

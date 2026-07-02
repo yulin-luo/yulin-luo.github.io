@@ -496,6 +496,14 @@ body {
   font-size: 0.9rem;
 }
 
+.paper-box-text .paper-short-name {
+  color: #FE667B;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.02em;
+}
+
 .paper-box-text .links {
   display: flex;
   gap: 0.8rem;
