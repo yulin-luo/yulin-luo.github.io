@@ -60,8 +60,15 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <span class='anchor' id='-news'></span>
 # 🔥 News
 <!-- TODO: 你的新闻时间线。格式：一行一条，最新在上。 -->
-- *2026.xx*: &nbsp;🎉 TODO — 例如 "1 paper accepted by ECCV 2026".
+- *2026.07*: &nbsp;🎉 RoboBench is accepted to ECCV 2026.
+- *2025.11*: &nbsp;🎉 Decomposing the Neurons (MoASE) is accepted as Oral at AAAI 2026.
+- *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to NeurIPS 2025.
+- *2025.04*: &nbsp;🎉 RoboMIND is accepted to RSS 2025.
+- *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to ICLR 2025.
+- *2024.07*: &nbsp;🎉 LLM as Dataset Analyst is accepted to ECCV 2024.
+- *2023.12*: &nbsp;🎉 MoFME (Efficient Deweathering Mixture-of-Experts) is accepted to AAAI 2024.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
+- *2022.06*: &nbsp;🎉 RandStainNA is accepted to MICCAI 2022.
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
@@ -76,7 +83,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div id="publications-wrapper">
   <div id="filter-container"></div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Embodied AI, MLLM, Benchmark">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, MLLM, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <img src='images/500x300.png' alt="RoboBench teaser" width="100%">
@@ -92,7 +99,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Data-centric AI, MLLM">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <img src='images/500x300.png' alt="LLM as Dataset Analyst teaser" width="100%">
@@ -108,7 +115,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Mixture-of-Experts, Oral, CCF-A">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Oral, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <img src='images/500x300.png' alt="MoASE teaser" width="100%">
@@ -124,7 +131,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Medical Imaging">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <img src='images/500x300.png' alt="RandStainNA teaser" width="100%">
@@ -140,7 +147,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Embodied AI, VLA">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <img src='images/500x300.png' alt="Look Before Acting teaser" width="100%">
@@ -155,7 +162,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, AI for Healthcare, MLLM">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Medical Imaging, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2024</div>
       <img src='images/500x300.png' alt="Radiology Foundation Model teaser" width="100%">
@@ -170,7 +177,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Mixture-of-Experts">
+  <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <img src='images/500x300.png' alt="WM-MoE teaser" width="100%">
@@ -185,7 +192,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Embodied AI, Benchmark">
+  <div class='paper-box floating-card' data-tags="Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">RSS 2025</div>
       <img src='images/500x300.png' alt="RoboMIND teaser" width="100%">
@@ -200,7 +207,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="MLLM, CCF-A">
+  <div class='paper-box floating-card' data-tags="Conference, CCF-A, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <img src='images/500x300.png' alt="Draw-and-Understand teaser" width="100%">
@@ -215,7 +222,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Embodied AI, Reinforcement Learning, CCF-A">
+  <div class='paper-box floating-card' data-tags="Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <img src='images/500x300.png' alt="SEEA-R1 teaser" width="100%">
@@ -230,7 +237,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Mixture-of-Experts, CCF-A">
+  <div class='paper-box floating-card' data-tags="Conference, CCF-A, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <img src='images/500x300.png' alt="Efficient Deweathering MoE teaser" width="100%">
@@ -249,9 +256,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <span class='anchor' id='-awards'></span>
 # 🏆 Awards
-- Huawei <span class="primary-gradient-text">Scholarship</span>.
-- Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span>.
-<!-- TODO: 补充年份与其他奖项 -->
+- *2023.06*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span>.
+- *2021.12*: &nbsp;Huawei <span class="primary-gradient-text">Scholarship</span>.
 
 <span class='anchor' id='-services'></span>
 # 👓 Services
