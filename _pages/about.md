@@ -46,7 +46,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
         L1 in-domain → L2 distribution shift → L3 compositional → L4 causal-mechanistic → L5 open-world continual.
       </li>
       <li><span class="primary-gradient-text">First / co-first author</span>
-        of 7 papers (3 first + 4 co-first) at ECCV, AAAI, MICCAI, and more.
+        of 5 accepted papers at CCF-A/B venues.
       </li>
       <li><span class="primary-gradient-text">~785 citations</span>,
         h-index 12
