@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="description" content="Yulin Luo is a PhD student at Peking University, working on generalizable embodied foundation models for the open world.">
+
+<!-- begin SEO -->
+
+
+
+
+
+<title>Yulin Luo - Homepage</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Yulin Luo">
+<meta property="og:title" content="Yulin Luo">
+
+
+  <link rel="canonical" href="https://yulin-luo.github.io/">
+  <meta property="og:url" content="https://yulin-luo.github.io/">
+
+
+
+  <meta property="og:description" content="PhD student at Peking University. Research on generalizable embodied foundation models for the open world.">
+
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+<base target="_blank">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+
+<!-- 学术图标和增强的强调色样式 -->
+<link rel="stylesheet" href="assets/css/academicons.css"/>
+<link rel="stylesheet" href="assets/css/accent-enhancements.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- 强调色增强的JavaScript动效 -->
+<script>
+// 页面加载后的滚动动画
+document.addEventListener('DOMContentLoaded', function() {
+  // 滚动触发动画
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
+      }
+    });
+  }, observerOptions);
+  
+  // 为元素添加动画类
+  document.querySelectorAll('.paper-box, .highlight-block').forEach(el => {
+    el.classList.add('fade-in-up');
+    observer.observe(el);
+  });
+  
+  // 为重要链接添加强调色效果
+  document.querySelectorAll('a[href*="pdf"], a[href*="github"], a[href*="arxiv"]').forEach(link => {
+    link.classList.add('link-accent');
+  });
+});
+
+// 动态添加装饰条
+document.addEventListener('DOMContentLoaded', function() {
+  const body = document.body;
+  body.classList.add('accent-border-top');
+});
+</script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="#about-me">Homepage</a>
+          </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#about-me">About Me</a>
+            </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#-news">News</a>
+            </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#-educations">Educations</a>
+            </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#-publications">Publications</a>
+            </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#-awards">Awards</a>
+            </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#-services">Services</a>
+            </li>
+          
+            <li class="masthead__menu-item">
+              <a href="/#-interests">Interests</a>
+            </li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div id="main" role="main" style="padding-bottom: 3em;">
+      
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person" class="profile_box">
+
+  <div class="author__avatar">
+    <img src="images/lyl_photo.png" class="author__avatar" alt="Yulin Luo" style="max-width: 160px; width: 100%; height: auto; border-radius: 50%;">
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name" style="font-size: 1.25rem; margin-top: 0.75rem;">Yulin Luo</h3>
+    <p class="author__bio" style="font-size: 0.9rem; color: #6c757d; margin-top: 0.5rem;">PhD student at PKU. Embodied AI.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
+    <ul class="author__urls social-icons">
+      
+        <li><div style="white-space: normal; margin-bottom: 1em;">Yulin Luo is a PhD student at Peking University, working on generalizable embodied foundation models for the open world.</div></li>
+      
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Beijing, China</li>
+      
+      
+      
+      
+        <li><a href="mailto:yulin@stu.pku.edu.cn"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      
+      
+       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/yulin-luo"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com/citations?hl=en&user=SgeV4NkAAAAJ"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+      
+      
+      
+      
+    </ul>
+      <div class="author__urls_sm">
+      
+      
+        <a href="mailto:yulin@stu.pku.edu.cn"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      
+      
+       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://github.com/yulin-luo"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://scholar.google.com/citations?hl=en&user=SgeV4NkAAAAJ"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+
+  
+  </div>
+
+    
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="headline" content="Yulin Luo - Homepage">
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+<p><span class="anchor" id="about-me"></span>
+My name is <span class="accent-text">Yulin Luo</span> (罗峪霖). I’m a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, <strong>Peking University</strong><img src="images/pkulogo.png" style="height:1em; vertical-align:middle;" />, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor’s degree in Automation from <strong>Shanghai Jiao Tong University</strong><img src="images/sjtulogo.png" style="height:1em; vertical-align:middle;" /> in 2023.</p>
+
+<div class="quote-accent">
+My research focuses on <span class="accent-text">generalizable embodied foundation models for the open world</span>:
+  <ul>
+    <li>Building <span class="primary-gradient-text">embodied foundation models</span>🤖 that generalize across objects, skills, embodiments, scenes, and tasks in unstructured, open-world environments.</li>
+    <li>Studying the <span class="primary-gradient-text">co-evolution of models and data</span>🔁 to scale embodied intelligence from narrow benchmarks to real-world generalization.</li>
+  </ul>
+</div>
+
+<div class="highlight-blocks">
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-robot"></i> Embodied AI Researcher</h3>
+    <ul>
+      <li>My <span class="primary-gradient-text">Research Interests</span>:
+        generalizable embodied foundation models for the open world,
+        with a focus on the co-evolution of models and data.
+      </li>
+      <li><span class="primary-gradient-text">Generalization focus</span>:
+        L1 in-domain → L2 distribution shift → L3 compositional → L4 causal-mechanistic → L5 open-world continual.
+      </li>
+      <li><span class="primary-gradient-text">First / co-first author</span>
+        of 5 accepted papers at CCF-A/B venues.
+      </li>
+      <li><span class="primary-gradient-text"><span id="total_cit">~785</span> citations</span>,
+        h-index 12
+        <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent">(Google Scholar)</a>.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<p><span class="anchor" id="-news"></span></p>
+<h1 id="-news">🔥 News</h1>
+<!-- TODO: 你的新闻时间线。格式：一行一条，最新在上。 -->
+<ul>
+  <li><em>2026.07</em>:  🎉 Our work <b>RoboBench</b> is accepted to ECCV 2026. (co-first author)</li>
+  <li><em>2025.11</em>:  🎉 Our work <b>MoASE</b> is accepted as Oral at AAAI 2026. (co-first author)</li>
+  <li><em>2025.09</em>:  🎉 SEEA-R1 is accepted to NeurIPS 2025.</li>
+  <li><em>2025.04</em>:  🎉 RoboMIND is accepted to RSS 2025.</li>
+  <li><em>2025.01</em>:  🎉 Draw-and-Understand is accepted to ICLR 2025.</li>
+  <li><em>2024.07</em>:  🎉 Our work <b>SSD-LLM</b> is accepted to ECCV 2024. (first author)</li>
+  <li><em>2023.12</em>:  🎉 Our work <b>MoFME</b> is accepted to AAAI 2024.</li>
+  <li><em>2023.09</em>:  🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.</li>
+  <li><em>2023.06</em>:  🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.</li>
+  <li><em>2022.06</em>:  🎉 Our work <b>RandStainNA</b> is accepted to MICCAI 2022. (co-first author)</li>
+</ul>
+
+<p><span class="anchor" id="-educations"></span></p>
+<h1 id="-educations">🏫 Educations</h1>
+<ul>
+  <li><em>2023.09 - Present</em>:  PhD in Computer Science, Peking University<img src="images/pkulogo.png" style="height:1em; vertical-align:middle;" />.</li>
+  <li><em>2019.09 - 2023.06</em>:  B.Eng. in Automation, Shanghai Jiao Tong University<img src="images/sjtulogo.png" style="height:1em; vertical-align:middle;" />.</li>
+</ul>
+
+<p><span class="anchor" id="-publications"></span></p>
+<h1 id="-publications">📃 Publications</h1>
+
+<!-- ⭐️ = (共同)第一作者；📧 = 通讯作者。teaser 图默认用占位图 images/500x300.png，
+     你把每篇的图放到 images/ 后替换 src 即可。缺 arXiv 链接的用 "#" 占位，后续补。 -->
+<div id="publications-wrapper">
+  <div id="filter-container" class="filter-bar">
+    <div class="filter-group">
+      <label for="filter-author">Author Role</label>
+      <select id="filter-author" data-dim="author">
+        <option value="">All</option>
+        <option value="First/Co-First Author">First / Co-First Author</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-venue">Venue Tier</label>
+      <select id="filter-venue" data-dim="venue">
+        <option value="">All</option>
+        <option value="CCF-A">CCF-A</option>
+        <option value="CCF-B">CCF-B</option>
+        <option value="Preprint">Preprint</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-type">Type</label>
+      <select id="filter-type" data-dim="type">
+        <option value="">All</option>
+        <option value="Conference">Conference</option>
+        <option value="Oral">Oral</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-domain">Domain</label>
+      <select id="filter-domain" data-dim="domain">
+        <option value="">All</option>
+        <option value="Embodied AI">Embodied AI</option>
+        <option value="Computer Vision">Computer Vision</option>
+        <option value="Medical Imaging">Medical Imaging</option>
+        <option value="Data-centric AI">Data-centric AI</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-focus">Focus</label>
+      <select id="filter-focus" data-dim="focus">
+        <option value="">All</option>
+        <option value="VLA">VLA</option>
+        <option value="Benchmark">Benchmark</option>
+        <option value="Agentic">Agentic</option>
+        <option value="World Model">World Model</option>
+        <option value="MoE">MoE</option>
+        <option value="Data Augmentation">Data Augmentation</option>
+        <option value="MLLM">MLLM</option>
+        <option value="Model">Model</option>
+      </select>
+    </div>
+    <button id="filter-reset" class="filter-reset-btn">Reset</button>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">ECCV 2026</div>
+      <img src="images/robobench.png" alt="RoboBench teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
+      <div class="paper-short-name">Short name: RoboBench</div>
+      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mingkang Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
+      <div class="venue">European Conference on Computer Vision (ECCV), 2026</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2510.17801" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">ECCV 2024</div>
+      <img src="images/ssdllm.png" alt="SSD-LLM teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
+      <div class="paper-short-name">Short name: SSD-LLM</div>
+      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
+      <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://yulin-luo.github.io/llm-as-dataset-analyst/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Model, MoE">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">AAAI 2026 · Oral</div>
+      <img src="images/moase.png" alt="MoASE teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
+      <div class="paper-short-name">Short name: MoASE</div>
+      <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
+      <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2026 &nbsp;(<b>Oral</b>)</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">MICCAI 2022</div>
+      <img src="images/randstainna.png" alt="RandStainNA teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
+      <div class="paper-short-name">Short name: RandStainNA</div>
+      <div class="authors">Yiqing Shen⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
+      <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">Preprint 2026</div>
+      <img src="images/lookbeforeacting.png" alt="Look Before Acting teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
+      <div class="paper-short-name">Short name: Look Before Acting</div>
+      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
+      <div class="venue">arXiv preprint, 2026</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Preprint, Medical Imaging, MLLM">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">Preprint 2024</div>
+      <img src="images/500x300.png" alt="Radiology Foundation Model teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>Expert-Level Vision-Language Foundation Model for Real-World Radiology and Comprehensive Evaluation</h3>
+      <div class="paper-short-name">Short name: Radiology VLM</div>
+      <div class="authors">Xiaohong Liu⭐️, Guoxing Yang⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, et al.</div>
+      <div class="venue">arXiv preprint, 2024</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2409.16183" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="First/Co-First Author, Preprint, Model, MoE">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">Preprint 2023</div>
+      <img src="images/wmmoe.png" alt="WM-MoE teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
+      <div class="paper-short-name">Short name: WM-MoE</div>
+      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
+      <div class="venue">arXiv preprint, 2023</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2303.13739" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="Conference, CCF-B, Embodied AI, Benchmark">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">RSS 2025</div>
+      <img src="images/robomind.png" alt="RoboMIND teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
+      <div class="paper-short-name">Short name: RoboMIND</div>
+      <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
+      <div class="venue">Robotics: Science and Systems (RSS), 2025</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="Conference, CCF-A, Computer Vision, MLLM">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">ICLR 2025</div>
+      <img src="images/drawandunderstand.png" alt="Draw-and-Understand teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
+      <div class="paper-short-name">Short name: Draw-and-Understand</div>
+      <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
+      <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="Conference, CCF-A, Embodied AI, Agentic, World Model">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">NeurIPS 2025</div>
+      <img src="images/seear1.png" alt="SEEA-R1 teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
+      <div class="paper-short-name">Short name: SEEA-R1</div>
+      <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
+      <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" data-tags="Conference, CCF-A, Model, MoE">
+    <div class="paper-box-image">
+      <div class="badge pulse-accent">AAAI 2024</div>
+      <img src="images/mofme.png" alt="MoFME teaser" width="100%" />
+    </div>
+    <div class="paper-box-text">
+      <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
+      <div class="paper-short-name">Short name: MoFME</div>
+      <div class="authors">Rongyu Zhang, <span class="primary-gradient-text">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, et al., Shanghang Zhang📧</div>
+      <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p><span class="anchor" id="-awards"></span></p>
+<h1 id="-awards">🏆 Awards</h1>
+<ul>
+  <li><em>2023.06</em>:  Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span>.</li>
+  <li><em>2021.12</em>:  Huawei <span class="primary-gradient-text">Scholarship</span>.</li>
+</ul>
+
+<p><span class="anchor" id="-services"></span></p>
+<h1 id="-services">👓 Services</h1>
+<ul>
+  <li><em>Conferences</em>:  Reviewer of CVPR, NeurIPS, ICLR, AAAI, ECCV.
+<!-- TODO(可选): 期刊审稿 --></li>
+</ul>
+
+<p><span class="anchor" id="-interests"></span></p>
+<h1 id="-interests">😊 Interests</h1>
+<!-- TODO(可选): 兴趣爱好卡片，参考模板 blog-card 风格。不需要可整节删掉。 -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.getElementById('publications-wrapper');
+  if (!wrapper) return;
+
+  const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
+
+  // Sort papers by year descending (extract 4-digit year from venue text)
+  const yearRe = /\b(19|20)\d{2}\b/;
+  paperBoxes.sort((a, b) => {
+    const ya = (a.querySelector('.venue')?.textContent.match(yearRe) || [0])[0];
+    const yb = (b.querySelector('.venue')?.textContent.match(yearRe) || [0])[0];
+    return Number(yb) - Number(ya);
+  });
+  paperBoxes.forEach(box => wrapper.appendChild(box));
+
+  const filterContainer = document.getElementById('filter-container');
+  const selects = filterContainer ? filterContainer.querySelectorAll('select[data-dim]') : [];
+  const resetBtn = document.getElementById('filter-reset');
+
+  const dimensionMap = {
+    author: ['First/Co-First Author', 'Other'],
+    venue: ['CCF-A', 'CCF-B', 'Preprint'],
+    type: ['Conference', 'Oral'],
+    domain: ['Embodied AI', 'Computer Vision', 'Medical Imaging', 'Data-centric AI'],
+    focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM', 'Model']
+  };
+
+  function getDimensionTag(box, dim) {
+    const tags = (box.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+    return tags.find(t => dimensionMap[dim].includes(t));
+  }
+
+  function filterPapers() {
+    const criteria = {};
+    selects.forEach(sel => { if (sel.value) criteria[sel.dataset.dim] = sel.value; });
+
+    paperBoxes.forEach(box => {
+      let visible = true;
+      for (const dim in criteria) {
+        const boxTag = getDimensionTag(box, dim);
+        if (boxTag !== criteria[dim]) { visible = false; break; }
+      }
+      box.classList.toggle('hidden', !visible);
+    });
+  }
+
+  selects.forEach(sel => sel.addEventListener('change', filterPapers));
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      selects.forEach(sel => sel.value = '');
+      filterPapers();
+    });
+  }
+
+  // Initial render: already sorted above
+});
+</script>
+
+
+          </section>
+        </div>
+      </article>
+    </div>
+
+    <script src="assets/js/main.min.js"></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', "");
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/yulin-luo/yulin-luo.github.io@'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby']
+            document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+        });
+    })
+</script>
+
+    <!-- 页脚信息 -->
+<footer class="site-footer" style="text-align: center; padding: 20px; font-size: 0.8em; color: #666;">
+  <p>Updated at 2026-07-03 | Thanks <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank">Raye Ren</a> and <a href="https://jxtse.github.io" target="_blank">Jinxiang Xie</a> for this amazing template</p>
+</footer> 
+
+  </body>
+</html>
