@@ -720,6 +720,43 @@ a.profile-contact-item:hover {
   letter-spacing: 0.02em;
 }
 
+.paper-box-text .paper-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: -0.1rem 0 0.65rem;
+}
+
+.paper-box-text .paper-tag {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0.18rem 0.48rem;
+  border-radius: 999px;
+  background: rgba(1, 47, 99, 0.06);
+  color: #33536f !important;
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.paper-box-text .paper-tag[data-tag="CCF-A"],
+.paper-box-text .paper-tag[data-tag="CCF-B"],
+.paper-box-text .paper-tag[data-tag="Preprint"] {
+  background: rgba(254, 102, 123, 0.08);
+  color: #ad3f50 !important;
+  border-color: rgba(254, 102, 123, 0.14);
+}
+
+.paper-box-text .paper-tag[data-tag="First/Co-First Author"],
+.paper-box-text .paper-tag[data-tag="Oral"] {
+  background: rgba(1, 47, 99, 0.09);
+  color: #012F63 !important;
+  border-color: rgba(1, 47, 99, 0.14);
+}
+
 .paper-box-text .links {
   display: flex;
   gap: 0.8rem;
@@ -757,6 +794,14 @@ a.profile-contact-item:hover {
   .paper-box-text h3 {
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
+  }
+
+  .paper-box-text .paper-tags {
+    gap: 0.3rem;
+  }
+
+  .paper-box-text .paper-tag {
+    white-space: normal;
   }
   
   .paper-box-text .links {
