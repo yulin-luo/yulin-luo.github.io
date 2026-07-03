@@ -64,42 +64,24 @@ bundle exec jekyll serve
 
 ## 3. 部署流程
 
-本站采用 **本地构建 + 推送到 `gh-pages` 分支** 的方式部署，绕开 GitHub Actions 的 `deploy-pages` / `upload-pages-artifact` 相关问题和 Node 20 deprecation 警告。
+本站采用 **GitHub Actions 官方 Pages 部署**：push 到 `main` 后，Actions 用 Jekyll 4.x 构建 `_site`，再通过 `actions/deploy-pages` 发布到 `https://yulin-luo.github.io/`。
+
+这是 `username.github.io` 这类 **user site** 唯一可用的自动发布方式：user site 不能从 `gh-pages` 分支发布，只能从 `main` 分支由 GitHub 构建，或者通过 GitHub Actions 部署构建产物。
 
 ### 3.1 GitHub Pages 设置
 
 1. 打开仓库 Settings → Pages。
-2. Build and deployment → Source 选择 **Deploy from a branch**。
-3. Branch 选择 **`gh-pages`** / `/(root)`，点击 Save。
+2. Build and deployment → Source 选择 **GitHub Actions**。
+3. 无需额外配置 workflow 文件，`.github/workflows/deploy.yml` 已包含完整流程。
 
-### 3.2 本地构建并部署
+### 3.2 本地构建验证（可选）
 
 ```bash
 cd /mnt/luoyulin_code/luoyulin/experience_v4/personal_web
-
-# 1. 构建生产站点
 JEKYLL_ENV=production bundle exec jekyll build
-
-# 2. 进入构建产物目录
-cd _site
-
-# 3. 初始化/推送到 gh-pages 分支（首次）
-git init
-git checkout -b gh-pages
-git add .
-git commit -m "Deploy site"
-git push git@github.com:yulin-luo/yulin-luo.github.io.git gh-pages --force
-
-# 4. 清理本地 _site（避免污染源码仓库）
-cd ..
-rm -rf _site
 ```
 
-### 3.3 自动化部署（可选）
-
-仓库里保留了 `.github/workflows/deploy.yml`，使用 `peaceiris/actions-gh-pages@v4` 自动构建并推送到 `gh-pages` 分支。
-
-如果开启，每次 push 到 `main` 都会自动部署。但因为 GitHub Actions 环境版本和缓存不稳定，**目前以本地构建为准**。
+构建产物在 `_site/`，可用于本地预览或排错。**不需要**手动推送到 `gh-pages`。
 
 ---
 
@@ -223,9 +205,16 @@ GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python main.py
 - **原因**：GitHub Pages 的 CDN 边缘缓存需要几分钟才能失效，缓存穿透参数（`?nocache=1`）也无效。
 - **处理**：确认 `gh-pages` 分支内容正确后等待刷新；必要时可再推一次空 commit 触发重建。
 
----
+### 6.5 部署架构修正：user site 不能从 gh-pages 发布
 
-## 7. GitHub Actions 踩坑记录
+- **现象**：本地 `_site/` 和 `gh-pages` 分支都已更新，但线上 `https://yulin-luo.github.io/` 始终返回旧版（`Last-Modified: 2026-07-03 10:32:41 GMT`）。
+- **根因**：仓库名为 `yulin-luo.github.io`，属于 **user site**。GitHub Pages 的 user/organization site 只能从 `main`/`master` 分支构建，或从 GitHub Actions 部署；**不能从 `gh-pages` 分支发布**。之前把构建产物推到 `gh-pages` 的 workflow 对该仓库无效。
+- **修复**：
+  - 重写 `.github/workflows/deploy.yml`，改用 `actions/upload-pages-artifact` + `actions/deploy-pages` 官方部署。
+  - 仓库 Settings → Pages → Source 改为 **GitHub Actions**。
+  - 删除 README-DEV.md 中关于手动推送到 `gh-pages` 的过时说明。
+
+---
 
 ### 7.1 最初的 Jekyll Actions workflow 超时 6 小时
 
@@ -251,18 +240,8 @@ GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python main.py
 # 本地预览
 bundle exec jekyll serve
 
-# 生产构建
+# 生产构建（用于本地验证，Actions 会自动做同样的事）
 JEKYLL_ENV=production bundle exec jekyll build
-
-# 进入构建产物并推送到 gh-pages（首次或日常都可以）
-cd _site
-git init
-git checkout -b gh-pages
-git add .
-git commit -m "Deploy site"
-git push git@github.com:yulin-luo/yulin-luo.github.io.git gh-pages --force
-cd ..
-rm -rf _site
 
 # 手动运行 Scholar 爬虫
 GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python google_scholar_crawler/main.py
