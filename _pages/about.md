@@ -2,7 +2,7 @@
 permalink: /
 title: "Yulin Luo - Homepage"
 excerpt: "PhD student at Peking University. Research on generalizable embodied foundation models for the open world."
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -20,6 +20,21 @@ header:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div class="about-header" style="display:flex; align-items:flex-start; gap:1.5rem; margin-bottom:1.5rem;">
+  <img src="images/lyl_photo.png" alt="Yulin Luo" style="width:120px; height:120px; object-fit:cover; border-radius:50%; box-shadow:0 4px 12px rgba(0,0,0,0.12);">
+  <div>
+    <h2 style="margin:0 0 0.3rem 0;">Yulin Luo</h2>
+    <p style="margin:0 0 0.6rem 0; color:#666;">PhD Student · Peking University</p>
+    <div class="contact-line">
+      <a href="mailto:yulin@stu.pku.edu.cn" class="link-accent"><i class="fas fa-envelope"></i> Email</a>
+      &nbsp;·&nbsp;
+      <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/yulin-luo" class="link-accent"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='about-me'></span>
 My name is <span class="accent-text">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
 
@@ -31,17 +46,6 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
   </ul>
 </div>
 
-Feel free to reach out to discuss research or explore collaboration.
-
-<div class="contact-line">
-  <a href="mailto:yulin@stu.pku.edu.cn" class="link-accent"><i class="fas fa-envelope"></i> yulin@stu.pku.edu.cn</a>
-  &nbsp;·&nbsp;
-  <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/yulin-luo" class="link-accent"><i class="fab fa-github"></i> GitHub</a>
-</div>
-
-<!-- TODO(可选): highlight 卡片。留了一个已填好示例，可再加。 -->
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-robot"></i> Embodied AI Researcher</h3>
@@ -62,13 +66,6 @@ Feel free to reach out to discuss research or explore collaboration.
       </li>
     </ul>
   </div>
-
-  <!-- TODO: 第二个卡片（例如兴趣爱好），需要你给内容
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-pen-fancy"></i> ...</h3>
-    <ul><li>...</li></ul>
-  </div>
-  -->
 </div>
 
 <span class='anchor' id='-news'></span>
