@@ -131,7 +131,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
   </div>
 
-  <div class='paper-box floating-card' data-order="10" data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
+  <div class='paper-box floating-card' data-order="80" data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <img src='images/robobench.png' alt="RoboBench teaser" width="100%">
@@ -150,7 +150,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="60" data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
+  <div class='paper-box floating-card' data-order="40" data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
@@ -167,7 +167,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, Model, MoE">
+  <div class='paper-box floating-card' data-order="70" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <img src='images/moase.png' alt="MoASE teaser" width="100%">
@@ -184,7 +184,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="90" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
+  <div class='paper-box floating-card' data-order="20" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <img src='images/randstainna.png' alt="RandStainNA teaser" width="100%">
@@ -201,7 +201,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="30" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
+  <div class='paper-box floating-card' data-order="100" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <img src='images/lookbeforeacting.png' alt="Look Before Acting teaser" width="100%">
@@ -217,7 +217,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="80" data-tags="First/Co-First Author, Preprint, Computer Vision, Model, MoE">
+  <div class='paper-box floating-card' data-order="60" data-tags="First/Co-First Author, Preprint, Computer Vision, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
@@ -233,7 +233,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="40" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
+  <div class='paper-box floating-card' data-order="10" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">RSS 2025</div>
       <img src='images/robomind.png' alt="RoboMIND teaser" width="100%">
@@ -253,7 +253,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="50" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
+  <div class='paper-box floating-card' data-order="30" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <img src='images/drawandunderstand.png' alt="Draw-and-Understand teaser" width="100%">
@@ -269,7 +269,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="55" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+  <div class='paper-box floating-card' data-order="90" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <img src='images/seear1.png' alt="SEEA-R1 teaser" width="100%">
@@ -285,7 +285,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="70" data-tags="Other, Conference, CCF-A, Computer Vision, Model, MoE">
+  <div class='paper-box floating-card' data-order="50" data-tags="Other, Conference, CCF-A, Computer Vision, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <img src='images/mofme.png' alt="MoFME teaser" width="100%">

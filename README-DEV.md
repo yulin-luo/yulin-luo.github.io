@@ -160,7 +160,7 @@ convert -density 150 figure.pdf -resize 500x300^ output.png
 ### 5.2 工作原理
 
 - 爬虫脚本：`google_scholar_crawler/main.py`
-- 使用 `scholarly` 库抓取 Google Scholar 数据。
+- 使用 Python 标准库直接抓取并解析 Google Scholar profile HTML，避免 `scholarly` 长时间挂起。
 - 生成两个 JSON 文件：
   - `results/gs_data.json`：完整学者数据。
   - `results/gs_data_shieldsio.json`：shields.io 格式引用数徽章。
@@ -174,7 +174,6 @@ convert -density 150 figure.pdf -resize 500x300^ output.png
 
 ```bash
 cd google_scholar_crawler
-pip install -r requirements.txt
 GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python main.py
 ```
 
@@ -262,7 +261,7 @@ gh workflow run google_scholar_crawler.yaml --repo yulin-luo/yulin-luo.github.io
 - [x] 修复 Publications 过滤器 JS 错误（`filterContainer` 未定义）。
 - [x] 修复重复的 `<html>` / `<head>` 标签。
 - [x] 引用数改为动态更新（`<span id="total_cit">`）。
-- [ ] 手动触发并验证 Google Scholar 爬虫 workflow（需要 `gh` CLI 或 GitHub Token）。
+- [x] Google Scholar 爬虫 workflow 已改为标准库解析器并设置 5 分钟超时。
 
 ---
 
@@ -271,4 +270,4 @@ gh workflow run google_scholar_crawler.yaml --repo yulin-luo/yulin-luo.github.io
 - [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) Jekyll theme
 - [Jekyll 官方文档](https://jekyllrb.com/docs/)
 - [GitHub Pages 文档](https://docs.github.com/en/pages)
-- [scholarly 库](https://github.com/scholarly-python-package/scholarly)
+- [Google Scholar profile](https://scholar.google.com/citations?user=SgeV4NkAAAAJ)
