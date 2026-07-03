@@ -67,7 +67,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 
 <span class='anchor' id='-internships'></span>
 # 💼 Internships
-- *2025.12 - Present*: &nbsp;Research Intern, Zhijian Dynamics (至简动力).
+- *2025.12 - Present*: &nbsp;Research Intern, <a href="https://www.simplexityrobotics.com/" class="link-accent">Simplexity Robotics</a> (至简动力).
 - *2024.08 - 2025.10*: &nbsp;Research Intern, Beijing Academy of Artificial Intelligence (BAAI).
 - *2024.03 - 2024.08*: &nbsp;Research Intern, ByteDance.
 
