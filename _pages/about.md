@@ -174,7 +174,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Model, MoE">
+  <div class='paper-box floating-card' data-order="20" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <img src='images/moase.png' alt="MoASE teaser" width="100%">
@@ -224,7 +224,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="80" data-tags="First/Co-First Author, Preprint, Model, MoE">
+  <div class='paper-box floating-card' data-order="80" data-tags="First/Co-First Author, Preprint, Computer Vision, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
@@ -276,7 +276,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="45" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+  <div class='paper-box floating-card' data-order="55" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <img src='images/seear1.png' alt="SEEA-R1 teaser" width="100%">
@@ -292,7 +292,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="70" data-tags="Other, Conference, CCF-A, Model, MoE">
+  <div class='paper-box floating-card' data-order="70" data-tags="Other, Conference, CCF-A, Computer Vision, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <img src='images/mofme.png' alt="MoFME teaser" width="100%">
@@ -349,9 +349,25 @@ document.addEventListener('DOMContentLoaded', function() {
     focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM', 'Model']
   };
 
-  function getDimensionTag(box, dim) {
+  const optionLabels = {};
+  selects.forEach(sel => {
+    const dim = sel.dataset.dim;
+    optionLabels[dim] = {};
+    Array.from(sel.options).forEach(option => {
+      if (option.value) optionLabels[dim][option.value] = option.textContent;
+    });
+  });
+
+  function getDimensionTags(box, dim) {
     const tags = (box.getAttribute('data-tags') || '').split(',').map(t => t.trim());
-    return tags.find(t => dimensionMap[dim].includes(t));
+    return tags.filter(t => dimensionMap[dim].includes(t));
+  }
+
+  function matchesCriteria(box, criteria) {
+    for (const dim in criteria) {
+      if (!getDimensionTags(box, dim).includes(criteria[dim])) return false;
+    }
+    return true;
   }
 
   function collectCriteria() {
@@ -362,12 +378,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function applyPaperVisibility(criteria) {
     paperBoxes.forEach(box => {
-      let visible = true;
-      for (const dim in criteria) {
-        const boxTag = getDimensionTag(box, dim);
-        if (boxTag !== criteria[dim]) { visible = false; break; }
-      }
-      box.classList.toggle('hidden', !visible);
+      box.classList.toggle('hidden', !matchesCriteria(box, criteria));
     });
   }
 
@@ -386,25 +397,24 @@ document.addEventListener('DOMContentLoaded', function() {
       const available = new Set();
 
       paperBoxes.forEach(box => {
-        for (const key in criteria) {
-          if (key === dim) continue;
-          if (getDimensionTag(box, key) !== criteria[key]) return;
-        }
-        const tag = getDimensionTag(box, dim);
-        if (tag) available.add(tag);
-      });
-
-      Array.from(sel.options).forEach(option => {
-        if (!option.value) return;
-        const supported = available.has(option.value);
-        option.hidden = !supported;
-        option.disabled = !supported;
+        const peerCriteria = Object.fromEntries(
+          Object.entries(criteria).filter(([key]) => key !== dim)
+        );
+        if (!matchesCriteria(box, peerCriteria)) return;
+        getDimensionTags(box, dim).forEach(tag => available.add(tag));
       });
 
       if (sel.value && !available.has(sel.value)) {
         sel.value = '';
         changed = true;
       }
+
+      const currentValue = sel.value;
+      sel.replaceChildren(new Option('All', ''));
+      dimensionMap[dim].forEach(value => {
+        if (available.has(value)) sel.appendChild(new Option(optionLabels[dim][value] || value, value));
+      });
+      sel.value = currentValue;
     });
 
     return changed;
