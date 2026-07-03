@@ -24,13 +24,6 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
   </ul>
 </div>
 
-<figure class="brand-roadmap-figure">
-  <a href="images/open_world_generalization_teaser_en.png" aria-label="Open full open-world generalization roadmap">
-    <img src="images/open_world_generalization_teaser_en.png" alt="Open-world generalization hierarchy for embodied intelligence" loading="lazy">
-  </a>
-  <figcaption>My research agenda follows a hierarchy of embodied generalization: from interpolation and robustness to compositionality, causal intervention, and open-world continual accumulation.</figcaption>
-</figure>
-
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-robot"></i> Embodied AI Researcher</h3>
@@ -197,22 +190,6 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-      </div>
-    </div>
-  </div>
-
-  <div class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
-    <div class='paper-box-image'>
-      <div class="badge pulse-accent">Preprint 2026</div>
-      <img src='images/lookbeforeacting.png' alt="Look Before Acting teaser" width="100%">
-    </div>
-    <div class='paper-box-text'>
-      <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
-      <div class="paper-short-name">Short name: Look Before Acting</div>
-      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
-      <div class="venue">arXiv preprint, 2026</div>
-      <div class="links">
-        <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       </div>
     </div>
   </div>
