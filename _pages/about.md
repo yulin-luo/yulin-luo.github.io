@@ -45,7 +45,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <li><span class="primary-gradient-text">First / co-first author</span>
         of 5 accepted papers at CCF-A/B venues.
       </li>
-      <li><span class="primary-gradient-text">~785 citations</span>,
+      <li><span class="primary-gradient-text"><span id="total_cit">~785</span> citations</span>,
         h-index 12
         <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent">(Google Scholar)</a>.
       </li>
@@ -343,7 +343,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   paperBoxes.forEach(box => wrapper.appendChild(box));
 
-  const selects = filterContainer.querySelectorAll('select[data-dim]');
+  const filterContainer = document.getElementById('filter-container');
+  const selects = filterContainer ? filterContainer.querySelectorAll('select[data-dim]') : [];
   const resetBtn = document.getElementById('filter-reset');
 
   const dimensionMap = {

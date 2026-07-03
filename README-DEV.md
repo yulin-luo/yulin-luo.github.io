@@ -198,15 +198,42 @@ GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python main.py
 
 ---
 
-## 6. GitHub Actions 踩坑记录
+## 6. 近期修复记录（2026-07-03）
 
-### 6.1 最初的 Jekyll Actions workflow 超时 6 小时
+### 6.1 重复的 `<html>` / `<head>` 标签
+
+- **现象**：页面 `<head>` 内嵌套了第二个 `<html lang="en" class="no-js"><head><base target="_blank"></head>`，导致 HTML 结构不合法。
+- **根因**：`_includes/head.html` 里误把 `<base target="_blank">` 包在 `<html><head>...</head>` 中。
+- **修复**：只保留 `<base target="_blank">`，去掉多余的 `<html>` / `<head>` 闭合。
+
+### 6.2 Publications 过滤器 JS 报错
+
+- **现象**：下拉菜单选择后无反应，浏览器控制台报 `ReferenceError: filterContainer is not defined`。
+- **根因**：`_pages/about.md` 的 JS 中直接用了未定义的 `filterContainer`。
+- **修复**：改为 `const filterContainer = document.getElementById('filter-container');` 并加空值保护。
+
+### 6.3 引用数改为动态更新
+
+- **现象**：Highlight 卡片里“~785 citations”写死，Google Scholar 数据更新后不同步。
+- **修复**：把数字包在 `<span id="total_cit">~785</span>` 中，让 `assets/js/main.min.js`（Google Scholar 数据脚本）自动替换。
+
+### 6.4 GitHub Pages CDN 刷新延迟
+
+- **现象**：本地 `_site/` 已确认修复，推送到 `gh-pages` 分支后，线上 `https://yulin-luo.github.io/` 仍短暂显示旧内容。
+- **原因**：GitHub Pages 的 CDN 边缘缓存需要几分钟才能失效，缓存穿透参数（`?nocache=1`）也无效。
+- **处理**：确认 `gh-pages` 分支内容正确后等待刷新；必要时可再推一次空 commit 触发重建。
+
+---
+
+## 7. GitHub Actions 踩坑记录
+
+### 7.1 最初的 Jekyll Actions workflow 超时 6 小时
 
 - 原因：GitHub cache 服务不稳定，`setup-ruby` 的 `bundler-cache: true` 卡住。
 - 尝试：改为 `bundler-cache: false` + 手动 `bundle install`。
 - 结果：build 能跑完，但 deploy 阶段仍偶发失败，并伴随 Node 20 deprecation 警告。
 
-### 6.2 最终方案
+### 7.2 最终方案
 
 放弃 GitHub Pages 的 artifact/deploy 流程，改用 **本地构建 + `gh-pages` 分支**。彻底绕开：
 
@@ -218,7 +245,7 @@ GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python main.py
 
 ---
 
-## 7. 常用命令速查
+## 8. 常用命令速查
 
 ```bash
 # 本地预览
@@ -227,26 +254,39 @@ bundle exec jekyll serve
 # 生产构建
 JEKYLL_ENV=production bundle exec jekyll build
 
-# 推送到 gh-pages（在 _site/ 内）
+# 进入构建产物并推送到 gh-pages（首次或日常都可以）
+cd _site
+git init
+git checkout -b gh-pages
+git add .
+git commit -m "Deploy site"
 git push git@github.com:yulin-luo/yulin-luo.github.io.git gh-pages --force
+cd ..
+rm -rf _site
 
 # 手动运行 Scholar 爬虫
 GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python google_scholar_crawler/main.py
+
+# 触发 Google Scholar workflow（需要 gh CLI 并已登录）
+gh workflow run google_scholar_crawler.yaml --repo yulin-luo/yulin-luo.github.io
 ```
 
 ---
 
-## 8. TODO / 待完善
+## 9. TODO / 待完善
 
 - [ ] 补齐剩余论文（MC-LLaVA、WoW、Wow-wo-val、MoASE++）的 teaser 图和 tag。
 - [ ] 替换 Radiology VLM 的占位图。
 - [ ] 删除/归档 David Dai 原模板的 `_posts/` 博客和 `self_introduction.md` 旧介绍。
 - [ ] 决定 Interests 部分内容或移除该 section。
-- [ ] 定期验证 Google Scholar 爬虫是否正常工作。
+- [x] 修复 Publications 过滤器 JS 错误（`filterContainer` 未定义）。
+- [x] 修复重复的 `<html>` / `<head>` 标签。
+- [x] 引用数改为动态更新（`<span id="total_cit">`）。
+- [ ] 手动触发并验证 Google Scholar 爬虫 workflow（需要 `gh` CLI 或 GitHub Token）。
 
 ---
 
-## 9. 参考
+## 10. 参考
 
 - [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) Jekyll theme
 - [Jekyll 官方文档](https://jekyllrb.com/docs/)
