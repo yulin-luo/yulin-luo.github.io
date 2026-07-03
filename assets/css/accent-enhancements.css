@@ -490,6 +490,57 @@ a.profile-contact-item:hover {
   transform: translateY(-1px);
 }
 
+.profile-visitor-card {
+  flex: 1 0 100%;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid rgba(1, 47, 99, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(1, 47, 99, 0.035), rgba(254, 102, 123, 0.035));
+  box-shadow: 0 3px 10px rgba(1, 47, 99, 0.045);
+}
+
+.profile-visitor-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  color: #012F63;
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.1;
+}
+
+.profile-visitor-title .fas {
+  color: #FE667B;
+  font-size: 0.86rem;
+}
+
+.profile-visitor-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+
+.profile-visitor-stat {
+  min-width: 0;
+  text-align: center;
+  color: #53606d;
+  font-size: 0.68rem;
+  font-weight: 650;
+  line-height: 1.15;
+}
+
+.profile-visitor-stat strong {
+  display: block;
+  color: #012F63;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
 .author__urls-wrapper {
   width: 100%;
 }
