@@ -4,9 +4,9 @@ import json
 from datetime import datetime
 import os
 
-GOOGLE_SCHOLAR_ID = "SgeV4NkAAAAJ"
+GOOGLE_SCHOLAR_ID = os.environ.get('GOOGLE_SCHOLAR_ID', 'SgeV4NkAAAAJ')
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+author: dict = scholarly.search_author_id(GOOGLE_SCHOLAR_ID)
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 name = author['name']
 author['updated'] = str(datetime.now())

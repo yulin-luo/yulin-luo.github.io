@@ -31,7 +31,15 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
   </ul>
 </div>
 
-Feel free to reach out if you'd like to discuss research or explore potential collaboration!
+Feel free to reach out to discuss research or explore collaboration.
+
+<div class="contact-line">
+  <a href="mailto:yulin@stu.pku.edu.cn" class="link-accent"><i class="fas fa-envelope"></i> yulin@stu.pku.edu.cn</a>
+  &nbsp;·&nbsp;
+  <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/yulin-luo" class="link-accent"><i class="fab fa-github"></i> GitHub</a>
+</div>
 
 <!-- TODO(可选): highlight 卡片。留了一个已填好示例，可再加。 -->
 <div class="highlight-blocks">
