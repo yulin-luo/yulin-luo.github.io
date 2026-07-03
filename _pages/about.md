@@ -24,6 +24,13 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
   </ul>
 </div>
 
+<figure class="brand-roadmap-figure">
+  <a href="images/open_world_generalization_teaser_en.png" aria-label="Open full open-world generalization roadmap">
+    <img src="images/open_world_generalization_teaser_en.png" alt="Open-world generalization hierarchy for embodied intelligence" loading="lazy">
+  </a>
+  <figcaption>My research agenda follows a hierarchy of embodied generalization: from interpolation and robustness to compositionality, causal intervention, and open-world continual accumulation.</figcaption>
+</figure>
+
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-robot"></i> Embodied AI Researcher</h3>

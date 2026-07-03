@@ -210,6 +210,34 @@
   font-family: serif;
 }
 
+.brand-roadmap-figure {
+  margin: 1.45rem 0 2rem;
+}
+
+.brand-roadmap-figure a {
+  display: block;
+  overflow-x: auto;
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  border-radius: 8px;
+  background: #fbf7ef;
+  box-shadow: 0 6px 20px rgba(1, 47, 99, 0.08);
+}
+
+.brand-roadmap-figure img {
+  display: block;
+  width: 100%;
+  min-width: 760px;
+  height: auto;
+  background: #fbf7ef;
+}
+
+.brand-roadmap-figure figcaption {
+  margin-top: 0.55rem;
+  color: #53606d;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 /* 强调色进度条 */
 .progress-accent {
   height: 8px;
