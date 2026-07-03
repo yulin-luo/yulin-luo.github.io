@@ -12,4 +12,19 @@
     <h3 class="author__name" style="font-size: 1.25rem; margin-top: 0.75rem;">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio" style="font-size: 0.9rem; color: #6c757d; margin-top: 0.5rem;">{{ author.bio }}</p>{% endif %}
   </div>
+
+  <div class="profile-contact-grid" aria-label="Profile links">
+    {% if author.location %}
+      <span class="profile-contact-item" title="{{ author.location }}"><i class="fas fa-map-marker-alt"></i><span>{{ author.location }}</span></span>
+    {% endif %}
+    {% if author.email %}
+      <a class="profile-contact-item" href="mailto:{{ author.email }}" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a>
+    {% endif %}
+    {% if author.github %}
+      <a class="profile-contact-item" href="https://github.com/{{ author.github }}" title="Github"><i class="fab fa-github"></i><span>Github</span></a>
+    {% endif %}
+    {% if author.googlescholar %}
+      <a class="profile-contact-item" href="{{ author.googlescholar }}" title="Google Scholar"><i class="fas fa-graduation-cap"></i><span>Scholar</span></a>
+    {% endif %}
+  </div>
 </div>

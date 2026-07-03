@@ -14,14 +14,7 @@ header:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
-
-<div class="contact-strip">
-  <span><i class="fas fa-map-marker-alt"></i> Beijing, China</span>
-  <a href="mailto:yulin@stu.pku.edu.cn"><i class="fas fa-envelope"></i> Email</a>
-  <a href="https://github.com/yulin-luo"><i class="fab fa-github"></i> Github</a>
-  <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-</div>
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
 
 <div class="quote-accent">
 My research focuses on <span class="accent-text">generalizable embodied foundation models for the open world</span>:

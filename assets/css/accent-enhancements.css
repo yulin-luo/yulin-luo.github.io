@@ -420,6 +420,10 @@ body {
   max-width: 220px !important;
 }
 
+.profile_box {
+  flex-wrap: wrap;
+}
+
 .sidebar.sticky {
   position: sticky;
   top: 2em;
@@ -437,6 +441,55 @@ body {
   overflow-wrap: break-word;
 }
 
+.profile-contact-grid {
+  display: grid;
+  flex: 1 0 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  width: 100%;
+  margin-top: 0.85rem;
+}
+
+.profile-contact-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.32rem;
+  min-width: 0;
+  min-height: 2.25rem;
+  padding: 0.42rem 0.36rem;
+  border: 1px solid rgba(1, 47, 99, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  color: #012F63 !important;
+  font-size: 0.76rem;
+  font-weight: 650;
+  line-height: 1.1;
+  text-align: center;
+  text-decoration: none !important;
+  box-shadow: 0 3px 10px rgba(1, 47, 99, 0.05);
+}
+
+.profile-contact-item span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-contact-item .fas,
+.profile-contact-item .fab {
+  flex: 0 0 auto;
+  color: #FE667B !important;
+  font-size: 0.9rem;
+}
+
+a.profile-contact-item:hover {
+  border-color: rgba(254, 102, 123, 0.45);
+  color: #C7355A !important;
+  transform: translateY(-1px);
+}
+
 .author__urls-wrapper {
   width: 100%;
 }
@@ -452,6 +505,10 @@ body {
     position: relative;
     top: 0;
     max-width: 100% !important;
+  }
+
+  .profile-contact-grid {
+    max-width: 220px;
   }
 }
 
