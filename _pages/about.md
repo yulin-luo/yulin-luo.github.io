@@ -160,7 +160,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://llm-as-dataset-analyst.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://yulin-luo.github.io/llm-as-dataset-analyst/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
       </div>
     </div>
   </div>
