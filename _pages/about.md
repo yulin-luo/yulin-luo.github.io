@@ -21,7 +21,14 @@ header:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="accent-text">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
+
+<div class="contact-strip">
+  <span><i class="fas fa-map-marker-alt"></i> Beijing, China</span>
+  <a href="mailto:yulin@stu.pku.edu.cn"><i class="fas fa-envelope"></i> Email</a>
+  <a href="https://github.com/yulin-luo"><i class="fab fa-github"></i> Github</a>
+  <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+</div>
 
 <div class="quote-accent">
 My research focuses on <span class="accent-text">generalizable embodied foundation models for the open world</span>:
@@ -56,16 +63,16 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 <span class='anchor' id='-news'></span>
 # 🔥 News
 <!-- TODO: 你的新闻时间线。格式：一行一条，最新在上。 -->
-- *2026.07*: &nbsp;🎉 Our work <b>RoboBench</b> is accepted to ECCV 2026. (co-first author)
-- *2025.11*: &nbsp;🎉 Our work <b>MoASE</b> is accepted as Oral at AAAI 2026. (co-first author)
+- *2026.07*: &nbsp;🎉 <b>RoboBench</b> is accepted to ECCV 2026. (first author)
+- *2025.11*: &nbsp;🎉 <b>MoASE</b> is accepted as Oral at AAAI 2026. (co-first author)
 - *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to NeurIPS 2025.
 - *2025.04*: &nbsp;🎉 RoboMIND is accepted to RSS 2025.
 - *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to ICLR 2025.
-- *2024.07*: &nbsp;🎉 Our work <b>SSD-LLM</b> is accepted to ECCV 2024. (first author)
-- *2023.12*: &nbsp;🎉 Our work <b>MoFME</b> is accepted to AAAI 2024.
+- *2024.07*: &nbsp;🎉 <b>SSD-LLM</b> is accepted to ECCV 2024. (first author)
+- *2023.12*: &nbsp;🎉 <b>MoFME</b> is accepted to AAAI 2024.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
 - *2023.06*: &nbsp;🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.
-- *2022.06*: &nbsp;🎉 Our work <b>RandStainNA</b> is accepted to MICCAI 2022. (co-first author)
+- *2022.06*: &nbsp;🎉 <b>RandStainNA</b> is accepted to MICCAI 2022. (co-first author)
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
@@ -131,7 +138,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
+  <div class='paper-box floating-card' data-order="10" data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <img src='images/robobench.png' alt="RoboBench teaser" width="100%">
@@ -139,16 +146,18 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
       <div class="paper-short-name">Short name: RoboBench</div>
-      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mingkang Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
+      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mingkang Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2026</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2510.17801" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://github.com/yulin-luo/RoboBench" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://huggingface.co/datasets/LeoFan01/RoboBench" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
       </div>
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
+  <div class='paper-box floating-card' data-order="60" data-tags="First/Co-First Author, Conference, CCF-A, Data-centric AI, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
@@ -156,7 +165,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
       <div class="paper-short-name">Short name: SSD-LLM</div>
-      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
+      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -165,7 +174,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Oral, Model, MoE">
+  <div class='paper-box floating-card' data-order="20" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <img src='images/moase.png' alt="MoASE teaser" width="100%">
@@ -173,7 +182,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
       <div class="paper-short-name">Short name: MoASE</div>
-      <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
+      <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2026 &nbsp;(<b>Oral</b>)</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -182,7 +191,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
+  <div class='paper-box floating-card' data-order="90" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <img src='images/randstainna.png' alt="RandStainNA teaser" width="100%">
@@ -190,7 +199,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
       <div class="paper-short-name">Short name: RandStainNA</div>
-      <div class="authors">Yiqing Shen⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
+      <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
       <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -199,7 +208,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
+  <div class='paper-box floating-card' data-order="30" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <img src='images/lookbeforeacting.png' alt="Look Before Acting teaser" width="100%">
@@ -207,7 +216,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
       <div class="paper-short-name">Short name: Look Before Acting</div>
-      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
+      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2026</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -215,23 +224,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Medical Imaging, MLLM">
-    <div class='paper-box-image'>
-      <div class="badge pulse-accent">Preprint 2024</div>
-      <img src='images/500x300.png' alt="Radiology Foundation Model teaser" width="100%">
-    </div>
-    <div class='paper-box-text'>
-      <h3>Expert-Level Vision-Language Foundation Model for Real-World Radiology and Comprehensive Evaluation</h3>
-      <div class="paper-short-name">Short name: Radiology VLM</div>
-      <div class="authors">Xiaohong Liu⭐️, Guoxing Yang⭐️, <span class="primary-gradient-text">Yulin Luo</span>⭐️, et al.</div>
-      <div class="venue">arXiv preprint, 2024</div>
-      <div class="links">
-        <a href="https://arxiv.org/abs/2409.16183" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class='paper-box floating-card' data-tags="First/Co-First Author, Preprint, Model, MoE">
+  <div class='paper-box floating-card' data-order="80" data-tags="First/Co-First Author, Preprint, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
@@ -239,7 +232,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
       <div class="paper-short-name">Short name: WM-MoE</div>
-      <div class="authors"><span class="primary-gradient-text">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
+      <div class="authors"><span class="author-highlight">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2023</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2303.13739" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -247,7 +240,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Conference, CCF-B, Embodied AI, Benchmark">
+  <div class='paper-box floating-card' data-order="40" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">RSS 2025</div>
       <img src='images/robomind.png' alt="RoboMIND teaser" width="100%">
@@ -255,15 +248,19 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
       <div class="paper-short-name">Short name: RoboMIND</div>
-      <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
+      <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Robotics: Science and Systems (RSS), 2025</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://x-humanoid-robomind.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io" class="btn-accent"><i class="fab fa-github"></i> Github</a>
+        <a href="https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
+        <a href="https://modelscope.cn/collections/X-Humanoid/RoboMIND20" class="btn-accent"><i class="fas fa-database"></i> ModelScope</a>
       </div>
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Conference, CCF-A, Computer Vision, MLLM">
+  <div class='paper-box floating-card' data-order="50" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <img src='images/drawandunderstand.png' alt="Draw-and-Understand teaser" width="100%">
@@ -271,7 +268,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
       <div class="paper-short-name">Short name: Draw-and-Understand</div>
-      <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
+      <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -279,7 +276,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Conference, CCF-A, Embodied AI, Agentic, World Model">
+  <div class='paper-box floating-card' data-order="45" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <img src='images/seear1.png' alt="SEEA-R1 teaser" width="100%">
@@ -287,7 +284,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
       <div class="paper-short-name">Short name: SEEA-R1</div>
-      <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="primary-gradient-text">Yulin Luo</span>, et al.</div>
+      <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -295,7 +292,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Conference, CCF-A, Model, MoE">
+  <div class='paper-box floating-card' data-order="70" data-tags="Other, Conference, CCF-A, Model, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <img src='images/mofme.png' alt="MoFME teaser" width="100%">
@@ -303,7 +300,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
       <div class="paper-short-name">Short name: MoFME</div>
-      <div class="authors">Rongyu Zhang, <span class="primary-gradient-text">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, et al., Shanghang Zhang📧</div>
+      <div class="authors">Rongyu Zhang, <span class="author-highlight">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -334,12 +331,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
 
-  // Sort papers by year descending (extract 4-digit year from venue text)
-  const yearRe = /\b(19|20)\d{2}\b/;
+  // Default order follows the curated publication sequence.
   paperBoxes.sort((a, b) => {
-    const ya = (a.querySelector('.venue')?.textContent.match(yearRe) || [0])[0];
-    const yb = (b.querySelector('.venue')?.textContent.match(yearRe) || [0])[0];
-    return Number(yb) - Number(ya);
+    return Number(a.dataset.order || 999) - Number(b.dataset.order || 999);
   });
   paperBoxes.forEach(box => wrapper.appendChild(box));
 
@@ -360,10 +354,13 @@ document.addEventListener('DOMContentLoaded', function() {
     return tags.find(t => dimensionMap[dim].includes(t));
   }
 
-  function filterPapers() {
+  function collectCriteria() {
     const criteria = {};
     selects.forEach(sel => { if (sel.value) criteria[sel.dataset.dim] = sel.value; });
+    return criteria;
+  }
 
+  function applyPaperVisibility(criteria) {
     paperBoxes.forEach(box => {
       let visible = true;
       for (const dim in criteria) {
@@ -372,6 +369,45 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       box.classList.toggle('hidden', !visible);
     });
+  }
+
+  function filterPapers() {
+    let criteria = collectCriteria();
+    if (updateFilterOptions(criteria)) criteria = collectCriteria();
+    applyPaperVisibility(criteria);
+    updateFilterOptions(criteria);
+  }
+
+  function updateFilterOptions(criteria) {
+    let changed = false;
+
+    selects.forEach(sel => {
+      const dim = sel.dataset.dim;
+      const available = new Set();
+
+      paperBoxes.forEach(box => {
+        for (const key in criteria) {
+          if (key === dim) continue;
+          if (getDimensionTag(box, key) !== criteria[key]) return;
+        }
+        const tag = getDimensionTag(box, dim);
+        if (tag) available.add(tag);
+      });
+
+      Array.from(sel.options).forEach(option => {
+        if (!option.value) return;
+        const supported = available.has(option.value);
+        option.hidden = !supported;
+        option.disabled = !supported;
+      });
+
+      if (sel.value && !available.has(sel.value)) {
+        sel.value = '';
+        changed = true;
+      }
+    });
+
+    return changed;
   }
 
   selects.forEach(sel => sel.addEventListener('change', filterPapers));
@@ -383,6 +419,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Initial render: already sorted above
+  updateFilterOptions({});
 });
 </script>
