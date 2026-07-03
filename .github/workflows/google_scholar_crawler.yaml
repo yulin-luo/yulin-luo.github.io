@@ -6,8 +6,14 @@ on:
     - cron: '0 8 * * *'
   # Allow manual trigger
   workflow_dispatch:
-  # Run after every Pages build
-  page_build:
+  # Refresh citation data whenever the site source changes.
+  push:
+    branches: ["main"]
+    paths:
+      - 'google_scholar_crawler/**'
+      - '.github/workflows/google_scholar_crawler.yaml'
+      - '_includes/fetch_google_scholar_stats.html'
+      - '_pages/about.md'
 
 permissions:
   contents: write

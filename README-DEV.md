@@ -167,7 +167,7 @@ convert -density 150 figure.pdf -resize 500x300^ output.png
 - 通过 `.github/workflows/google_scholar_crawler.yaml` 每天 08:00 UTC 运行一次，结果推送到 `google-scholar-stats` 分支。
 - 首页通过 jsdelivr CDN 读取该分支数据：
   ```html
-  https://cdn.jsdelivr.net/gh/yulin-luo/yulin-luo.github.io@google-scholar-stats/google-scholar-stats/gs_data_shieldsio.json
+  https://cdn.jsdelivr.net/gh/yulin-luo/yulin-luo.github.io@google-scholar-stats/gs_data.json
   ```
 
 ### 5.3 手动运行
@@ -244,7 +244,8 @@ bundle exec jekyll serve
 JEKYLL_ENV=production bundle exec jekyll build
 
 # 手动运行 Scholar 爬虫
-GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python google_scholar_crawler/main.py
+cd google_scholar_crawler
+GOOGLE_SCHOLAR_ID=SgeV4NkAAAAJ python main.py
 
 # 触发 Google Scholar workflow（需要 gh CLI 并已登录）
 gh workflow run google_scholar_crawler.yaml --repo yulin-luo/yulin-luo.github.io
