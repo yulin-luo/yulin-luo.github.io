@@ -372,6 +372,122 @@ body {
   color: white !important;
 }
 
+/* Sidebar layout fixes */
+.sidebar {
+  max-width: 220px !important;
+}
+
+.sidebar.sticky {
+  position: sticky;
+  top: 2em;
+}
+
+.author__avatar img {
+  max-width: 160px !important;
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 50% !important;
+}
+
+.author__content {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.author__urls-wrapper {
+  width: 100%;
+}
+
+.author__urls li {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+/* 移动端：sidebar 不 sticky，避免覆盖正文 */
+@media (max-width: 924px) {
+  .sidebar.sticky {
+    position: relative;
+    top: 0;
+    max-width: 100% !important;
+  }
+}
+
+.hidden { display: none !important; }
+
+/* Publications filter bar */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid rgba(1, 47, 99, 0.06);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 140px;
+  flex: 1 1 140px;
+}
+
+.filter-group label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #012F63;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.filter-group select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  color: #012F63;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.filter-group select:hover,
+.filter-group select:focus {
+  border-color: #FE667B;
+  box-shadow: 0 0 0 3px rgba(254, 102, 123, 0.1);
+  outline: none;
+}
+
+.filter-reset-btn {
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #FE667B;
+  border-radius: 8px;
+  background: #fff;
+  color: #FE667B;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  height: fit-content;
+}
+
+.filter-reset-btn:hover {
+  background: #FE667B;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-group {
+    min-width: 100%;
+  }
+}
+
 /* 现代化的 paper-box 样式 - 优雅的学术论文展示 */
 .paper-box {
   display: flex !important;

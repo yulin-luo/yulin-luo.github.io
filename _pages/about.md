@@ -2,7 +2,7 @@
 permalink: /
 title: "Yulin Luo - Homepage"
 excerpt: "PhD student at Peking University. Research on generalizable embodied foundation models for the open world."
-author_profile: false
+author_profile: true
 redirect_from:
   - /about/
   - /about.html
@@ -19,21 +19,6 @@ header:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<div class="about-header" style="display:flex; align-items:flex-start; gap:1.5rem; margin-bottom:1.5rem;">
-  <img src="images/lyl_photo.png" alt="Yulin Luo" style="width:120px; height:120px; object-fit:cover; border-radius:50%; box-shadow:0 4px 12px rgba(0,0,0,0.12);">
-  <div>
-    <h2 style="margin:0 0 0.3rem 0;">Yulin Luo</h2>
-    <p style="margin:0 0 0.6rem 0; color:#666;">PhD Student · Peking University</p>
-    <div class="contact-line">
-      <a href="mailto:yulin@stu.pku.edu.cn" class="link-accent"><i class="fas fa-envelope"></i> Email</a>
-      &nbsp;·&nbsp;
-      <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/yulin-luo" class="link-accent"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
 
 <span class='anchor' id='about-me'></span>
 My name is <span class="accent-text">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://www.shanghangzhang.com/" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023.
@@ -93,7 +78,58 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 <!-- ⭐️ = (共同)第一作者；📧 = 通讯作者。teaser 图默认用占位图 images/500x300.png，
      你把每篇的图放到 images/ 后替换 src 即可。缺 arXiv 链接的用 "#" 占位，后续补。 -->
 <div id="publications-wrapper">
-  <div id="filter-container"></div>
+  <div id="filter-container" class="filter-bar">
+    <div class="filter-group">
+      <label for="filter-author">Author Role</label>
+      <select id="filter-author" data-dim="author">
+        <option value="">All</option>
+        <option value="First/Co-First Author">First / Co-First Author</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-venue">Venue Tier</label>
+      <select id="filter-venue" data-dim="venue">
+        <option value="">All</option>
+        <option value="CCF-A">CCF-A</option>
+        <option value="CCF-B">CCF-B</option>
+        <option value="Preprint">Preprint</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-type">Type</label>
+      <select id="filter-type" data-dim="type">
+        <option value="">All</option>
+        <option value="Conference">Conference</option>
+        <option value="Oral">Oral</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-domain">Domain</label>
+      <select id="filter-domain" data-dim="domain">
+        <option value="">All</option>
+        <option value="Embodied AI">Embodied AI</option>
+        <option value="Computer Vision">Computer Vision</option>
+        <option value="Medical Imaging">Medical Imaging</option>
+        <option value="Data-centric AI">Data-centric AI</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-focus">Focus</label>
+      <select id="filter-focus" data-dim="focus">
+        <option value="">All</option>
+        <option value="VLA">VLA</option>
+        <option value="Benchmark">Benchmark</option>
+        <option value="Agentic">Agentic</option>
+        <option value="World Model">World Model</option>
+        <option value="MoE">MoE</option>
+        <option value="Data Augmentation">Data Augmentation</option>
+        <option value="MLLM">MLLM</option>
+        <option value="Model">Model</option>
+      </select>
+    </div>
+    <button id="filter-reset" class="filter-reset-btn">Reset</button>
+  </div>
 
   <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
     <div class='paper-box-image'>
@@ -296,67 +332,56 @@ document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.getElementById('publications-wrapper');
   if (!wrapper) return;
 
-  const filterContainer = document.getElementById('filter-container');
-  const paperBoxes = wrapper.querySelectorAll('.paper-box');
+  const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
 
-  let tagCounts = {};
-  let activeTags = new Set();
-
-  paperBoxes.forEach(box => {
-    const tagsAttribute = box.getAttribute('data-tags');
-    if (tagsAttribute) {
-      const tagsList = tagsAttribute.split(',').map(t => t.trim()).filter(t => t);
-      const textContainer = box.querySelector('.paper-box-text');
-      const linksContainer = box.querySelector('.links');
-      if (textContainer && !textContainer.querySelector('.badge-container')) {
-        const badgeContainer = document.createElement('div');
-        badgeContainer.className = 'badge-container';
-        tagsList.forEach(tag => {
-          const badge = document.createElement('span');
-          badge.className = 'inner-tag-badge';
-          badge.textContent = tag;
-          badgeContainer.appendChild(badge);
-        });
-        if (linksContainer) {
-          textContainer.insertBefore(badgeContainer, linksContainer);
-        } else {
-          textContainer.appendChild(badgeContainer);
-        }
-      }
-      tagsList.forEach(tag => { tagCounts[tag] = (tagCounts[tag] || 0) + 1; });
-    }
+  // Sort papers by year descending (extract 4-digit year from venue text)
+  const yearRe = /\b(19|20)\d{2}\b/;
+  paperBoxes.sort((a, b) => {
+    const ya = (a.querySelector('.venue')?.textContent.match(yearRe) || [0])[0];
+    const yb = (b.querySelector('.venue')?.textContent.match(yearRe) || [0])[0];
+    return Number(yb) - Number(ya);
   });
+  paperBoxes.forEach(box => wrapper.appendChild(box));
 
-  const sortedTags = Object.keys(tagCounts).sort();
-  if (filterContainer) {
-    filterContainer.innerHTML = '';
-    sortedTags.forEach(tag => {
-      const btn = document.createElement('button');
-      btn.className = 'filter-btn';
-      btn.textContent = `${tag} (${tagCounts[tag]})`;
-      btn.onclick = () => {
-        if (activeTags.has(tag)) { activeTags.delete(tag); btn.classList.remove('active'); }
-        else { activeTags.add(tag); btn.classList.add('active'); }
-        filterPapers();
-      };
-      filterContainer.appendChild(btn);
-    });
+  const selects = filterContainer.querySelectorAll('select[data-dim]');
+  const resetBtn = document.getElementById('filter-reset');
+
+  const dimensionMap = {
+    author: ['First/Co-First Author', 'Other'],
+    venue: ['CCF-A', 'CCF-B', 'Preprint'],
+    type: ['Conference', 'Oral'],
+    domain: ['Embodied AI', 'Computer Vision', 'Medical Imaging', 'Data-centric AI'],
+    focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM', 'Model']
+  };
+
+  function getDimensionTag(box, dim) {
+    const tags = (box.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+    return tags.find(t => dimensionMap[dim].includes(t));
   }
 
   function filterPapers() {
+    const criteria = {};
+    selects.forEach(sel => { if (sel.value) criteria[sel.dataset.dim] = sel.value; });
+
     paperBoxes.forEach(box => {
-      const boxTagsString = box.getAttribute('data-tags');
-      const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
-      let isVisible = true;
-      if (activeTags.size > 0) {
-        isVisible = boxTags.length === 0 ? false
-          : Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+      let visible = true;
+      for (const dim in criteria) {
+        const boxTag = getDimensionTag(box, dim);
+        if (boxTag !== criteria[dim]) { visible = false; break; }
       }
-      box.classList.toggle('hidden', !isVisible);
-      box.querySelectorAll('.inner-tag-badge').forEach(badge => {
-        badge.classList.toggle('active', activeTags.has(badge.textContent));
-      });
+      box.classList.toggle('hidden', !visible);
     });
   }
+
+  selects.forEach(sel => sel.addEventListener('change', filterPapers));
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      selects.forEach(sel => sel.value = '');
+      filterPapers();
+    });
+  }
+
+  // Initial render: already sorted above
 });
 </script>

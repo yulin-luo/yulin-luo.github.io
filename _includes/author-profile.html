@@ -5,12 +5,12 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}" style="max-width: 160px; width: 100%; height: auto; border-radius: 50%;">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name" style="font-size: 1.25rem; margin-top: 0.75rem;">{{ author.name }}</h3>
+    {% if author.bio %}<p class="author__bio" style="font-size: 0.9rem; color: #6c757d; margin-top: 0.5rem;">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
