@@ -43,7 +43,21 @@ jobs:
         working-directory: ./google_scholar_crawler
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        run: python main.py
+        run: |
+          set +e
+          python main.py
+          crawler_status=$?
+          set -e
+          if [ "$crawler_status" -ne 0 ]; then
+            echo "::warning::Google Scholar crawler failed; preserving existing stats branch data."
+            mkdir -p results
+            if git fetch --depth=1 origin google-scholar-stats; then
+              git show FETCH_HEAD:gs_data.json > results/gs_data.json
+              git show FETCH_HEAD:gs_data_shieldsio.json > results/gs_data_shieldsio.json
+            else
+              exit "$crawler_status"
+            fi
+          fi
 
       - name: Push citation data to stats branch
         working-directory: ./google_scholar_crawler/results
