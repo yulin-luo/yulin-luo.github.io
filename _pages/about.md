@@ -183,6 +183,25 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
+  <div class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
+    <div class='paper-box-image paper-box-image-placeholder'>
+      <div class="badge pulse-accent">Preprint 2026</div>
+      <div class="paper-placeholder-visual" aria-hidden="true">
+        <i class="fas fa-file-alt"></i>
+        <span>Look Before Acting</span>
+      </div>
+    </div>
+    <div class='paper-box-text'>
+      <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
+      <div class="paper-short-name">Short name: Look Before Acting</div>
+      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
+      <div class="venue">arXiv preprint, 2026</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
   <div class='paper-box floating-card' data-order="20220612694" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">MICCAI 2022</div>
