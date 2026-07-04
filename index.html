@@ -319,15 +319,21 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
         <option value="">All</option>
         <option value="CCF-A">CCF-A</option>
         <option value="CCF-B">CCF-B</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-type">Publication Type</label>
+      <select id="filter-type" data-dim="type">
+        <option value="">All</option>
+        <option value="Conference">Conference</option>
         <option value="Preprint">Preprint</option>
       </select>
     </div>
     <div class="filter-group">
-      <label for="filter-type">Type</label>
-      <select id="filter-type" data-dim="type">
+      <label for="filter-highlight">Highlight</label>
+      <select id="filter-highlight" data-dim="highlight">
         <option value="">All</option>
-        <option value="Conference">Conference</option>
-        <option value="Oral">Oral</option>
+        <option value="Oral">Oral Presentation</option>
       </select>
     </div>
     <div class="filter-group">
@@ -586,14 +592,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const dimensionMap = {
     author: ['First/Co-First Author', 'Other'],
-    venue: ['CCF-A', 'CCF-B', 'Preprint'],
-    type: ['Conference', 'Oral'],
+    venue: ['CCF-A', 'CCF-B'],
+    type: ['Conference', 'Preprint'],
+    highlight: ['Oral'],
     domain: ['Embodied AI', 'Computer Vision', 'Medical Imaging', 'Data-centric AI'],
     focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM']
   };
 
   const visibleTagLabels = {
-    'First/Co-First Author': 'First / Co-first'
+    'First/Co-First Author': 'First / Co-first',
+    'Oral': 'Oral Presentation'
   };
   const hiddenVisibleTags = new Set(['Other', 'Conference']);
 
