@@ -114,6 +114,13 @@
   font-weight: 600;
 }
 
+.author-highlight {
+  color: #C7355A !important;
+  font-weight: 800;
+  background: linear-gradient(180deg, transparent 58%, rgba(254, 102, 123, 0.24) 58%);
+  padding: 0 0.08em;
+}
+
 /* 图标样式 - 使用主色而不是强调色 */
 .fas, .fab, .far {
   color: #012F63; /* 主色 */
@@ -134,6 +141,42 @@
 .sidebar .fas:hover, .sidebar .fab:hover, .sidebar .far:hover,
 .author__urls .fas:hover, .author__urls .fab:hover, .author__urls .far:hover {
   color: #FE667B !important; /* 悬停时使用强调色 */
+}
+
+.contact-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+  margin: 1rem 0 1.4rem;
+}
+
+.contact-strip span,
+.contact-strip a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(1, 47, 99, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  color: #012F63 !important;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none !important;
+  box-shadow: 0 3px 10px rgba(1, 47, 99, 0.06);
+}
+
+.contact-strip a:hover {
+  border-color: rgba(254, 102, 123, 0.45);
+  color: #C7355A !important;
+  transform: translateY(-1px);
+}
+
+.contact-strip .fas,
+.contact-strip .fab {
+  color: #FE667B !important;
 }
 
 /* 强调色分割线 */
@@ -377,6 +420,10 @@ body {
   max-width: 220px !important;
 }
 
+.profile_box {
+  flex-wrap: wrap;
+}
+
 .sidebar.sticky {
   position: sticky;
   top: 2em;
@@ -394,6 +441,106 @@ body {
   overflow-wrap: break-word;
 }
 
+.profile-contact-grid {
+  display: grid;
+  flex: 1 0 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  width: 100%;
+  margin-top: 0.85rem;
+}
+
+.profile-contact-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.32rem;
+  min-width: 0;
+  min-height: 2.25rem;
+  padding: 0.42rem 0.36rem;
+  border: 1px solid rgba(1, 47, 99, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  color: #012F63 !important;
+  font-size: 0.76rem;
+  font-weight: 650;
+  line-height: 1.1;
+  text-align: center;
+  text-decoration: none !important;
+  box-shadow: 0 3px 10px rgba(1, 47, 99, 0.05);
+}
+
+.profile-contact-item span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-contact-item .fas,
+.profile-contact-item .fab {
+  flex: 0 0 auto;
+  color: #FE667B !important;
+  font-size: 0.9rem;
+}
+
+a.profile-contact-item:hover {
+  border-color: rgba(254, 102, 123, 0.45);
+  color: #C7355A !important;
+  transform: translateY(-1px);
+}
+
+.profile-visitor-card {
+  flex: 1 0 100%;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid rgba(1, 47, 99, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(1, 47, 99, 0.035), rgba(254, 102, 123, 0.035));
+  box-shadow: 0 3px 10px rgba(1, 47, 99, 0.045);
+}
+
+.profile-visitor-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  color: #012F63;
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.1;
+}
+
+.profile-visitor-title .fas {
+  color: #FE667B;
+  font-size: 0.86rem;
+}
+
+.profile-visitor-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+
+.profile-visitor-stat {
+  min-width: 0;
+  text-align: center;
+  color: #53606d;
+  font-size: 0.68rem;
+  font-weight: 650;
+  line-height: 1.15;
+}
+
+.profile-visitor-stat strong {
+  display: block;
+  color: #012F63;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
 .author__urls-wrapper {
   width: 100%;
 }
@@ -409,6 +556,10 @@ body {
     position: relative;
     top: 0;
     max-width: 100% !important;
+  }
+
+  .profile-contact-grid {
+    max-width: 220px;
   }
 }
 
@@ -512,15 +663,15 @@ body {
 
 .paper-box-image {
   position: relative;
-  width: 240px;
-  min-width: 240px;
+  width: 260px;
+  min-width: 260px;
   overflow: hidden;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -536,8 +687,8 @@ body {
 }
 
 .paper-box-image img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  max-height: 210px;
   object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 8px;
@@ -608,7 +759,7 @@ body {
 .paper-box-text .venue {
   color: #6c757d;
   font-style: italic;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.55rem;
   font-size: 0.9rem;
 }
 
@@ -618,6 +769,43 @@ body {
   font-size: 0.9rem;
   margin-bottom: 0.6rem;
   letter-spacing: 0.02em;
+}
+
+.paper-box-text .paper-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 1rem;
+}
+
+.paper-box-text .paper-tag {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0.18rem 0.48rem;
+  border-radius: 999px;
+  background: rgba(1, 47, 99, 0.06);
+  color: #33536f !important;
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.paper-box-text .paper-tag[data-tag="CCF-A"],
+.paper-box-text .paper-tag[data-tag="CCF-B"],
+.paper-box-text .paper-tag[data-tag="Preprint"] {
+  background: rgba(254, 102, 123, 0.08);
+  color: #ad3f50 !important;
+  border-color: rgba(254, 102, 123, 0.14);
+}
+
+.paper-box-text .paper-tag[data-tag="First/Co-First Author"],
+.paper-box-text .paper-tag[data-tag="Oral"] {
+  background: rgba(1, 47, 99, 0.09);
+  color: #012F63 !important;
+  border-color: rgba(1, 47, 99, 0.14);
 }
 
 .paper-box-text .links {
@@ -639,7 +827,7 @@ body {
     width: 100%;
     min-width: 100%;
     height: 180px;
-    padding: 16px;
+    padding: 10px;
   }
   
   .paper-box-image::before {
@@ -658,6 +846,14 @@ body {
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
   }
+
+  .paper-box-text .paper-tags {
+    gap: 0.3rem;
+  }
+
+  .paper-box-text .paper-tag {
+    white-space: normal;
+  }
   
   .paper-box-text .links {
     gap: 0.6rem;
@@ -669,6 +865,7 @@ body {
 .paper-box-text .btn-accent {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.4rem;
   background: #FE667B;
   color: white !important;
@@ -682,6 +879,26 @@ body {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .contact-strip {
+    gap: 0.5rem;
+  }
+
+  .contact-strip span,
+  .contact-strip a {
+    flex: 1 1 calc(50% - 0.5rem);
+    justify-content: center;
+    padding: 0.5rem 0.45rem;
+    font-size: 0.85rem;
+  }
+
+  .paper-box-text .btn-accent {
+    flex: 1 1 calc(50% - 0.6rem);
+    min-width: 0;
+    padding: 0.5rem 0.65rem;
+  }
 }
 
 .paper-box-text .btn-accent::before {
