@@ -663,8 +663,8 @@ a.profile-contact-item:hover {
 
 .paper-box-image {
   position: relative;
-  width: 300px;
-  min-width: 300px;
+  width: 360px;
+  min-width: 360px;
   overflow: hidden;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   display: flex;
@@ -686,15 +686,24 @@ a.profile-contact-item:hover {
   z-index: 1;
 }
 
+.paper-image-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none !important;
+  position: relative;
+  z-index: 2;
+}
+
 .paper-box-image img {
   width: 100%;
-  max-height: 230px;
+  max-height: 260px;
   object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(1, 47, 99, 0.08);
   position: relative;
-  z-index: 2;
 }
 
 .paper-box:hover .paper-box-image img {
@@ -826,7 +835,7 @@ a.profile-contact-item:hover {
   .paper-box-image {
     width: 100%;
     min-width: 100%;
-    height: 220px;
+    height: 240px;
     padding: 10px;
   }
   
