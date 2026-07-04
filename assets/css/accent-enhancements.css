@@ -759,7 +759,7 @@ a.profile-contact-item:hover {
 .paper-box-text .venue {
   color: #6c757d;
   font-style: italic;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.55rem;
   font-size: 0.9rem;
 }
 
@@ -775,7 +775,7 @@ a.profile-contact-item:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
-  margin: -0.1rem 0 0.65rem;
+  margin: 0 0 1rem;
 }
 
 .paper-box-text .paper-tag {

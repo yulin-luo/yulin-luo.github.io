@@ -124,7 +124,6 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
         <option value="MoE">MoE</option>
         <option value="Data Augmentation">Data Augmentation</option>
         <option value="MLLM">MLLM</option>
-        <option value="Model">Model</option>
       </select>
     </div>
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
@@ -167,7 +166,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20240516486" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, Model, MoE">
+  <div class='paper-box floating-card' data-order="20240516486" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <img src='images/moase.png' alt="MoASE teaser" width="100%">
@@ -201,7 +200,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, Model, MoE">
+  <div class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
@@ -269,7 +268,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, Model, MoE">
+  <div class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <img src='images/mofme.png' alt="MoFME teaser" width="100%">
@@ -323,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
     venue: ['CCF-A', 'CCF-B', 'Preprint'],
     type: ['Conference', 'Oral'],
     domain: ['Embodied AI', 'Computer Vision', 'Medical Imaging', 'Data-centric AI'],
-    focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM', 'Model']
+    focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM']
   };
 
   const visibleTagLabels = {
@@ -334,8 +333,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function renderPaperTags() {
     paperBoxes.forEach(box => {
       if (box.querySelector('.paper-tags')) return;
-      const shortName = box.querySelector('.paper-short-name');
-      if (!shortName) return;
+      const venue = box.querySelector('.venue');
+      if (!venue) return;
 
       const tags = (box.getAttribute('data-tags') || '')
         .split(',')
@@ -353,7 +352,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tagItem.textContent = visibleTagLabels[tag] || tag;
         tagList.appendChild(tagItem);
       });
-      shortName.insertAdjacentElement('afterend', tagList);
+      venue.insertAdjacentElement('afterend', tagList);
     });
   }
 
