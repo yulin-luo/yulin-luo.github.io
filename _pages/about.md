@@ -50,16 +50,16 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 # 🔥 News
 <div class="news-panel" markdown="1">
 
-- *2026.07*: &nbsp;🎉 <b>RoboBench</b> is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2026)</span>. (first author)
-- *2025.11*: &nbsp;🎉 <b>MoASE</b> is accepted as Oral at <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2026)</span>. (co-first author)
-- *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to <span class="accent-text">Advances in Neural Information Processing Systems (NeurIPS 2025)</span>.
-- *2025.04*: &nbsp;🎉 RoboMIND is accepted to <span class="accent-text">Robotics: Science and Systems (RSS 2025)</span>.
-- *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to <span class="accent-text">International Conference on Learning Representations (ICLR 2025)</span>.
-- *2024.07*: &nbsp;🎉 <b>SSD-LLM</b> is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2024)</span>. (first author)
-- *2023.12*: &nbsp;🎉 <b>MoFME</b> is accepted to <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2024)</span>.
+- *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b>, a robot-scenario benchmark for evaluating MLLMs as embodied brains, is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2026)</span>. (first author)
+- *2025.11*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-moase">MoASE</a></b>, a sparse MoE adaptation method for robust continual test-time vision models, is accepted as Oral at <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2026)</span>. (co-first author)
+- *2025.09*: &nbsp;🎉 <a class="news-paper-link" href="#pub-seear1">SEEA-R1</a>, a tree-structured RL fine-tuning method for self-evolving embodied agents, is accepted to <span class="accent-text">Advances in Neural Information Processing Systems (NeurIPS 2025)</span>.
+- *2025.04*: &nbsp;🎉 <a class="news-paper-link" href="#pub-robomind">RoboMIND</a>, a multi-embodiment robot manipulation benchmark with normative data, is accepted to <span class="accent-text">Robotics: Science and Systems (RSS 2025)</span>.
+- *2025.01*: &nbsp;🎉 <a class="news-paper-link" href="#pub-draw-and-understand">Draw-and-Understand</a>, a visual-prompt method that helps MLLMs understand user intent, is accepted to <span class="accent-text">International Conference on Learning Representations (ICLR 2025)</span>.
+- *2024.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-ssd-llm">SSD-LLM</a></b>, an LLM-based dataset analyst for discovering subpopulation structure, is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2024)</span>. (first author)
+- *2023.12*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-mofme">MoFME</a></b>, an uncertainty-aware mixture-of-experts method for efficient image deweathering, is accepted to <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2024)</span>.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
 - *2023.06*: &nbsp;🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.
-- *2022.06*: &nbsp;🎉 <b>RandStainNA</b> is accepted to <span class="accent-text">Medical Image Computing and Computer Assisted Intervention (MICCAI 2022)</span>. (co-first author)
+- *2022.06*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-randstainna">RandStainNA</a></b>, a stain augmentation and normalization method for robust histology slide features, is accepted to <span class="accent-text">Medical Image Computing and Computer Assisted Intervention (MICCAI 2022)</span>. (co-first author)
 
 </div>
 
@@ -138,7 +138,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
   </div>
 
-  <div class='paper-box floating-card' data-order="20251017801" data-tags="First/Co-First Author, Conference, CCF-B, Embodied AI, Benchmark">
+  <div id="pub-robobench" class='paper-box floating-card' data-order="20251017801" data-tags="First/Co-First Author, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <a class="paper-image-link" href="images/robobench.png" aria-label="Open full-size RoboBench teaser">
@@ -159,7 +159,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20240502363" data-tags="First/Co-First Author, Conference, CCF-B, Data-centric AI, Data Augmentation">
+  <div id="pub-ssd-llm" class='paper-box floating-card' data-order="20240502363" data-tags="First/Co-First Author, Conference, CCF-B, Data-centric AI, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
@@ -179,7 +179,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20240516486" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
+  <div id="pub-moase" class='paper-box floating-card' data-order="20240516486" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <a class="paper-image-link" href="images/moase.png" aria-label="Open full-size MoASE teaser">
@@ -198,7 +198,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
+  <div id="pub-look-before-acting" class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
@@ -216,7 +216,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20220612694" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
+  <div id="pub-randstainna" class='paper-box floating-card' data-order="20220612694" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <a class="paper-image-link" href="images/randstainna.png" aria-label="Open full-size RandStainNA teaser">
@@ -235,7 +235,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
+  <div id="pub-wm-moe" class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <a class="paper-image-link" href="images/wmmoe.png" aria-label="Open full-size WM-MoE teaser">
@@ -253,7 +253,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
+  <div id="pub-robomind" class='paper-box floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">RSS 2025</div>
       <a class="paper-image-link" href="images/robomind.png" aria-label="Open full-size RoboMIND teaser">
@@ -275,7 +275,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
+  <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <a class="paper-image-link" href="images/drawandunderstand.png" aria-label="Open full-size Draw-and-Understand teaser">
@@ -293,7 +293,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+  <div id="pub-seear1" class='paper-box floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <a class="paper-image-link" href="images/seear1.png" aria-label="Open full-size SEEA-R1 teaser">
@@ -311,7 +311,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
+  <div id="pub-mofme" class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <a class="paper-image-link" href="images/mofme.png" aria-label="Open full-size MoFME teaser">
@@ -430,6 +430,11 @@ document.addEventListener('DOMContentLoaded', function() {
     return criteria;
   }
 
+  function resetFilters() {
+    selects.forEach(sel => sel.value = '');
+    filterPapers();
+  }
+
   function applyPaperVisibility(criteria) {
     paperBoxes.forEach(box => {
       box.classList.toggle('hidden', !matchesCriteria(box, criteria));
@@ -477,11 +482,12 @@ document.addEventListener('DOMContentLoaded', function() {
   selects.forEach(sel => sel.addEventListener('change', filterPapers));
 
   if (resetBtn) {
-    resetBtn.addEventListener('click', () => {
-      selects.forEach(sel => sel.value = '');
-      filterPapers();
-    });
+    resetBtn.addEventListener('click', resetFilters);
   }
+
+  document.querySelectorAll('.news-paper-link[href^="#pub-"]').forEach(link => {
+    link.addEventListener('click', resetFilters);
+  });
 
   renderPaperTags();
   updateFilterOptions({});
