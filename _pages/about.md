@@ -212,6 +212,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="venue">arXiv preprint, 2026</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://deepvision-vla.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
       </div>
     </div>
   </div>
@@ -268,7 +269,9 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="links">
         <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://x-humanoid-robomind.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
-        <a href="https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io" class="btn-accent"><i class="fab fa-github"></i> Github</a>
+        <a href="https://roboticsconference.org/program/papers/152/" class="btn-accent"><i class="fas fa-award"></i> RSS</a>
+        <a href="https://github.com/x-humanoid-robomind" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://www.beaicloud.com/datasets/datasetDetail?path=%2Fdata-detail%2F21181956226031626&type=open" class="btn-accent"><i class="fas fa-database"></i> Data</a>
         <a href="https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
         <a href="https://modelscope.cn/collections/X-Humanoid/RoboMIND20" class="btn-accent"><i class="fas fa-database"></i> ModelScope</a>
       </div>
@@ -289,6 +292,10 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://github.com/AFeng-x/Draw-and-Understand" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/stage_2_fine-tuning/MDVP-Data" class="btn-accent"><i class="fas fa-database"></i> Data</a>
+        <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/MDVP-bench" class="btn-accent"><i class="fas fa-database"></i> Bench</a>
+        <a href="https://huggingface.co/Afeng-x/SPHINX-V-Model" class="btn-accent"><i class="fas fa-cube"></i> Model</a>
       </div>
     </div>
   </div>
@@ -307,6 +314,8 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://seea-r1.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://github.com/AurumTian/seea-r1" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </div>
@@ -325,6 +334,8 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29622" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
+        <a href="https://github.com/RoyZry98/MoFME-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </div>
