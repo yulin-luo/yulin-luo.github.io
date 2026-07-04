@@ -48,17 +48,16 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 
 <span class='anchor' id='-news'></span>
 # 🔥 News
-<!-- TODO: 你的新闻时间线。格式：一行一条，最新在上。 -->
-- *2026.07*: &nbsp;🎉 <b>RoboBench</b> is accepted to ECCV 2026. (first author)
-- *2025.11*: &nbsp;🎉 <b>MoASE</b> is accepted as Oral at AAAI 2026. (co-first author)
-- *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to NeurIPS 2025.
-- *2025.04*: &nbsp;🎉 RoboMIND is accepted to RSS 2025.
-- *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to ICLR 2025.
-- *2024.07*: &nbsp;🎉 <b>SSD-LLM</b> is accepted to ECCV 2024. (first author)
-- *2023.12*: &nbsp;🎉 <b>MoFME</b> is accepted to AAAI 2024.
+- *2026.07*: &nbsp;🎉 <b>RoboBench</b> is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2026)</span>. (first author)
+- *2025.11*: &nbsp;🎉 <b>MoASE</b> is accepted as Oral at <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2026)</span>. (co-first author)
+- *2025.09*: &nbsp;🎉 SEEA-R1 is accepted to <span class="accent-text">Advances in Neural Information Processing Systems (NeurIPS 2025)</span>.
+- *2025.04*: &nbsp;🎉 RoboMIND is accepted to <span class="accent-text">Robotics: Science and Systems (RSS 2025)</span>.
+- *2025.01*: &nbsp;🎉 Draw-and-Understand is accepted to <span class="accent-text">International Conference on Learning Representations (ICLR 2025)</span>.
+- *2024.07*: &nbsp;🎉 <b>SSD-LLM</b> is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2024)</span>. (first author)
+- *2023.12*: &nbsp;🎉 <b>MoFME</b> is accepted to <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2024)</span>.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
 - *2023.06*: &nbsp;🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.
-- *2022.06*: &nbsp;🎉 <b>RandStainNA</b> is accepted to MICCAI 2022. (co-first author)
+- *2022.06*: &nbsp;🎉 <b>RandStainNA</b> is accepted to <span class="accent-text">Medical Image Computing and Computer Assisted Intervention (MICCAI 2022)</span>. (co-first author)
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
