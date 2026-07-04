@@ -184,12 +184,9 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
   </div>
 
   <div class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
-    <div class='paper-box-image paper-box-image-placeholder'>
+    <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2026</div>
-      <div class="paper-placeholder-visual" aria-hidden="true">
-        <i class="fas fa-file-alt"></i>
-        <span>Look Before Acting</span>
-      </div>
+      <img src='images/lookbeforeacting.png' alt="Look Before Acting teaser" width="100%">
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
