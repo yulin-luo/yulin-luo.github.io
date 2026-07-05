@@ -65,9 +65,16 @@ My research agenda is <span class="accent-text">open-world generalization for em
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
-- *2023.09 - Present*: &nbsp;PhD in Computer Science, Peking University<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">.
-- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo">.
-  <br><span class="education-detail">GPA: 3.87/4.30; Major rank: 2/89.</span>
+<div class="education-list">
+  <div class="education-row">
+    <span class="education-date">2023.09 - Present</span>
+    <span class="education-body">PhD in Computer Science, Peking University<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">.</span>
+  </div>
+  <div class="education-row">
+    <span class="education-date">2019.09 - 2023.06</span>
+    <span class="education-body">B.Eng. in Automation, Shanghai Jiao Tong University<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo">.<span class="education-detail">GPA: 3.87/4.30; Major rank: 2/89.</span></span>
+  </div>
+</div>
 
 <span class='anchor' id='-internships'></span>
 # 💼 Internships
