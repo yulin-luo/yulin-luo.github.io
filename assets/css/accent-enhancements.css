@@ -507,6 +507,21 @@ body {
   overflow-wrap: break-word;
 }
 
+.profile-intro {
+  flex: 1 0 100%;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.72rem 0.78rem;
+  border-left: 3px solid #FE667B;
+  border-radius: 8px;
+  background: rgba(1, 47, 99, 0.035);
+  color: #344154;
+  font-size: 0.78rem;
+  font-weight: 520;
+  line-height: 1.45;
+  text-align: left;
+}
+
 .profile-contact-grid {
   display: grid;
   flex: 1 0 100%;
