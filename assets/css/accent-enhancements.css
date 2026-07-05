@@ -198,6 +198,13 @@
   transform: scale(1.05);
 }
 
+.inline-school-logo {
+  height: 0.86em;
+  margin-left: 0.12em;
+  vertical-align: -0.08em;
+  opacity: 0.72;
+}
+
 /* Sidebar图标保持主色 */
 .sidebar .fas, .sidebar .fab, .sidebar .far,
 .author__urls .fas, .author__urls .fab, .author__urls .far {
@@ -257,11 +264,11 @@
 .quote-accent {
   background: #f8f9fa !important; /* 强制使用浅色背景 */
   border-left: 4px solid #FE667B;
-  padding: 1.5rem 2rem;
+  padding: 1.25rem 1.65rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08);
   position: relative;
-  margin: 2rem 0;
+  margin: 1.4rem 0 1.2rem;
   color: #012F63 !important; /* 确保文字颜色 */
 }
 
@@ -784,20 +791,7 @@ a.profile-contact-item:hover {
 }
 
 .paper-box-image .badge {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%);
-  color: white;
-  padding: 0.4em 0.8em;
-  border-radius: 20px;
-  font-size: 0.75em;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  box-shadow: 0 4px 12px rgba(254, 102, 123, 0.25);
-  z-index: 10;
-  text-transform: uppercase;
-  backdrop-filter: blur(10px);
+  display: none;
 }
 
 .paper-box-text {
@@ -811,10 +805,10 @@ a.profile-contact-item:hover {
 
 .paper-box-text h3 {
   margin: 0 0 0.68rem 0;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.08rem;
+  font-weight: 650;
   color: #12345A;
-  line-height: 1.42;
+  line-height: 1.48;
   letter-spacing: 0;
 }
 
@@ -829,8 +823,8 @@ a.profile-contact-item:hover {
   font-weight: 500;
   color: #2F3D4C;
   margin-bottom: 0.5rem;
-  font-size: 0.92rem;
-  line-height: 1.45;
+  font-size: 0.90rem;
+  line-height: 1.5;
 }
 
 .paper-box-text .authors strong {
@@ -840,45 +834,44 @@ a.profile-contact-item:hover {
 
 .paper-box-text .venue {
   color: #6c757d;
-  font-style: italic;
+  font-style: normal;
   margin-bottom: 0.55rem;
-  font-size: 0.88rem;
-  line-height: 1.4;
+  font-size: 0.86rem;
+  line-height: 1.45;
 }
 
 .paper-box-text .paper-short-name {
-  color: #FE667B;
+  color: #4F6680;
   font-weight: 600;
-  font-size: 0.88rem;
-  margin-bottom: 0.6rem;
+  font-size: 0.82rem;
+  margin-bottom: 0.52rem;
   letter-spacing: 0.02em;
 }
 
 .paper-box-text .paper-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.28rem;
-  margin: 0 0 0.75rem;
+  gap: 0.30rem;
+  margin: 0.08rem 0 0.58rem;
 }
 
 .paper-box-text .paper-tag {
   display: inline-flex;
   align-items: center;
   max-width: 100%;
-  padding: 0.18rem 0.48rem;
+  padding: 0.16rem 0.46rem;
   border-radius: 999px;
   background: rgba(1, 47, 99, 0.06);
   color: #33536f !important;
   border: 1px solid rgba(1, 47, 99, 0.08);
-  font-size: 0.68rem;
+  font-size: 0.66rem;
   font-weight: 600;
   line-height: 1.25;
   white-space: nowrap;
 }
 
 .paper-box-text .paper-tag[data-tag="CCF-A"],
-.paper-box-text .paper-tag[data-tag="CCF-B"],
-.paper-box-text .paper-tag[data-tag="Preprint"] {
+.paper-box-text .paper-tag[data-tag="CCF-B"] {
   background: rgba(254, 102, 123, 0.08);
   color: #ad3f50 !important;
   border-color: rgba(254, 102, 123, 0.14);
@@ -893,9 +886,9 @@ a.profile-contact-item:hover {
 
 .paper-box-text .links {
   display: flex;
-  gap: 0.42rem;
+  gap: 0.36rem;
   flex-wrap: wrap;
-  margin-top: 0.75rem;
+  margin-top: 0.65rem;
 }
 
 @media (min-width: 769px) {
@@ -917,6 +910,7 @@ a.profile-contact-item:hover {
     min-width: 100%;
     height: 240px;
     padding: 10px;
+    order: 1;
   }
   
   .paper-box-image::before {
@@ -929,6 +923,7 @@ a.profile-contact-item:hover {
   
   .paper-box-text {
     padding: 1.2rem;
+    order: 2;
   }
   
   .paper-box-text h3 {
@@ -956,15 +951,15 @@ a.profile-contact-item:hover {
   align-items: center;
   justify-content: center;
   gap: 0.28rem;
-  background: #FE667B;
-  color: white !important;
-  padding: 0.38rem 0.62rem;
-  border-radius: 25px;
-  font-size: 0.78rem;
+  background: #ffffff;
+  color: #C7355A !important;
+  padding: 0.32rem 0.52rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
   font-weight: 600;
   text-decoration: none;
-  border: none;
-  box-shadow: 0 3px 8px rgba(254, 102, 123, 0.2);
+  border: 1px solid rgba(254, 102, 123, 0.24);
+  box-shadow: 0 2px 5px rgba(1, 47, 99, 0.04);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -1007,7 +1002,9 @@ a.profile-contact-item:hover {
 
 .paper-box-text .btn-accent:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(254, 102, 123, 0.3);
+  background: #FE667B;
+  border-color: #FE667B;
+  box-shadow: 0 6px 15px rgba(254, 102, 123, 0.20);
   color: white !important;
 }
 

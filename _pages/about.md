@@ -14,29 +14,29 @@ header:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;"> in 2023. You can find more details in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo"> in 2023. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
 <div class="quote-accent">
-My research focuses on <span class="accent-text">generalizable embodied foundation models for the open world</span>:
+My research agenda is <span class="accent-text">open-world generalization for embodied intelligence</span>:
   <ul>
-    <li>Building <span class="primary-gradient-text">embodied foundation models</span>🤖 that generalize across objects, skills, embodiments, scenes, and tasks in unstructured, open-world environments.</li>
-    <li>Studying the <span class="primary-gradient-text">co-evolution of models and data</span>🔁 to scale embodied intelligence from narrow benchmarks to real-world generalization.</li>
+    <li><span class="primary-gradient-text">Models</span>: building embodied foundation models that generalize across objects, skills, embodiments, scenes, and tasks.</li>
+    <li><span class="primary-gradient-text">Data & benchmarks</span>: constructing robot-scenario data and evaluations that expose real generalization gaps.</li>
+    <li><span class="primary-gradient-text">Model-data co-evolution</span>: using better data to improve models, and better models to reveal what data should cover next.</li>
   </ul>
 </div>
 
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-robot"></i> Embodied AI Researcher</h3>
+    <h3><i class="fas fa-robot"></i> At a Glance</h3>
     <ul>
-      <li>My <span class="primary-gradient-text">Research Interests</span>:
-        generalizable embodied foundation models for the open world,
-        with a focus on the co-evolution of models and data.
+      <li><span class="primary-gradient-text">Research identity</span>:
+        generalizable embodied foundation models for open-world robot intelligence.
       </li>
-      <li><span class="primary-gradient-text">Generalization focus</span>:
+      <li><span class="primary-gradient-text">Generalization ladder</span>:
         L1 in-domain → L2 distribution shift → L3 compositional → L4 causal-mechanistic → L5 open-world continual.
       </li>
-      <li><span class="primary-gradient-text">First / co-first author</span>
-        of 5 accepted papers at CCF-A/B venues.
+      <li><span class="primary-gradient-text">Selected evidence</span>:
+        first / co-first author of 5 accepted papers at CCF-A/B venues, with released benchmarks, code, and datasets.
       </li>
       <li><span class="primary-gradient-text"><span id="total_cit">~785</span> citations</span>,
         h-index <span id="h_index">12</span>
@@ -65,8 +65,8 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
-- *2023.09 - Present*: &nbsp;PhD in Computer Science, Peking University<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">.
-- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;">.
+- *2023.09 - Present*: &nbsp;PhD in Computer Science, Peking University<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">.
+- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo">.
   <br><span class="education-detail">GPA: 3.87/4.30; Major rank: 2/89.</span>
 
 <span class='anchor' id='-internships'></span>
@@ -387,9 +387,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const visibleTagLabels = {
     'First/Co-First Author': 'First / Co-first',
-    'Oral': 'Oral Presentation'
+    'Oral': 'Oral',
+    'CCF-A': 'CCF-A',
+    'CCF-B': 'CCF-B'
   };
-  const hiddenVisibleTags = new Set(['Other', 'Conference']);
+  const hiddenVisibleTags = new Set(['Other', 'Conference', 'Preprint']);
 
   function renderPaperTags() {
     paperBoxes.forEach(box => {
@@ -413,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tagItem.textContent = visibleTagLabels[tag] || tag;
         tagList.appendChild(tagItem);
       });
-      venue.insertAdjacentElement('afterend', tagList);
+      venue.insertAdjacentElement('beforebegin', tagList);
     });
   }
 

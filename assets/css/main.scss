@@ -100,7 +100,7 @@
         justify-content: center;
         display: flex;
         width: 100%;
-        order: 2;
+        order: 1;
         img {
             max-width: 400px;
             box-shadow: 0 2px 8px rgba(1, 47, 99, 0.1);
@@ -117,7 +117,7 @@
     
     .paper-box-text{
         max-width: 100%;
-        order: 1;
+        order: 2;
     }
     
     @include breakpoint($medium) {
@@ -194,4 +194,3 @@ h1:before, .anchor:before {
   border-color: transparent !important;
   box-shadow: 0 2px 4px rgba(161, 140, 209, 0.3);
 }
-
