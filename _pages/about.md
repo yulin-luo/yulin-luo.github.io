@@ -346,10 +346,9 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 <span class='anchor' id='-awards'></span>
 # 🏆 Awards
 - *2023.06*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span>.
-- *2022.12*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> (awarded by comprehensive assessment).
 - *2022.10*: &nbsp;Weichai Power <span class="primary-gradient-text">Scholarship</span>.
-- *2021.12*: &nbsp;Huawei <span class="primary-gradient-text">Scholarship</span>; Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> (awarded by comprehensive assessment).
-- *2020.12*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> (awarded by comprehensive assessment).
+- *2021.12*: &nbsp;Huawei <span class="primary-gradient-text">Scholarship</span>.
+- *2020.12, 2021.12, 2022.12*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> (awarded by comprehensive assessment).
 
 <span class='anchor' id='-services'></span>
 # 👓 Services
