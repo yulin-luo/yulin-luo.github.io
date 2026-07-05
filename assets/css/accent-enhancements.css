@@ -205,20 +205,69 @@
   opacity: 0.72;
 }
 
-.profile-summary-grid {
+.profile-summary-stack {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
-  gap: 1.35rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
   margin: 1.65rem 0 2.1rem;
-  align-items: stretch;
 }
 
-.profile-summary-grid .highlight-block {
+.profile-summary-stack .highlight-block {
   margin-bottom: 0;
 }
 
-.research-profile-card h3,
-.credit-card h3 {
+.profile-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0.95rem 0 1.25rem;
+}
+
+.profile-action-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  min-height: 2.1rem;
+  padding: 0.42rem 0.66rem;
+  border: 1px solid rgba(1, 47, 99, 0.12);
+  border-radius: 999px;
+  background: #ffffff;
+  color: #012F63 !important;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(1, 47, 99, 0.07);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-action-badge::after {
+  display: none;
+}
+
+.profile-action-badge i {
+  color: #FE667B !important;
+  font-size: 0.95rem;
+}
+
+.profile-action-badge:hover {
+  border-color: rgba(254, 102, 123, 0.42);
+  box-shadow: 0 7px 18px rgba(1, 47, 99, 0.11);
+  transform: translateY(-1px);
+}
+
+.profile-action-badge.scholar-badge {
+  gap: 0.38rem;
+}
+
+.profile-action-badge.scholar-badge img {
+  width: auto;
+  height: 20px;
+  margin-left: 0.08rem;
+}
+
+.research-profile-card h3 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -237,10 +286,24 @@
   height: 24px;
 }
 
+.generalization-figure {
+  max-width: 760px;
+  margin: 0.9rem auto 0;
+  text-align: center;
+}
+
+.generalization-figure img {
+  display: block;
+  width: 100%;
+  max-height: 290px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px rgba(1, 47, 99, 0.08);
+}
+
 @media (max-width: 768px) {
-  .profile-summary-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+  .generalization-figure img {
+    max-height: 220px;
   }
 }
 
@@ -660,47 +723,145 @@ a.profile-contact-item:hover {
   word-wrap: break-word;
 }
 
-.education-list {
-  margin: 0.5rem 0 1rem;
-}
-
-.education-row {
+.credential-list,
+.experience-list {
   display: grid;
-  grid-template-columns: minmax(8.5rem, max-content) 1fr;
-  column-gap: 0.45rem;
-  align-items: baseline;
-  margin: 0.35rem 0;
+  gap: 0.92rem;
+  margin: 0.8rem 0 1.55rem;
 }
 
-.education-date {
-  font-style: italic;
+.credential-card,
+.experience-card {
+  display: grid;
+  grid-template-columns: minmax(8.4rem, 9.5rem) 3.3rem minmax(0, 1fr);
+  column-gap: 0.95rem;
+  align-items: start;
+  padding: 1rem 1.1rem;
+  overflow: visible;
+}
+
+.credential-period,
+.experience-period {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #526173;
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1.35;
   white-space: nowrap;
 }
 
-.education-date::after {
-  content: ":";
-  font-style: normal;
+.credential-period i,
+.experience-period i,
+.credential-line i {
+  color: #FE667B !important;
+  flex: 0 0 1.08rem;
+  width: 1.08rem;
+  text-align: center;
 }
 
-.education-body {
+.credential-logo,
+.experience-logo {
+  width: 3.25rem;
+  height: 3.25rem;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  box-shadow: 0 4px 12px rgba(1, 47, 99, 0.07);
+  padding: 0.34rem;
+}
+
+.experience-logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(1, 47, 99, 0.96), rgba(254, 102, 123, 0.9));
+  color: #ffffff;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.credential-content h3,
+.experience-content h3 {
+  margin: 0 0 0.42rem;
+  color: #012F63;
+  font-size: 1.02rem;
+  line-height: 1.25;
+}
+
+.credential-line {
+  display: grid;
+  grid-template-columns: 1.25rem minmax(0, 1fr);
+  column-gap: 0.38rem;
+  align-items: baseline;
+  margin-top: 0.23rem;
+  color: #2d3748;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.credential-line span {
   min-width: 0;
 }
 
-.education-detail {
-  display: block;
-  margin-top: 0.2rem;
-  color: #53606d;
-  font-size: 0.92em;
+.cn-name {
+  color: #667085;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.media-link {
+  background: #ffffff !important;
+  color: #012F63 !important;
+  border: 1px solid rgba(1, 47, 99, 0.14) !important;
+  box-shadow: 0 4px 12px rgba(1, 47, 99, 0.08) !important;
+}
+
+.media-link i {
+  color: #FE667B !important;
+}
+
+.media-link:hover {
+  color: #C7355A !important;
+  border-color: rgba(254, 102, 123, 0.5) !important;
+  background: rgba(254, 102, 123, 0.06) !important;
+}
+
+@media (max-width: 720px) {
+  .credential-card,
+  .experience-card {
+    grid-template-columns: 3rem minmax(0, 1fr);
+    row-gap: 0.45rem;
+  }
+
+  .credential-period,
+  .experience-period {
+    grid-column: 1 / -1;
+    white-space: normal;
+  }
+
+  .credential-logo,
+  .experience-logo {
+    width: 2.85rem;
+    height: 2.85rem;
+  }
 }
 
 @media (max-width: 520px) {
-  .education-row {
-    grid-template-columns: 1fr;
-    row-gap: 0.08rem;
+  .profile-action-row {
+    gap: 0.42rem;
   }
 
-  .education-date::after {
-    content: "";
+  .profile-action-badge {
+    flex: 1 1 calc(50% - 0.42rem);
+    justify-content: center;
+  }
+
+  .profile-action-badge.scholar-badge {
+    flex-basis: 100%;
   }
 }
 

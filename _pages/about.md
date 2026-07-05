@@ -14,18 +14,19 @@ header:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo"> in 2023. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo"> in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
-<div class="profile-summary-grid">
+<div class="profile-action-row" aria-label="Profile links">
+  <a class="profile-action-badge" href="/files/Yulin_Luo_CV.pdf"><i class="fas fa-file-pdf"></i><span>CV</span></a>
+  <a class="profile-action-badge scholar-badge" href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i><span>Google Scholar</span><img src="https://img.shields.io/badge/Citations-~785-4285F4?logo=google-scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar citations"></a>
+  <a class="profile-action-badge" href="https://github.com/yulin-luo" target="_blank" rel="noopener"><i class="fab fa-github"></i><span>GitHub</span></a>
+  <a class="profile-action-badge" href="mailto:yulin@stu.pku.edu.cn"><i class="fas fa-envelope"></i><span>Email</span></a>
+</div>
+
+<div class="profile-summary-stack">
   <div class="highlight-block floating-card research-profile-card">
     <h3><i class="fas fa-robot"></i> Embodied Researcher</h3>
     <ul>
-      <li><span class="primary-gradient-text">Current vision</span>:
-        open-world generalization for embodied intelligence.
-      </li>
-      <li><span class="primary-gradient-text">Generalization ladder</span>:
-        L1 in-domain → L2 distribution shift → L3 compositional → L4 causal-mechanistic → L5 open-world continual.
-      </li>
       <li><span class="primary-gradient-text">Models</span>:
         building embodied foundation models that generalize across objects, skills, embodiments, scenes, and tasks.
       </li>
@@ -36,23 +37,9 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         using better data to improve models, and better models to reveal what data should cover next.
       </li>
     </ul>
-  </div>
-
-  <div class="highlight-block floating-card credit-card">
-    <h3><i class="fas fa-award"></i> At a Glance</h3>
-    <ul>
-      <li><span class="primary-gradient-text">Research identity</span>:
-        generalizable embodied foundation models for open-world robot intelligence.
-      </li>
-      <li><span class="primary-gradient-text">Selected evidence</span>:
-        first / co-first author of 5 accepted papers at CCF-A/B venues, with released benchmarks, code, and datasets.
-      </li>
-      <li>
-        <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="scholar-badge" target="_blank" rel="noopener">
-          <img src="https://img.shields.io/badge/Google%20Scholar-~785%20Citations-9cf?logo=google-scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar citations" />
-        </a>
-      </li>
-    </ul>
+    <figure class="generalization-figure">
+      <img src="images/open_world_generalization_teaser_en.png" alt="Open-world generalization hierarchy for embodied intelligence">
+    </figure>
   </div>
 </div>
 
@@ -75,22 +62,59 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
-<div class="education-list">
-  <div class="education-row">
-    <span class="education-date">2023.09 - Present</span>
-    <span class="education-body">PhD in Computer Science, Peking University<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">.</span>
+<div class="credential-list">
+  <div class="credential-card floating-card">
+    <div class="credential-period"><i class="fas fa-calendar-days"></i> 2023.09 - Present</div>
+    <img class="credential-logo" src="images/pkulogo.png" alt="Peking University logo">
+    <div class="credential-content">
+      <h3>Peking University</h3>
+      <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>PhD in Computer Science</span></div>
+      <div class="credential-line"><i class="fas fa-building-columns"></i><span>School of Computer Science</span></div>
+      <div class="credential-line"><i class="fas fa-user-tie"></i><span>Advisor: Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a></span></div>
+    </div>
   </div>
-  <div class="education-row">
-    <span class="education-date">2019.09 - 2023.06</span>
-    <span class="education-body">B.Eng. in Automation, Shanghai Jiao Tong University<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo">.<span class="education-detail">GPA: 3.87/4.30; Major rank: 2/89.</span></span>
+  <div class="credential-card floating-card">
+    <div class="credential-period"><i class="fas fa-calendar-days"></i> 2019.09 - 2023.06</div>
+    <img class="credential-logo" src="images/sjtulogo.png" alt="Shanghai Jiao Tong University logo">
+    <div class="credential-content">
+      <h3>Shanghai Jiao Tong University</h3>
+      <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>B.Eng. in Automation</span></div>
+      <div class="credential-line"><i class="fas fa-chart-line"></i><span>GPA: 3.87/4.30; Major rank: 2/89.</span></div>
+    </div>
   </div>
 </div>
 
 <span class='anchor' id='-internships'></span>
-# 💼 Internships
-- *2025.12 - Present*: &nbsp;Research Intern, <a href="https://www.simplexityrobotics.com/" class="link-accent">Simplexity Robotics</a> (至简动力).
-- *2024.08 - 2025.10*: &nbsp;Research Intern, [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/zh-cn/research).
-- *2024.03 - 2024.08*: &nbsp;Research Intern, [ByteDance](https://www.bytedance.com/zh/), Trust & Safety Applied Algorithm Team for Ads and E-commerce.
+# 💼 Research Experience
+<div class="experience-list">
+  <div class="experience-card floating-card">
+    <div class="experience-period"><i class="fas fa-calendar-days"></i> 2025.12 - Present</div>
+    <div class="experience-logo experience-logo-text">S</div>
+    <div class="experience-content">
+      <h3><a href="https://www.simplexityrobotics.com/" class="link-accent">Simplexity Robotics</a> <span class="cn-name">(至简动力)</span></h3>
+      <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
+      <div class="credential-line"><i class="fas fa-robot"></i><span>Embodied intelligence and generalizable robot foundation models.</span></div>
+    </div>
+  </div>
+  <div class="experience-card floating-card">
+    <div class="experience-period"><i class="fas fa-calendar-days"></i> 2024.08 - 2025.10</div>
+    <div class="experience-logo experience-logo-text">BAAI</div>
+    <div class="experience-content">
+      <h3><a href="https://www.baai.ac.cn/zh-cn/research" class="link-accent">Beijing Academy of Artificial Intelligence (BAAI)</a></h3>
+      <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
+      <div class="credential-line"><i class="fas fa-brain"></i><span>Embodied-brain benchmarks for multimodal large language models and robot intelligence.</span></div>
+    </div>
+  </div>
+  <div class="experience-card floating-card">
+    <div class="experience-period"><i class="fas fa-calendar-days"></i> 2024.03 - 2024.08</div>
+    <div class="experience-logo experience-logo-text">BD</div>
+    <div class="experience-content">
+      <h3><a href="https://www.bytedance.com/zh/" class="link-accent">ByteDance</a></h3>
+      <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
+      <div class="credential-line"><i class="fas fa-shield-halved"></i><span>Trust & Safety Applied Algorithm Team for Ads and E-commerce.</span></div>
+    </div>
+  </div>
+</div>
 
 <span class='anchor' id='-publications'></span>
 # 📃 Publications
@@ -173,6 +197,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/yulin-luo/RoboBench" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/LeoFan01/RoboBench" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
+        <a href="https://mp.weixin.qq.com/s/q9brBo3pf750Lq6UXchK3g" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 量子位</a>
       </div>
     </div>
   </div>
@@ -369,7 +394,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 <span class='anchor' id='-services'></span>
 # 👓 Services
-- *Conferences*: &nbsp;Reviewer of CVPR, NeurIPS, ICLR, AAAI, ECCV.
+- *Conferences*: &nbsp;Reviewer of AAAI 2026, ICLR 2026, CVPR 2026, ECCV 2026, and NeurIPS 2026 Datasets & Benchmarks.
 <!-- TODO(可选): 期刊审稿 -->
 
 <span class='anchor' id='-interests'></span>
