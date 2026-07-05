@@ -16,31 +16,41 @@ header:
 <span class='anchor' id='about-me'></span>
 My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo"> in 2023. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
-<div class="quote-accent">
-My research agenda is <span class="accent-text">open-world generalization for embodied intelligence</span>:
-  <ul>
-    <li><span class="primary-gradient-text">Models</span>: building embodied foundation models that generalize across objects, skills, embodiments, scenes, and tasks.</li>
-    <li><span class="primary-gradient-text">Data & benchmarks</span>: constructing robot-scenario data and evaluations that expose real generalization gaps.</li>
-    <li><span class="primary-gradient-text">Model-data co-evolution</span>: using better data to improve models, and better models to reveal what data should cover next.</li>
-  </ul>
-</div>
-
-<div class="highlight-blocks">
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-robot"></i> At a Glance</h3>
+<div class="profile-summary-grid">
+  <div class="highlight-block floating-card research-profile-card">
+    <h3><i class="fas fa-robot"></i> Embodied Researcher</h3>
     <ul>
-      <li><span class="primary-gradient-text">Research identity</span>:
-        generalizable embodied foundation models for open-world robot intelligence.
+      <li><span class="primary-gradient-text">Current vision</span>:
+        open-world generalization for embodied intelligence.
       </li>
       <li><span class="primary-gradient-text">Generalization ladder</span>:
         L1 in-domain → L2 distribution shift → L3 compositional → L4 causal-mechanistic → L5 open-world continual.
       </li>
+      <li><span class="primary-gradient-text">Models</span>:
+        building embodied foundation models that generalize across objects, skills, embodiments, scenes, and tasks.
+      </li>
+      <li><span class="primary-gradient-text">Data & benchmarks</span>:
+        constructing robot-scenario data and evaluations that expose real generalization gaps.
+      </li>
+      <li><span class="primary-gradient-text">Model-data co-evolution</span>:
+        using better data to improve models, and better models to reveal what data should cover next.
+      </li>
+    </ul>
+  </div>
+
+  <div class="highlight-block floating-card credit-card">
+    <h3><i class="fas fa-award"></i> At a Glance</h3>
+    <ul>
+      <li><span class="primary-gradient-text">Research identity</span>:
+        generalizable embodied foundation models for open-world robot intelligence.
+      </li>
       <li><span class="primary-gradient-text">Selected evidence</span>:
         first / co-first author of 5 accepted papers at CCF-A/B venues, with released benchmarks, code, and datasets.
       </li>
-      <li><span class="primary-gradient-text"><span id="total_cit">~785</span> citations</span>,
-        h-index <span id="h_index">12</span>
-        <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="link-accent">(Google Scholar)</a>.
+      <li>
+        <a href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" class="scholar-badge" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/Google%20Scholar-~785%20Citations-9cf?logo=google-scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar citations" />
+        </a>
       </li>
     </ul>
   </div>

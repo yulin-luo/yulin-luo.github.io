@@ -11,10 +11,11 @@
             if (totalCitationEle && totalCitation) {
                 totalCitationEle.innerHTML = totalCitation;
             }
-            var hIndexEle = document.getElementById('h_index');
-            if (hIndexEle && data['hindex']) {
-                hIndexEle.innerHTML = data['hindex'];
-            }
+            var scholarBadgeImgs = document.querySelectorAll('.scholar-badge img');
+            Array.prototype.forEach.call(scholarBadgeImgs, element => {
+                element.src = 'https://img.shields.io/badge/Google%20Scholar-' + totalCitation + '%20Citations-9cf?logo=google-scholar&labelColor=f6f6f6&style=flat';
+                element.alt = 'Google Scholar citations: ' + totalCitation;
+            });
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
