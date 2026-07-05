@@ -175,7 +175,7 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://llm-as-dataset-analyst.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
-        <a href="https://github.com/llm-as-dataset-analyst/SSDLLM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://github.com/yulin-luo/SSDLLM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </div>
