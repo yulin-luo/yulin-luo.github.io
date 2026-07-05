@@ -66,7 +66,8 @@ My research focuses on <span class="accent-text">generalizable embodied foundati
 <span class='anchor' id='-educations'></span>
 # 🏫 Educations
 - *2023.09 - Present*: &nbsp;PhD in Computer Science, Peking University<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">.
-- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;">. GPA: 3.87/4.30; Major rank: 2/89.
+- *2019.09 - 2023.06*: &nbsp;B.Eng. in Automation, Shanghai Jiao Tong University<img src='images/sjtulogo.png' style="height:1em; vertical-align:middle;">.
+  <br><span class="education-detail">GPA: 3.87/4.30; Major rank: 2/89.</span>
 
 <span class='anchor' id='-internships'></span>
 # 💼 Internships
