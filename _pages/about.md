@@ -16,12 +16,6 @@ header:
 <span class='anchor' id='about-me'></span>
 My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo"> in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
-<div class="profile-action-row" aria-label="Profile links">
-  <a class="profile-action-badge" href="/files/Yulin_Luo_CV.pdf"><i class="fas fa-file-pdf"></i><span>CV</span></a>
-  <a class="profile-action-badge scholar-badge" href="https://scholar.google.com/citations?user=SgeV4NkAAAAJ" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i><span>Google Scholar</span><img src="https://img.shields.io/badge/Citations-~785-4285F4?logo=google-scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar citations"></a>
-  <a class="profile-action-badge" href="https://github.com/yulin-luo" target="_blank" rel="noopener"><i class="fab fa-github"></i><span>GitHub</span></a>
-  <a class="profile-action-badge" href="mailto:yulin@stu.pku.edu.cn"><i class="fas fa-envelope"></i><span>Email</span></a>
-</div>
 
 <div class="profile-summary-stack">
   <div class="highlight-block floating-card research-profile-card">
@@ -47,16 +41,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 # 🔥 News
 <div class="news-panel" markdown="1">
 
-- *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b>, a robot-scenario benchmark for evaluating MLLMs as embodied brains, is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2026)</span>. (first author)
-- *2025.11*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-moase">MoASE</a></b>, a sparse MoE adaptation method for robust continual test-time vision models, is accepted as Oral at <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2026)</span>. (co-first author)
-- *2025.09*: &nbsp;🎉 <a class="news-paper-link" href="#pub-seear1">SEEA-R1</a>, a tree-structured RL fine-tuning method for self-evolving embodied agents, is accepted to <span class="accent-text">Advances in Neural Information Processing Systems (NeurIPS 2025)</span>.
-- *2025.04*: &nbsp;🎉 <a class="news-paper-link" href="#pub-robomind">RoboMIND</a>, a multi-embodiment robot manipulation benchmark with normative data, is accepted to <span class="accent-text">Robotics: Science and Systems (RSS 2025)</span>.
-- *2025.01*: &nbsp;🎉 <a class="news-paper-link" href="#pub-draw-and-understand">Draw-and-Understand</a>, a visual-prompt method that helps MLLMs understand user intent, is accepted to <span class="accent-text">International Conference on Learning Representations (ICLR 2025)</span>.
-- *2024.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-ssd-llm">SSD-LLM</a></b>, an LLM-based dataset analyst for discovering subpopulation structure, is accepted to <span class="accent-text">European Conference on Computer Vision (ECCV 2024)</span>. (first author)
-- *2023.12*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-mofme">MoFME</a></b>, an uncertainty-aware mixture-of-experts method for efficient image deweathering, is accepted to <span class="accent-text">AAAI Conference on Artificial Intelligence (AAAI 2024)</span>.
+- *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b>, a robot-scenario benchmark for evaluating MLLMs as embodied brains, is accepted to <span class="accent-text">ECCV 2026</span>. (first author)
+- *2025.11*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-moase">MoASE</a></b>, a sparse MoE adaptation method for robust continual test-time vision models, is accepted as <span class="news-highlight-oral">Oral</span> at <span class="accent-text">AAAI 2026</span>. (co-first author)
+- *2025.09*: &nbsp;🎉 <a class="news-paper-link" href="#pub-seear1">SEEA-R1</a>, a tree-structured RL fine-tuning method for self-evolving embodied agents, is accepted to <span class="accent-text">NeurIPS 2025</span>.
+- *2025.04*: &nbsp;🎉 <a class="news-paper-link" href="#pub-robomind">RoboMIND</a>, a multi-embodiment robot manipulation benchmark with normative data, is accepted to <span class="accent-text">RSS 2025</span>.
+- *2025.01*: &nbsp;🎉 <a class="news-paper-link" href="#pub-draw-and-understand">Draw-and-Understand</a>, a visual-prompt method that helps MLLMs understand user intent, is accepted to <span class="accent-text">ICLR 2025</span>.
+- *2024.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-ssd-llm">SSD-LLM</a></b>, an LLM-based dataset analyst for discovering subpopulation structure, is accepted to <span class="accent-text">ECCV 2024</span>. (first author)
+- *2023.12*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-mofme">MoFME</a></b>, an uncertainty-aware mixture-of-experts method for efficient image deweathering, is accepted to <span class="accent-text">AAAI 2024</span>.
 - *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
 - *2023.06*: &nbsp;🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.
-- *2022.06*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-randstainna">RandStainNA</a></b>, a stain augmentation and normalization method for robust histology slide features, is accepted to <span class="accent-text">Medical Image Computing and Computer Assisted Intervention (MICCAI 2022)</span>. (co-first author)
+- *2022.06*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-randstainna">RandStainNA</a></b>, a stain augmentation and normalization method for robust histology slide features, is accepted to <span class="accent-text">MICCAI 2022</span>. (co-first author)
 
 </div>
 
@@ -68,7 +62,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <img class="credential-logo" src="images/pkulogo.png" alt="Peking University logo">
     <div class="credential-content">
       <h3>Peking University</h3>
-      <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>PhD in Computer Science</span></div>
+      <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>Ph.D. Candidate</span></div>
       <div class="credential-line"><i class="fas fa-building-columns"></i><span>School of Computer Science</span></div>
       <div class="credential-line"><i class="fas fa-user-tie"></i><span>Advisor: Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a></span></div>
     </div>
@@ -89,7 +83,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <div class="experience-list">
   <div class="experience-card floating-card">
     <div class="experience-period"><i class="fas fa-calendar-days"></i> 2025.12 - Present</div>
-    <div class="experience-logo experience-logo-text">S</div>
+    <img class="experience-logo" src="images/simplexity-logo.svg" alt="Simplexity Robotics logo">
     <div class="experience-content">
       <h3><a href="https://www.simplexityrobotics.com/" class="link-accent">Simplexity Robotics</a> <span class="cn-name">(至简动力)</span></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
@@ -98,7 +92,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="experience-card floating-card">
     <div class="experience-period"><i class="fas fa-calendar-days"></i> 2024.08 - 2025.10</div>
-    <div class="experience-logo experience-logo-text">BAAI</div>
+    <img class="experience-logo" src="images/baai-logo.png" alt="BAAI logo">
     <div class="experience-content">
       <h3><a href="https://www.baai.ac.cn/zh-cn/research" class="link-accent">Beijing Academy of Artificial Intelligence (BAAI)</a></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
@@ -107,7 +101,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="experience-card floating-card">
     <div class="experience-period"><i class="fas fa-calendar-days"></i> 2024.03 - 2024.08</div>
-    <div class="experience-logo experience-logo-text">BD</div>
+    <img class="experience-logo" src="images/bytedance-logo.ico" alt="ByteDance logo">
     <div class="experience-content">
       <h3><a href="https://www.bytedance.com/zh/" class="link-accent">ByteDance</a></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
@@ -197,7 +191,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/yulin-luo/RoboBench" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/LeoFan01/RoboBench" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
-        <a href="https://mp.weixin.qq.com/s/q9brBo3pf750Lq6UXchK3g" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 量子位</a>
       </div>
     </div>
   </div>
@@ -256,6 +249,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://deepvision-vla.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://mp.weixin.qq.com/s/q9brBo3pf750Lq6UXchK3g" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 量子位</a>
       </div>
     </div>
   </div>
@@ -314,7 +308,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://x-humanoid-robomind.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://roboticsconference.org/program/papers/152/" class="btn-accent"><i class="fas fa-award"></i> RSS</a>
         <a href="https://github.com/x-humanoid-robomind" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-        <a href="https://www.beaicloud.com/datasets/datasetDetail?path=%2Fdata-detail%2F21181956226031626&type=open" class="btn-accent"><i class="fas fa-database"></i> Data</a>
         <a href="https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
         <a href="https://modelscope.cn/collections/X-Humanoid/RoboMIND20" class="btn-accent"><i class="fas fa-database"></i> ModelScope</a>
       </div>
