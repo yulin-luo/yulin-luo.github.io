@@ -247,7 +247,7 @@
 
 .generalization-figure {
   max-width: 980px;
-  margin: 0.7rem auto 0;
+  margin: 0.45rem auto 0;
   text-align: center;
 }
 
@@ -256,8 +256,8 @@
   width: 100%;
   max-height: 420px;
   object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(1, 47, 99, 0.06);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 @media (max-width: 768px) {
