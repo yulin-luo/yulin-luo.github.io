@@ -380,10 +380,10 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 <span class='anchor' id='-awards'></span>
 # 🏆 Awards
-- *2023.06*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span>.
-- *2022.10*: &nbsp;Weichai Power <span class="primary-gradient-text">Scholarship</span>.
-- *2021.12*: &nbsp;Huawei <span class="primary-gradient-text">Scholarship</span>.
-- *2020.12, 2021.12, 2022.12*: &nbsp;Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span>.
+- Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span> &nbsp;*2023.06*.
+- Weichai Power <span class="primary-gradient-text">Scholarship</span> &nbsp;*2022.10*.
+- Huawei <span class="primary-gradient-text">Scholarship</span> &nbsp;*2021.12*.
+- Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> &nbsp;*2020.12, 2021.12, 2022.12*.
 
 <span class='anchor' id='-services'></span>
 # 👓 Services
