@@ -953,6 +953,19 @@ a.profile-contact-item:hover {
   background: transparent;
 }
 
+.paper-box-image-duo {
+  flex-direction: column;
+  gap: 0.72rem;
+}
+
+.paper-box-image-duo .paper-image-link {
+  width: 100%;
+}
+
+.paper-box-image-duo .paper-image-link img {
+  max-height: 170px;
+}
+
 .paper-box-image img {
   display: block;
   width: 100%;
@@ -1109,6 +1122,14 @@ a.profile-contact-item:hover {
     min-height: 0;
     padding: 1rem 1rem 0;
     order: 1;
+  }
+
+  .paper-box-image-duo {
+    gap: 0.58rem;
+  }
+
+  .paper-box-image-duo .paper-image-link img {
+    max-height: none;
   }
   
   .paper-box-image::before {

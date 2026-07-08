@@ -279,10 +279,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-wm-moe" class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
         <img src='images/wmmoe-method.png' alt="WM-MoE method diagram" width="100%">
+      </a>
+      <a class="paper-image-link" href="images/wmmoe.png" aria-label="Open full-size WM-MoE teaser">
+        <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
