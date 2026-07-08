@@ -1021,6 +1021,22 @@ a.profile-contact-item:hover {
   line-height: 1.45;
 }
 
+.paper-box-text .paper-tldr {
+  margin: 0.48rem 0 0.2rem;
+  padding: 0.48rem 0.62rem;
+  border-left: 3px solid rgba(254, 102, 123, 0.55);
+  border-radius: 6px;
+  background: rgba(1, 47, 99, 0.035);
+  color: #40546A;
+  font-size: 0.84rem;
+  line-height: 1.48;
+}
+
+.paper-box-text .paper-tldr span {
+  color: #12345A;
+  font-weight: 700;
+}
+
 .paper-box-text .paper-short-name {
   color: #4F6680;
   font-weight: 600;

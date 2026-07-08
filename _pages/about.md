@@ -186,6 +186,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: RoboBench</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mengdi Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2026</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Evaluates MLLMs as embodied brains across robot manipulation, from instruction and perception to planning, affordance, and failure analysis.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2510.17801" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -207,6 +208,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: SSD-LLM</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Uses LLMs as dataset analysts to discover subpopulation structure for data diagnosis and targeted dataset improvement.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://llm-as-dataset-analyst.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -227,6 +229,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: MoASE</div>
       <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2026 &nbsp;(<b>Oral</b>)</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Decomposes sparse neuron activations into mixture-of-experts behavior to improve continual test-time adaptation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -246,6 +249,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: Look Before Acting</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2026</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Improves VLA models by strengthening vision foundation representations before action prediction.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://deepvision-vla.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -266,6 +270,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: RandStainNA</div>
       <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
       <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Bridges stain normalization and augmentation to improve robust histology analysis under stain variation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -285,6 +290,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: WM-MoE</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2023</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Uses weather-aware multi-scale experts for blind restoration under adverse weather conditions.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2303.13739" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       </div>
@@ -303,6 +309,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: RoboMIND</div>
       <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Robotics: Science and Systems (RSS), 2025</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Provides multi-embodiment robot manipulation data and benchmarks for general robot intelligence.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://x-humanoid-robomind.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -326,6 +333,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: Draw-and-Understand</div>
       <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Uses visual prompts to help MLLMs understand user-specified regions, marks, and visual intent.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://github.com/AFeng-x/Draw-and-Understand" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -348,6 +356,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: SEEA-R1</div>
       <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Applies tree-structured reinforcement fine-tuning to build self-evolving embodied agents.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://seea-r1.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -368,6 +377,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: MoFME</div>
       <div class="authors">Rongyu Zhang, <span class="author-highlight">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</div>
+      <div class="paper-tldr"><span>TL;DR:</span> Introduces uncertainty-aware feature-wise expert modulation for efficient adverse-weather image restoration.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29622" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
