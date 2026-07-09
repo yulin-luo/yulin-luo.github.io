@@ -202,9 +202,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
         <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
       </a>
+      <div class="paper-image-caption">Teaser</div>
       <a class="paper-image-link" href="images/ssdllm-method.png" aria-label="Open full-size SSD-LLM method diagram">
         <img src='images/ssdllm-method.png' alt="SSD-LLM method diagram" width="100%">
       </a>
+      <div class="paper-image-caption">Method</div>
     </div>
     <div class='paper-box-text'>
       <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
@@ -226,9 +228,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/moase-teaser.png" aria-label="Open full-size MoASE teaser">
         <img src='images/moase-teaser.png' alt="MoASE teaser" width="100%">
       </a>
+      <div class="paper-image-caption">Teaser</div>
       <a class="paper-image-link" href="images/moase-method.png" aria-label="Open full-size MoASE method diagram">
         <img src='images/moase-method.png' alt="MoASE method diagram" width="100%">
       </a>
+      <div class="paper-image-caption">Method</div>
     </div>
     <div class='paper-box-text'>
       <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
@@ -249,9 +253,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
         <img src='images/look-before-acting-teaser.png' alt="Look Before Acting teaser" width="100%">
       </a>
+      <div class="paper-image-caption">Teaser</div>
       <a class="paper-image-link" href="images/look-before-acting-method.png" aria-label="Open full-size Look Before Acting method diagram">
         <img src='images/look-before-acting-method.png' alt="Look Before Acting method diagram" width="100%">
       </a>
+      <div class="paper-image-caption">Method</div>
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
@@ -331,13 +337,10 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
-    <div class='paper-box-image paper-box-image-duo'>
+    <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
         <img src='images/drawandunderstand-teaser.jpg' alt="Draw-and-Understand teaser" width="100%">
-      </a>
-      <a class="paper-image-link" href="images/drawandunderstand-method.png" aria-label="Open full-size Draw-and-Understand method diagram">
-        <img src='images/drawandunderstand-method.png' alt="Draw-and-Understand method diagram" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
@@ -383,9 +386,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/mofme.png" aria-label="Open full-size MoFME teaser">
         <img src='images/mofme.png' alt="MoFME teaser" width="100%">
       </a>
+      <div class="paper-image-caption">Teaser</div>
       <a class="paper-image-link" href="images/mofme-method.png" aria-label="Open full-size MoFME method diagram">
         <img src='images/mofme-method.png' alt="MoFME method diagram" width="100%">
       </a>
+      <div class="paper-image-caption">Method</div>
     </div>
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>

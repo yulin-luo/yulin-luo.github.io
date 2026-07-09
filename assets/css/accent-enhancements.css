@@ -955,7 +955,7 @@ a.profile-contact-item:hover {
 
 .paper-box-image-duo {
   flex-direction: column;
-  gap: 0.72rem;
+  gap: 0.34rem;
 }
 
 .paper-box-image-duo .paper-image-link {
@@ -964,6 +964,20 @@ a.profile-contact-item:hover {
 
 .paper-box-image-duo .paper-image-link img {
   max-height: 170px;
+}
+
+.paper-image-caption {
+  align-self: flex-start;
+  margin: -0.08rem 0 0.22rem 0.15rem;
+  padding: 0.08rem 0.46rem;
+  color: #4F6680 !important;
+  background: rgba(1, 47, 99, 0.055);
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0;
 }
 
 .paper-box-image img {
@@ -1125,7 +1139,12 @@ a.profile-contact-item:hover {
   }
 
   .paper-box-image-duo {
-    gap: 0.58rem;
+    gap: 0.32rem;
+  }
+
+  .paper-image-caption {
+    margin-bottom: 0.18rem;
+    font-size: 0.72rem;
   }
 
   .paper-box-image-duo .paper-image-link img {
