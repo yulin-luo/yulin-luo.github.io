@@ -929,6 +929,7 @@ a.profile-contact-item:hover {
   overflow: visible;
   background: transparent;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -954,7 +955,6 @@ a.profile-contact-item:hover {
 }
 
 .paper-box-image-duo {
-  flex-direction: column;
   gap: 0.26rem;
 }
 
@@ -971,13 +971,30 @@ a.profile-contact-item:hover {
 
 .paper-image-caption {
   align-self: stretch;
-  margin: -0.02rem 0 0.16rem;
+  margin: 0 0 0.18rem;
   color: #53687f !important;
   font-size: 0.69rem;
   font-weight: 650;
   line-height: 1.28;
   letter-spacing: 0;
-  text-align: left;
+  text-align: center;
+}
+
+.paper-image-caption span {
+  display: inline-block;
+  margin-right: 0.38rem;
+  padding: 0.02rem 0.34rem 0.03rem;
+  border-radius: 999px;
+  background: rgba(1, 47, 99, 0.07);
+  color: #244866;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.paper-box-image:not(.paper-box-image-duo) .paper-image-caption {
+  margin-top: 0.42rem;
+  margin-bottom: 0;
 }
 
 .paper-box-image img {

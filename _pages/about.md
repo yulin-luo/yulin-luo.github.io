@@ -180,11 +180,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/robobench.png" aria-label="Open full-size RoboBench teaser">
         <img src='images/robobench.png' alt="RoboBench teaser" width="100%">
       </a>
-      <div class="paper-image-caption">Benchmark overview across embodied abilities</div>
+      <div class="paper-image-caption"><span>Teaser</span>Benchmark overview across embodied abilities</div>
       <a class="paper-image-link" href="images/robobench-method.png" aria-label="Open full-size RoboBench construction pipeline">
         <img src='images/robobench-method.png' alt="RoboBench construction pipeline" width="100%">
       </a>
-      <div class="paper-image-caption">Data construction pipeline for robot scenarios</div>
+      <div class="paper-image-caption"><span>Method</span>Data construction pipeline for robot scenarios</div>
     </div>
     <div class='paper-box-text'>
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
@@ -207,11 +207,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
         <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
       </a>
-      <div class="paper-image-caption">Workflow for discovering subpopulation structure</div>
+      <div class="paper-image-caption"><span>Teaser</span>Workflow for discovering subpopulation structure</div>
       <a class="paper-image-link" href="images/ssdllm-method.png" aria-label="Open full-size SSD-LLM method diagram">
         <img src='images/ssdllm-method.png' alt="SSD-LLM method diagram" width="100%">
       </a>
-      <div class="paper-image-caption">Caption, criteria generation, refinement, and assignment</div>
+      <div class="paper-image-caption"><span>Method</span>Caption, criteria generation, refinement, and assignment</div>
     </div>
     <div class='paper-box-text'>
       <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
@@ -233,11 +233,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/moase-teaser.png" aria-label="Open full-size MoASE teaser">
         <img src='images/moase-teaser.png' alt="MoASE teaser" width="100%">
       </a>
-      <div class="paper-image-caption">Sparse activations motivate expert decomposition</div>
+      <div class="paper-image-caption"><span>Teaser</span>Sparse activations motivate expert decomposition</div>
       <a class="paper-image-link" href="images/moase-method.png" aria-label="Open full-size MoASE method diagram">
         <img src='images/moase-method.png' alt="MoASE method diagram" width="100%">
       </a>
-      <div class="paper-image-caption">MoASE routes activation patterns into experts</div>
+      <div class="paper-image-caption"><span>Method</span>MoASE routes activation patterns into experts</div>
     </div>
     <div class='paper-box-text'>
       <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
@@ -258,11 +258,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
         <img src='images/look-before-acting-teaser.png' alt="Look Before Acting teaser" width="100%">
       </a>
-      <div class="paper-image-caption">Vision foundation representations before robot action</div>
+      <div class="paper-image-caption"><span>Teaser</span>Vision foundation representations before robot action</div>
       <a class="paper-image-link" href="images/look-before-acting-method.png" aria-label="Open full-size Look Before Acting method diagram">
         <img src='images/look-before-acting-method.png' alt="Look Before Acting method diagram" width="100%">
       </a>
-      <div class="paper-image-caption">Representation enhancement pipeline for VLA policies</div>
+      <div class="paper-image-caption"><span>Method</span>Representation enhancement pipeline for VLA policies</div>
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
@@ -284,11 +284,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/randstainna.png" aria-label="Open full-size RandStainNA teaser">
         <img src='images/randstainna.png' alt="RandStainNA teaser" width="100%">
       </a>
-      <div class="paper-image-caption">Stain augmentation and normalization are bridged</div>
+      <div class="paper-image-caption"><span>Teaser</span>Stain augmentation and normalization are bridged</div>
       <a class="paper-image-link" href="images/randstainna-method.png" aria-label="Open full-size RandStainNA method diagram">
         <img src='images/randstainna-method.png' alt="RandStainNA method diagram" width="100%">
       </a>
-      <div class="paper-image-caption">Random virtual templates for stain-agnostic training</div>
+      <div class="paper-image-caption"><span>Method</span>Random virtual templates for stain-agnostic training</div>
     </div>
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
@@ -309,6 +309,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
         <img src='images/wmmoe-method.png' alt="WM-MoE method diagram" width="100%">
       </a>
+      <div class="paper-image-caption"><span>Method</span>Weather-aware router and multi-scale experts for blind restoration</div>
     </div>
     <div class='paper-box-text'>
       <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
@@ -323,11 +324,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-robomind" class='paper-box floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">RSS 2025</div>
       <a class="paper-image-link" href="images/robomind.png" aria-label="Open full-size RoboMIND teaser">
         <img src='images/robomind.png' alt="RoboMIND teaser" width="100%">
       </a>
+      <div class="paper-image-caption"><span>Teaser</span>Multi-embodiment robot manipulation benchmark</div>
+      <a class="paper-image-link" href="images/robomind-method.png" aria-label="Open full-size RoboMIND annotation process">
+        <img src='images/robomind-method.png' alt="RoboMIND annotation process" width="100%">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Language-guided task process and annotation examples</div>
     </div>
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
@@ -352,6 +358,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
         <img src='images/drawandunderstand-teaser.jpg' alt="Draw-and-Understand teaser" width="100%">
       </a>
+      <div class="paper-image-caption"><span>Teaser</span>Visual prompts teach MLLMs to understand user intent</div>
     </div>
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
@@ -375,6 +382,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/seear1.png" aria-label="Open full-size SEEA-R1 teaser">
         <img src='images/seear1.png' alt="SEEA-R1 teaser" width="100%">
       </a>
+      <div class="paper-image-caption"><span>Teaser</span>Tree-structured reinforcement fine-tuning for embodied agents</div>
     </div>
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
@@ -396,11 +404,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <a class="paper-image-link" href="images/mofme.png" aria-label="Open full-size MoFME teaser">
         <img src='images/mofme.png' alt="MoFME teaser" width="100%">
       </a>
-      <div class="paper-image-caption">Router embeddings separate adverse weather inputs</div>
+      <div class="paper-image-caption"><span>Teaser</span>Deweathering pipeline for downstream perception</div>
       <a class="paper-image-link" href="images/mofme-method.png" aria-label="Open full-size MoFME method diagram">
         <img src='images/mofme-method.png' alt="MoFME method diagram" width="100%">
       </a>
-      <div class="paper-image-caption">Feature modulation experts with uncertainty-aware routing</div>
+      <div class="paper-image-caption"><span>Method</span>Feature modulation experts with uncertainty-aware routing</div>
     </div>
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
