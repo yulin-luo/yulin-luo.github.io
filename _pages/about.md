@@ -303,7 +303,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-wm-moe" class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
+  <div id="pub-wm-moe" class='paper-box paper-box-single-figure floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
@@ -352,7 +352,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
+  <div id="pub-draw-and-understand" class='paper-box paper-box-single-figure floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
@@ -368,6 +368,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Introduces visual prompting data and benchmarks so MLLMs can follow user-drawn marks, regions, and fine-grained visual intent.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://draw-and-understand.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/AFeng-x/Draw-and-Understand" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/stage_2_fine-tuning/MDVP-Data" class="btn-accent"><i class="fas fa-database"></i> Data</a>
         <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/MDVP-bench" class="btn-accent"><i class="fas fa-database"></i> Bench</a>
@@ -376,7 +377,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-seear1" class='paper-box floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+  <div id="pub-seear1" class='paper-box paper-box-single-figure floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <a class="paper-image-link" href="images/seear1.png" aria-label="Open full-size SEEA-R1 teaser">

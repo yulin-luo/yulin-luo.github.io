@@ -903,6 +903,7 @@ a.profile-contact-item:hover {
 .paper-box {
   display: flex !important;
   flex-direction: row;
+  flex-wrap: nowrap !important;
   background: #ffffff !important;
   border-radius: 16px;
   overflow: hidden;
@@ -922,19 +923,20 @@ a.profile-contact-item:hover {
   border-color: rgba(254, 102, 123, 0.12);
 }
 
-.paper-box-image {
+.paper-box .paper-box-image {
   position: relative;
-  width: 360px;
-  min-width: 360px;
+  width: 390px !important;
+  min-width: 390px !important;
+  max-width: 390px !important;
   overflow: visible;
   background: transparent;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  align-self: center;
-  padding: 1.15rem 0 1.15rem 1.15rem;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 390px !important;
+  align-self: center !important;
+  padding: 1.15rem 0 1.15rem 1.15rem !important;
   box-sizing: border-box;
 }
 
@@ -973,7 +975,12 @@ a.profile-contact-item:hover {
   align-self: stretch;
   margin: 0 0 0.18rem;
   color: #53687f !important;
-  font-size: 0.69rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.34rem;
+  flex-wrap: wrap;
+  font-size: 0.70rem;
   font-weight: 650;
   line-height: 1.28;
   letter-spacing: 0;
@@ -982,11 +989,13 @@ a.profile-contact-item:hover {
 
 .paper-image-caption span {
   display: inline-block;
-  margin-right: 0.38rem;
-  padding: 0.02rem 0.34rem 0.03rem;
+  margin-right: 0;
+  padding: 0.08rem 0.48rem 0.09rem;
   border-radius: 999px;
-  background: rgba(1, 47, 99, 0.07);
-  color: #244866;
+  background: #e9edf2;
+  color: #173b59;
+  border: 1px solid rgba(1, 47, 99, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 1px 2px rgba(1, 47, 99, 0.05);
   font-size: 0.62rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -1019,13 +1028,39 @@ a.profile-contact-item:hover {
   display: none;
 }
 
-.paper-box-text {
-  padding: 1.55rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.paper-box .paper-box-text {
+  padding: 1.55rem !important;
+  flex: 1 1 auto !important;
+  min-width: 0;
+  max-width: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
   position: relative;
+}
+
+.paper-box.paper-box-single-figure {
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.paper-box.paper-box-single-figure .paper-box-image {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  flex: 0 0 auto !important;
+  align-self: stretch !important;
+  padding: 1.15rem 1.15rem 0.2rem !important;
+}
+
+.paper-box.paper-box-single-figure .paper-image-link img {
+  width: auto;
+  max-width: 100%;
+  max-height: 310px;
+}
+
+.paper-box.paper-box-single-figure .paper-box-text {
+  padding: 1.1rem 1.55rem 1.55rem !important;
 }
 
 .paper-box-text h3 {
@@ -1141,17 +1176,19 @@ a.profile-contact-item:hover {
 /* 响应式设计 - 移动端改为上下布局 */
 @media (max-width: 768px) {
   .paper-box {
-    flex-direction: column;
+    flex-direction: column !important;
     margin-bottom: 1.8rem;
     border-radius: 12px;
   }
   
-  .paper-box-image {
-    width: 100%;
-    min-width: 100%;
+  .paper-box .paper-box-image {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    flex: 0 0 auto !important;
     height: auto;
     min-height: 0;
-    padding: 1rem 1rem 0;
+    padding: 1rem 1rem 0 !important;
     order: 1;
   }
 
@@ -1177,8 +1214,8 @@ a.profile-contact-item:hover {
     transform: none;
   }
   
-  .paper-box-text {
-    padding: 1.2rem;
+  .paper-box .paper-box-text {
+    padding: 1.2rem !important;
     order: 2;
   }
   
