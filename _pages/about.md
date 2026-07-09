@@ -197,10 +197,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-ssd-llm" class='paper-box floating-card' data-order="20240502363" data-tags="First/Co-First Author, Conference, CCF-B, Data-centric AI, Data Augmentation">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
         <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
+      </a>
+      <a class="paper-image-link" href="images/ssdllm-method.png" aria-label="Open full-size SSD-LLM method diagram">
+        <img src='images/ssdllm-method.png' alt="SSD-LLM method diagram" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
@@ -218,10 +221,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-moase" class='paper-box floating-card' data-order="20240516486" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
-      <a class="paper-image-link" href="images/moase.png" aria-label="Open full-size MoASE teaser">
-        <img src='images/moase.png' alt="MoASE teaser" width="100%">
+      <a class="paper-image-link" href="images/moase-teaser.png" aria-label="Open full-size MoASE teaser">
+        <img src='images/moase-teaser.png' alt="MoASE teaser" width="100%">
+      </a>
+      <a class="paper-image-link" href="images/moase-method.png" aria-label="Open full-size MoASE method diagram">
+        <img src='images/moase-method.png' alt="MoASE method diagram" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
@@ -238,10 +244,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-look-before-acting" class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
         <img src='images/look-before-acting-teaser.png' alt="Look Before Acting teaser" width="100%">
+      </a>
+      <a class="paper-image-link" href="images/look-before-acting-method.png" aria-label="Open full-size Look Before Acting method diagram">
+        <img src='images/look-before-acting-method.png' alt="Look Before Acting method diagram" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
@@ -279,13 +288,10 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-wm-moe" class='paper-box floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
-    <div class='paper-box-image paper-box-image-duo'>
+    <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
         <img src='images/wmmoe-method.png' alt="WM-MoE method diagram" width="100%">
-      </a>
-      <a class="paper-image-link" href="images/wmmoe.png" aria-label="Open full-size WM-MoE teaser">
-        <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
@@ -325,10 +331,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ICLR 2025</div>
-      <a class="paper-image-link" href="images/drawandunderstand.png" aria-label="Open full-size Draw-and-Understand teaser">
-        <img src='images/drawandunderstand.png' alt="Draw-and-Understand teaser" width="100%">
+      <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
+        <img src='images/drawandunderstand-teaser.jpg' alt="Draw-and-Understand teaser" width="100%">
+      </a>
+      <a class="paper-image-link" href="images/drawandunderstand-method.png" aria-label="Open full-size Draw-and-Understand method diagram">
+        <img src='images/drawandunderstand-method.png' alt="Draw-and-Understand method diagram" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
@@ -369,10 +378,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 
   <div id="pub-mofme" class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
-    <div class='paper-box-image'>
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <a class="paper-image-link" href="images/mofme.png" aria-label="Open full-size MoFME teaser">
         <img src='images/mofme.png' alt="MoFME teaser" width="100%">
+      </a>
+      <a class="paper-image-link" href="images/mofme-method.png" aria-label="Open full-size MoFME method diagram">
+        <img src='images/mofme-method.png' alt="MoFME method diagram" width="100%">
       </a>
     </div>
     <div class='paper-box-text'>
