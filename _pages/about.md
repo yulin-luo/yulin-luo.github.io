@@ -352,13 +352,17 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-draw-and-understand" class='paper-box paper-box-single-figure floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
-    <div class='paper-box-image'>
+  <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
         <img src='images/drawandunderstand-teaser.jpg' alt="Draw-and-Understand teaser" width="100%">
       </a>
-      <div class="paper-image-caption"><span>Teaser</span>Visual prompts teach MLLMs to understand user intent</div>
+      <div class="paper-image-caption"><span>Teaser</span>Visual prompting for fine-grained user intent</div>
+      <a class="paper-image-link" href="images/drawandunderstand-method.png" aria-label="Open full-size Draw-and-Understand method diagram">
+        <img src='images/drawandunderstand-method.png' alt="Draw-and-Understand training strategy and model architecture" width="100%">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Two-stage training and the SPHINX-V architecture</div>
     </div>
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
@@ -377,13 +381,17 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-seear1" class='paper-box paper-box-single-figure floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
-    <div class='paper-box-image'>
+  <div id="pub-seear1" class='paper-box floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
-      <a class="paper-image-link" href="images/seear1.png" aria-label="Open full-size SEEA-R1 teaser">
-        <img src='images/seear1.png' alt="SEEA-R1 teaser" width="100%">
+      <a class="paper-image-link" href="images/seear1-teaser.png" aria-label="Open full-size SEEA-R1 teaser">
+        <img src='images/seear1-teaser.png' alt="SEEA-R1 teaser" width="100%">
       </a>
-      <div class="paper-image-caption"><span>Teaser</span>Tree-structured reinforcement fine-tuning for embodied agents</div>
+      <div class="paper-image-caption"><span>Teaser</span>Self-evolving embodied agents through tree search</div>
+      <a class="paper-image-link" href="images/seear1-method.png" aria-label="Open full-size SEEA-R1 method diagram">
+        <img src='images/seear1-method.png' alt="SEEA-R1 data and model evolution framework" width="100%">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Coupled data and model evolution with relative advantages</div>
     </div>
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
