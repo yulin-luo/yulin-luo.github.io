@@ -21,14 +21,14 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div class="highlight-block floating-card research-profile-card">
     <h3><i class="fas fa-robot"></i> Embodied Researcher</h3>
     <ul>
-      <li><span class="primary-gradient-text">Models</span>:
-        building embodied foundation models that generalize across objects, skills, embodiments, scenes, and tasks.
+      <li><span class="primary-gradient-text">Generalizable models</span>:
+        designing architectures and learning algorithms for embodied foundation models that generalize across objects, skills, embodiments, scenes, and tasks.
       </li>
-      <li><span class="primary-gradient-text">Data & benchmarks</span>:
-        constructing robot-scenario data and evaluations that expose real generalization gaps.
+      <li><span class="primary-gradient-text">Goal-aligned benchmarks</span>:
+        evaluating model capabilities under realistic conditions and against the long-term goal of open-world robot intelligence.
       </li>
-      <li><span class="primary-gradient-text">Model-data co-evolution</span>:
-        using better data to improve models, and better models to reveal what data should cover next.
+      <li><span class="primary-gradient-text">Evaluation-driven co-evolution</span>:
+        turning diagnosed gaps into model redesign and new data construction and selection paradigms, then using improved models and data to define the next evaluation cycle.
       </li>
     </ul>
     <figure class="generalization-figure">
