@@ -30,10 +30,12 @@
     {% if author.googlescholar %}
       <a class="profile-contact-item" href="{{ author.googlescholar }}" title="Google Scholar"><i class="fas fa-graduation-cap"></i><span>Scholar</span></a>
     {% endif %}
+    {% if author.xiaohongshu %}
+      <a class="profile-contact-item" href="{{ author.xiaohongshu }}" title="Xiaohongshu (RedNote)"><i class="fas fa-book-open"></i><span>小红书</span></a>
+    {% endif %}
+    <a class="profile-contact-item profile-contact-cv" href="{{ '/files/Yulin_Luo_CV.pdf' | relative_url }}" title="Curriculum Vitae">
+      <i class="fas fa-file-pdf"></i><span>CV</span>
+    </a>
   </div>
-
-  <a class="profile-cv-button" href="{{ '/files/Yulin_Luo_CV.pdf' | relative_url }}" title="Curriculum Vitae">
-    <i class="fas fa-file-pdf"></i><span>Curriculum Vitae</span>
-  </a>
 
 </div>

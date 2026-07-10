@@ -632,38 +632,9 @@ a.profile-contact-item:hover {
   transform: translateY(-1px);
 }
 
-.profile-cv-button {
-  display: inline-flex;
-  flex: 1 0 100%;
-  align-items: center;
-  justify-content: center;
-  gap: 0.42rem;
-  width: 100%;
-  min-height: 2.42rem;
-  margin-top: 0.5rem;
-  padding: 0.48rem 0.7rem;
-  border: 1px solid rgba(254, 102, 123, 0.35);
-  border-radius: 8px;
-  background: rgba(254, 102, 123, 0.08);
-  color: #012F63 !important;
-  font-size: 0.8rem;
-  font-weight: 700;
-  line-height: 1.1;
-  text-align: center;
-  text-decoration: none !important;
-  box-shadow: 0 4px 12px rgba(1, 47, 99, 0.06);
-}
-
-.profile-cv-button .fas {
-  color: #FE667B !important;
-  font-size: 0.95rem;
-}
-
-.profile-cv-button:hover {
-  border-color: rgba(254, 102, 123, 0.6);
-  background: rgba(254, 102, 123, 0.12);
-  color: #C7355A !important;
-  transform: translateY(-1px);
+.profile-contact-cv {
+  border-color: rgba(254, 102, 123, 0.42);
+  background: rgba(254, 102, 123, 0.07);
 }
 
 .author__urls-wrapper {
