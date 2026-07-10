@@ -121,7 +121,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <label for="filter-author">Author Role</label>
       <select id="filter-author" data-dim="author">
         <option value="">All</option>
-        <option value="First/Co-First Author">First / Co-First Author</option>
+        <option value="First Author">First author</option>
+        <option value="Co-First Author">Co-first author</option>
         <option value="Other">Other</option>
       </select>
     </div>
@@ -174,7 +175,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
   </div>
 
-  <div id="pub-robobench" class='paper-box floating-card' data-order="20251017801" data-tags="First/Co-First Author, Conference, CCF-B, Embodied AI, Benchmark">
+  <div id="pub-robobench" class='paper-box floating-card' data-order="20251017801" data-tags="First Author, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <a class="paper-image-link" href="images/robobench.png" aria-label="Open full-size RoboBench teaser">
@@ -201,7 +202,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-ssd-llm" class='paper-box floating-card' data-order="20240502363" data-tags="First/Co-First Author, Conference, CCF-B, Data-centric AI, Data Augmentation">
+  <div id="pub-ssd-llm" class='paper-box floating-card' data-order="20240502363" data-tags="First Author, Conference, CCF-B, Data-centric AI, Data Augmentation">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
@@ -223,11 +224,12 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://llm-as-dataset-analyst.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/yulin-luo/SSDLLM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://doi.org/10.1007/978-3-031-73414-4_14" class="btn-accent"><i class="fas fa-award"></i> ECCV</a>
       </div>
     </div>
   </div>
 
-  <div id="pub-moase" class='paper-box floating-card' data-order="20240516486" data-tags="First/Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
+  <div id="pub-moase" class='paper-box floating-card' data-order="20240516486" data-tags="Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <a class="paper-image-link" href="images/moase-teaser.png" aria-label="Open full-size MoASE teaser">
@@ -248,11 +250,12 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="links">
         <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://doi.org/10.1609/aaai.v40i42.40922" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
       </div>
     </div>
   </div>
 
-  <div id="pub-look-before-acting" class='paper-box floating-card' data-order="20260315618" data-tags="First/Co-First Author, Preprint, Embodied AI, VLA">
+  <div id="pub-look-before-acting" class='paper-box floating-card' data-order="20260315618" data-tags="First Author, Preprint, Embodied AI, VLA">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
@@ -278,7 +281,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-randstainna" class='paper-box floating-card' data-order="20220612694" data-tags="First/Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
+  <div id="pub-randstainna" class='paper-box floating-card' data-order="20220612694" data-tags="Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <a class="paper-image-link" href="images/randstainna.png" aria-label="Open full-size RandStainNA teaser">
@@ -299,11 +302,12 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://doi.org/10.1007/978-3-031-16434-7_21" class="btn-accent"><i class="fas fa-award"></i> MICCAI</a>
       </div>
     </div>
   </div>
 
-  <div id="pub-wm-moe" class='paper-box paper-box-single-figure floating-card' data-order="20230313739" data-tags="First/Co-First Author, Preprint, Computer Vision, MoE">
+  <div id="pub-wm-moe" class='paper-box paper-box-single-figure floating-card' data-order="20230313739" data-tags="First Author, Preprint, Computer Vision, MoE">
     <div class='paper-box-image'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
@@ -403,6 +407,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://seea-r1.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/AurumTian/seea-r1" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/7103cd82de95a7b30983fcf74ba499ac-Abstract-Conference.html" class="btn-accent"><i class="fas fa-award"></i> NeurIPS</a>
       </div>
     </div>
   </div>
@@ -427,7 +432,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Modulates deweathering experts with uncertainty-aware feature-wise signals for efficient restoration under adverse weather.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29622" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
+        <a href="https://doi.org/10.1609/aaai.v38i15.29622" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
         <a href="https://github.com/RoyZry98/MoFME-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
@@ -469,7 +474,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const resetBtn = document.getElementById('filter-reset');
 
   const dimensionMap = {
-    author: ['First/Co-First Author', 'Other'],
+    author: ['First Author', 'Co-First Author', 'Other'],
     venue: ['CCF-A', 'CCF-B'],
     type: ['Conference', 'Preprint'],
     highlight: ['Oral'],
@@ -478,12 +483,25 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   const visibleTagLabels = {
-    'First/Co-First Author': 'First / Co-first',
+    'First Author': 'First author',
+    'Co-First Author': 'Co-first author',
     'Oral': 'Oral',
     'CCF-A': 'CCF-A',
     'CCF-B': 'CCF-B'
   };
   const hiddenVisibleTags = new Set(['Other', 'Conference', 'Preprint']);
+
+  function arrangePaperFigures() {
+    paperBoxes.forEach(box => {
+      box.querySelectorAll('.paper-image-caption').forEach(caption => {
+        const kind = caption.querySelector('span');
+        const imageLink = caption.previousElementSibling;
+        if (!kind || !imageLink || !imageLink.classList.contains('paper-image-link')) return;
+        kind.classList.add('paper-image-kind');
+        imageLink.insertAdjacentElement('beforebegin', kind);
+      });
+    });
+  }
 
   function renderPaperTags() {
     paperBoxes.forEach(box => {
@@ -507,7 +525,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tagItem.textContent = visibleTagLabels[tag] || tag;
         tagList.appendChild(tagItem);
       });
-      venue.insertAdjacentElement('beforebegin', tagList);
+      venue.insertAdjacentElement('afterend', tagList);
     });
   }
 
@@ -597,6 +615,7 @@ document.addEventListener('DOMContentLoaded', function() {
     link.addEventListener('click', resetFilters);
   });
 
+  arrangePaperFigures();
   renderPaperTags();
   updateFilterOptions({});
 });
