@@ -222,9 +222,9 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Turns LLMs into dataset analysts that discover hidden subpopulations, exposing dataset bias and guiding targeted data improvement.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://doi.org/10.1007/978-3-031-73414-4_14" class="btn-accent"><i class="fas fa-award"></i> ECCV</a>
         <a href="https://llm-as-dataset-analyst.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/yulin-luo/SSDLLM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-        <a href="https://doi.org/10.1007/978-3-031-73414-4_14" class="btn-accent"><i class="fas fa-award"></i> ECCV</a>
       </div>
     </div>
   </div>
@@ -249,8 +249,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Interprets continual test-time adaptation through sparse neuron activations, routing activation patterns into experts for stable adaptation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://doi.org/10.1609/aaai.v40i42.40922" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
+        <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </div>
@@ -301,15 +301,19 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Unifies stain normalization and augmentation with random color-space sampling, improving robustness for histology classification and segmentation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://doi.org/10.1007/978-3-031-16434-7_21" class="btn-accent"><i class="fas fa-award"></i> MICCAI</a>
+        <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </div>
 
-  <div id="pub-wm-moe" class='paper-box paper-box-single-figure floating-card' data-order="20230313739" data-tags="First Author, Preprint, Computer Vision, MoE">
-    <div class='paper-box-image'>
+  <div id="pub-wm-moe" class='paper-box floating-card' data-order="20230313739" data-tags="First Author, Preprint, Computer Vision, MoE">
+    <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">Preprint 2023</div>
+      <a class="paper-image-link" href="images/wmmoe.png" aria-label="Open full-size WM-MoE teaser">
+        <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
+      </a>
+      <div class="paper-image-caption"><span>Teaser</span>Unified adverse-weather removal for downstream perception</div>
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
         <img src='images/wmmoe-method.png' alt="WM-MoE method diagram" width="100%">
       </a>
@@ -347,11 +351,10 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Collects multi-embodiment manipulation data and benchmark protocols to study general robot skills across platforms and tasks.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://x-humanoid-robomind.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://roboticsconference.org/program/papers/152/" class="btn-accent"><i class="fas fa-award"></i> RSS</a>
+        <a href="https://x-humanoid-robomind.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/x-humanoid-robomind" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
-        <a href="https://modelscope.cn/collections/X-Humanoid/RoboMIND20" class="btn-accent"><i class="fas fa-database"></i> ModelScope</a>
       </div>
     </div>
   </div>
@@ -376,11 +379,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Introduces visual prompting data and benchmarks so MLLMs can follow user-drawn marks, regions, and fine-grained visual intent.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://draw-and-understand.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://iclr.cc/virtual/2025/poster/29098" class="btn-accent"><i class="fas fa-award"></i> ICLR</a>
         <a href="https://github.com/AFeng-x/Draw-and-Understand" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/stage_2_fine-tuning/MDVP-Data" class="btn-accent"><i class="fas fa-database"></i> Data</a>
         <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/MDVP-bench" class="btn-accent"><i class="fas fa-database"></i> Bench</a>
-        <a href="https://huggingface.co/Afeng-x/SPHINX-V-Model" class="btn-accent"><i class="fas fa-cube"></i> Model</a>
+        <a href="https://huggingface.co/Afeng-x/SPHINX-V-Model" class="btn-accent"><i class="fas fa-cube"></i> CKPT</a>
       </div>
     </div>
   </div>
@@ -405,9 +408,9 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>In Short:</span> Uses tree-structured reinforcement fine-tuning to improve embodied-agent reasoning through self-evolving exploration and feedback.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/7103cd82de95a7b30983fcf74ba499ac-Abstract-Conference.html" class="btn-accent"><i class="fas fa-award"></i> NeurIPS</a>
         <a href="https://seea-r1.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/AurumTian/seea-r1" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-        <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/7103cd82de95a7b30983fcf74ba499ac-Abstract-Conference.html" class="btn-accent"><i class="fas fa-award"></i> NeurIPS</a>
       </div>
     </div>
   </div>
