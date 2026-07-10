@@ -14,7 +14,7 @@ header:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo"> in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo" width="148" height="148" decoding="async">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo" width="156" height="157" decoding="async"> in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
 
 <div class="profile-summary-stack">
@@ -32,12 +32,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </li>
     </ul>
     <figure class="generalization-figure">
-      <img src="images/open_world_generalization_teaser_en.png" alt="Open-world generalization hierarchy for embodied intelligence">
+      <img src="images/open_world_generalization_teaser_en.webp" alt="Open-world generalization hierarchy for embodied intelligence" width="1648" height="893" decoding="async" fetchpriority="high">
     </figure>
   </div>
 </div>
 
-<span class='anchor' id='-news'></span>
 # 🔥 News
 <div class="news-panel" markdown="1">
 
@@ -55,11 +54,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 </div>
 
 <span class='anchor' id='-educations'></span>
-# 🏫 Educations
+# 🏫 Education
 <div class="credential-list">
   <div class="credential-card floating-card">
     <div class="credential-period"><i class="fas fa-calendar-days"></i> 2023.09 - Present</div>
-    <img class="credential-logo" src="images/pkulogo.png" alt="Peking University logo">
+    <img class="credential-logo" src="images/pkulogo.png" alt="Peking University logo" width="148" height="148" decoding="async" loading="lazy">
     <div class="credential-content">
       <h3>Peking University</h3>
       <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>Ph.D. Candidate</span></div>
@@ -69,7 +68,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="credential-card floating-card">
     <div class="credential-period"><i class="fas fa-calendar-days"></i> 2019.09 - 2023.06</div>
-    <img class="credential-logo" src="images/sjtulogo.png" alt="Shanghai Jiao Tong University logo">
+    <img class="credential-logo" src="images/sjtulogo.png" alt="Shanghai Jiao Tong University logo" width="156" height="157" decoding="async" loading="lazy">
     <div class="credential-content">
       <h3>Shanghai Jiao Tong University</h3>
       <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>B.Eng. in Automation</span></div>
@@ -83,7 +82,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <div class="experience-list">
   <div class="experience-card floating-card">
     <div class="experience-period"><i class="fas fa-calendar-days"></i> 2025.12 - Present</div>
-    <img class="experience-logo" src="images/simplexity-logo.svg" alt="Simplexity Robotics logo">
+    <img class="experience-logo" src="images/simplexity-logo.svg" alt="Simplexity Robotics logo" width="80" height="21" decoding="async" loading="lazy">
     <div class="experience-content">
       <h3><a href="https://www.simplexityrobotics.com/" class="link-accent">Simplexity Robotics</a> <span class="cn-name">(至简动力)</span></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
@@ -92,7 +91,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="experience-card floating-card">
     <div class="experience-period"><i class="fas fa-calendar-days"></i> 2024.08 - 2025.10</div>
-    <img class="experience-logo" src="images/baai-logo.png" alt="BAAI logo">
+    <img class="experience-logo" src="images/baai-logo.png" alt="BAAI logo" width="80" height="80" decoding="async" loading="lazy">
     <div class="experience-content">
       <h3><a href="https://www.baai.ac.cn/zh-cn/research" class="link-accent">Beijing Academy of Artificial Intelligence (BAAI)</a></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
@@ -101,7 +100,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="experience-card floating-card">
     <div class="experience-period"><i class="fas fa-calendar-days"></i> 2024.03 - 2024.08</div>
-    <img class="experience-logo" src="images/bytedance-logo.ico" alt="ByteDance logo">
+    <img class="experience-logo" src="images/bytedance-logo.ico" alt="ByteDance logo" width="300" height="300" decoding="async" loading="lazy">
     <div class="experience-content">
       <h3><a href="https://www.bytedance.com/zh/" class="link-accent">ByteDance</a></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Research Intern</span></div>
@@ -110,7 +109,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 
-<span class='anchor' id='-publications'></span>
 # 📃 Publications
 
 <!-- ⭐️ = (共同)第一作者；📧 = 通讯作者。teaser 图默认用占位图 images/500x300.png，
@@ -179,17 +177,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2026</div>
       <a class="paper-image-link" href="images/robobench.png" aria-label="Open full-size RoboBench teaser">
-        <img src='images/robobench.png' alt="RoboBench teaser" width="100%">
+        <img src='images/robobench.webp' alt="RoboBench teaser" width="1800" height="1128" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Benchmark overview across embodied abilities</div>
       <a class="paper-image-link" href="images/robobench-method.png" aria-label="Open full-size RoboBench construction pipeline">
-        <img src='images/robobench-method.png' alt="RoboBench construction pipeline" width="100%">
+        <img src='images/robobench-method.webp' alt="RoboBench construction pipeline" width="1800" height="803" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Data construction pipeline for robot scenarios</div>
     </div>
     <div class='paper-box-text'>
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
-      <div class="paper-short-name">Short name: RoboBench</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mengdi Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2026</div>
       <div class="paper-tldr"><span>In Short:</span> Builds a 6K-QA benchmark to diagnose embodied-brain abilities in MLLMs, and links cognitive scores to downstream VLA performance.</div>
@@ -206,11 +203,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2024</div>
       <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
-        <img src='images/ssdllm.png' alt="SSD-LLM teaser" width="100%">
+        <img src='images/ssdllm.webp' alt="SSD-LLM teaser" width="1800" height="1039" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Workflow for discovering subpopulation structure</div>
       <a class="paper-image-link" href="images/ssdllm-method.png" aria-label="Open full-size SSD-LLM method diagram">
-        <img src='images/ssdllm-method.png' alt="SSD-LLM method diagram" width="100%">
+        <img src='images/ssdllm-method.webp' alt="SSD-LLM method diagram" width="1800" height="688" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Caption, criteria generation, refinement, and assignment</div>
     </div>
@@ -233,11 +230,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
       <a class="paper-image-link" href="images/moase-teaser.png" aria-label="Open full-size MoASE teaser">
-        <img src='images/moase-teaser.png' alt="MoASE teaser" width="100%">
+        <img src='images/moase-teaser.webp' alt="MoASE teaser" width="1800" height="540" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Sparse activations motivate expert decomposition</div>
       <a class="paper-image-link" href="images/moase-method.png" aria-label="Open full-size MoASE method diagram">
-        <img src='images/moase-method.png' alt="MoASE method diagram" width="100%">
+        <img src='images/moase-method.webp' alt="MoASE method diagram" width="1322" height="440" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>MoASE routes activation patterns into experts</div>
     </div>
@@ -259,17 +256,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">Preprint 2026</div>
       <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
-        <img src='images/look-before-acting-teaser.png' alt="Look Before Acting teaser" width="100%">
+        <img src='images/look-before-acting-teaser.webp' alt="Look Before Acting teaser" width="1281" height="521" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Vision foundation representations before robot action</div>
       <a class="paper-image-link" href="images/look-before-acting-method.png" aria-label="Open full-size Look Before Acting method diagram">
-        <img src='images/look-before-acting-method.png' alt="Look Before Acting method diagram" width="100%">
+        <img src='images/look-before-acting-method.webp' alt="Look Before Acting method diagram" width="1800" height="926" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Representation enhancement pipeline for VLA policies</div>
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
-      <div class="paper-short-name">Short name: Look Before Acting</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2026</div>
       <div class="paper-tldr"><span>In Short:</span> Studies whether stronger visual representations can improve VLA policies before action decoding, connecting vision foundation models with robot control.</div>
@@ -285,17 +281,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <a class="paper-image-link" href="images/randstainna.png" aria-label="Open full-size RandStainNA teaser">
-        <img src='images/randstainna.png' alt="RandStainNA teaser" width="100%">
+        <img src='images/randstainna.webp' alt="RandStainNA teaser" width="1800" height="1147" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Stain augmentation and normalization are bridged</div>
       <a class="paper-image-link" href="images/randstainna-method.png" aria-label="Open full-size RandStainNA method diagram">
-        <img src='images/randstainna-method.png' alt="RandStainNA method diagram" width="100%">
+        <img src='images/randstainna-method.webp' alt="RandStainNA method diagram" width="1800" height="1066" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Random virtual templates for stain-agnostic training</div>
     </div>
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
-      <div class="paper-short-name">Short name: RandStainNA</div>
       <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
       <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
       <div class="paper-tldr"><span>In Short:</span> Unifies stain normalization and augmentation with random color-space sampling, improving robustness for histology classification and segmentation.</div>
@@ -311,17 +306,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">Preprint 2023</div>
       <a class="paper-image-link" href="images/wmmoe.png" aria-label="Open full-size WM-MoE teaser">
-        <img src='images/wmmoe.png' alt="WM-MoE teaser" width="100%">
+        <img src='images/wmmoe.webp' alt="WM-MoE teaser" width="1333" height="617" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Unified adverse-weather removal for downstream perception</div>
       <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
-        <img src='images/wmmoe-method.png' alt="WM-MoE method diagram" width="100%">
+        <img src='images/wmmoe-method.webp' alt="WM-MoE method diagram" width="1800" height="1012" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Weather-aware router and multi-scale experts for blind restoration</div>
     </div>
     <div class='paper-box-text'>
       <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
-      <div class="paper-short-name">Short name: WM-MoE</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
       <div class="venue">arXiv preprint, 2023</div>
       <div class="paper-tldr"><span>In Short:</span> Uses weather-aware multi-scale experts to route restoration features under mixed rain, haze, snow, and low-visibility degradation.</div>
@@ -335,17 +329,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">RSS 2025</div>
       <a class="paper-image-link" href="images/robomind.png" aria-label="Open full-size RoboMIND teaser">
-        <img src='images/robomind.png' alt="RoboMIND teaser" width="100%">
+        <img src='images/robomind.webp' alt="RoboMIND teaser" width="500" height="366" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Multi-embodiment robot manipulation benchmark</div>
       <a class="paper-image-link" href="images/robomind-method.png" aria-label="Open full-size RoboMIND annotation process">
-        <img src='images/robomind-method.png' alt="RoboMIND annotation process" width="100%">
+        <img src='images/robomind-method.webp' alt="RoboMIND annotation process" width="1533" height="385" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Language-guided task process and annotation examples</div>
     </div>
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
-      <div class="paper-short-name">Short name: RoboMIND</div>
       <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Robotics: Science and Systems (RSS), 2025</div>
       <div class="paper-tldr"><span>In Short:</span> Collects multi-embodiment manipulation data and benchmark protocols to study general robot skills across platforms and tasks.</div>
@@ -363,17 +356,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ICLR 2025</div>
       <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
-        <img src='images/drawandunderstand-teaser.jpg' alt="Draw-and-Understand teaser" width="100%">
+        <img src='images/drawandunderstand-teaser.webp' alt="Draw-and-Understand teaser" width="1800" height="560" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Visual prompting for fine-grained user intent</div>
       <a class="paper-image-link" href="images/drawandunderstand-method.png" aria-label="Open full-size Draw-and-Understand method diagram">
-        <img src='images/drawandunderstand-method.png' alt="Draw-and-Understand training strategy and model architecture" width="100%">
+        <img src='images/drawandunderstand-method.webp' alt="Draw-and-Understand training strategy and model architecture" width="1800" height="959" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Two-stage training and the SPHINX-V architecture</div>
     </div>
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
-      <div class="paper-short-name">Short name: Draw-and-Understand</div>
       <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
       <div class="paper-tldr"><span>In Short:</span> Introduces visual prompting data and benchmarks so MLLMs can follow user-drawn marks, regions, and fine-grained visual intent.</div>
@@ -392,17 +384,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
       <a class="paper-image-link" href="images/seear1-teaser.png" aria-label="Open full-size SEEA-R1 teaser">
-        <img src='images/seear1-teaser.png' alt="SEEA-R1 teaser" width="100%">
+        <img src='images/seear1-teaser.webp' alt="SEEA-R1 teaser" width="789" height="390" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Self-evolving embodied agents through tree search</div>
       <a class="paper-image-link" href="images/seear1-method.png" aria-label="Open full-size SEEA-R1 method diagram">
-        <img src='images/seear1-method.png' alt="SEEA-R1 data and model evolution framework" width="100%">
+        <img src='images/seear1-method.webp' alt="SEEA-R1 data and model evolution framework" width="1800" height="1010" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Coupled data and model evolution with relative advantages</div>
     </div>
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
-      <div class="paper-short-name">Short name: SEEA-R1</div>
       <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
       <div class="paper-tldr"><span>In Short:</span> Uses tree-structured reinforcement fine-tuning to improve embodied-agent reasoning through self-evolving exploration and feedback.</div>
@@ -419,11 +410,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2024</div>
       <a class="paper-image-link" href="images/mofme.png" aria-label="Open full-size MoFME teaser">
-        <img src='images/mofme.png' alt="MoFME teaser" width="100%">
+        <img src='images/mofme.webp' alt="MoFME teaser" width="1800" height="562" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Deweathering pipeline for downstream perception</div>
       <a class="paper-image-link" href="images/mofme-method.png" aria-label="Open full-size MoFME method diagram">
-        <img src='images/mofme-method.png' alt="MoFME method diagram" width="100%">
+        <img src='images/mofme-method.webp' alt="MoFME method diagram" width="1800" height="740" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Feature modulation experts with uncertainty-aware routing</div>
     </div>
@@ -443,19 +434,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 </div>
 
-<span class='anchor' id='-awards'></span>
 # 🏆 Awards
 - Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span> &nbsp;*2023.06*.
 - Weichai Power <span class="primary-gradient-text">Scholarship</span> &nbsp;*2022.10*.
 - Huawei <span class="primary-gradient-text">Scholarship</span> &nbsp;*2021.12*.
 - Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> &nbsp;*2020.12, 2021.12, 2022.12*.
 
-<span class='anchor' id='-services'></span>
 # 👓 Services
 - *Conferences*: &nbsp;Reviewer of AAAI 2026, ICLR 2026, CVPR 2026, ECCV 2026, and NeurIPS 2026 Datasets & Benchmarks.
 <!-- TODO(可选): 期刊审稿 -->
 
-<span class='anchor' id='-interests'></span>
 # 😊 Interests
 <!-- TODO(可选): 兴趣爱好卡片，参考模板 blog-card 风格。不需要可整节删掉。 -->
 
