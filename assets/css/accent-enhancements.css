@@ -208,13 +208,6 @@
   transform: scale(1.05);
 }
 
-.inline-school-logo {
-  height: 0.86em;
-  margin-left: 0.12em;
-  vertical-align: -0.08em;
-  opacity: 0.72;
-}
-
 .profile-summary-stack {
   display: grid;
   grid-template-columns: 1fr;
@@ -699,6 +692,10 @@ a.profile-contact-item:hover {
   overflow: visible;
 }
 
+.credential-card {
+  grid-template-columns: minmax(8.4rem, 9.5rem) 4.15rem minmax(0, 1fr);
+}
+
 .credential-period,
 .experience-period {
   display: inline-flex;
@@ -720,7 +717,19 @@ a.profile-contact-item:hover {
   text-align: center;
 }
 
-.credential-logo,
+.credential-logo {
+  width: 3.8rem;
+  height: 3.8rem;
+  object-fit: contain;
+  align-self: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: none;
+  padding: 0.08rem;
+  filter: drop-shadow(0 2px 4px rgba(1, 47, 99, 0.12));
+}
+
 .experience-logo {
   width: 3.25rem;
   height: 3.25rem;
@@ -802,7 +811,11 @@ a.profile-contact-item:hover {
     white-space: normal;
   }
 
-  .credential-logo,
+  .credential-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
   .experience-logo {
     width: 2.85rem;
     height: 2.85rem;

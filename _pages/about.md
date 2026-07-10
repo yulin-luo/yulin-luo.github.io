@@ -14,7 +14,7 @@ header:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**<img class="inline-school-logo" src='images/pkulogo.png' alt="Peking University logo" width="148" height="148" decoding="async">, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University**<img class="inline-school-logo" src='images/sjtulogo.png' alt="Shanghai Jiao Tong University logo" width="156" height="157" decoding="async"> in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University** in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
 
 <div class="profile-summary-stack">
@@ -58,7 +58,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <div class="credential-list">
   <div class="credential-card floating-card">
     <div class="credential-period"><i class="fas fa-calendar-days"></i> 2023.09 - Present</div>
-    <img class="credential-logo" src="images/pkulogo.png" alt="Peking University logo" width="148" height="148" decoding="async" loading="lazy">
+    <img class="credential-logo" src="images/pku-logo-official.png" alt="Peking University logo" width="360" height="360" decoding="async" loading="lazy">
     <div class="credential-content">
       <h3>Peking University</h3>
       <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>Ph.D. Candidate</span></div>
@@ -68,7 +68,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="credential-card floating-card">
     <div class="credential-period"><i class="fas fa-calendar-days"></i> 2019.09 - 2023.06</div>
-    <img class="credential-logo" src="images/sjtulogo.png" alt="Shanghai Jiao Tong University logo" width="156" height="157" decoding="async" loading="lazy">
+    <img class="credential-logo" src="images/sjtu-logo-official.svg" alt="Shanghai Jiao Tong University logo" width="75" height="75" decoding="async" loading="lazy">
     <div class="credential-content">
       <h3>Shanghai Jiao Tong University</h3>
       <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>B.Eng. in Automation</span></div>
