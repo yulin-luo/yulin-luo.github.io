@@ -16,6 +16,22 @@ header:
 <span class='anchor' id='about-me'></span>
 My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University** in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
+<details class="quick-jump-nav">
+  <summary aria-label="Open section navigation">
+    <i class="fas fa-compass"></i>
+    <span>Jump</span>
+  </summary>
+  <nav aria-label="Quick section navigation">
+    <a href="#about-me"><i class="fas fa-arrow-up"></i><span>Top</span></a>
+    <a href="#news"><i class="fas fa-fire"></i><span>News</span></a>
+    <a href="#education"><i class="fas fa-graduation-cap"></i><span>Education</span></a>
+    <a href="#experience"><i class="fas fa-briefcase"></i><span>Experience</span></a>
+    <a href="#publications"><i class="fas fa-file-lines"></i><span>Publications</span></a>
+    <a href="#awards"><i class="fas fa-trophy"></i><span>Awards</span></a>
+    <a href="#services"><i class="fas fa-glasses"></i><span>Services</span></a>
+  </nav>
+</details>
+
 
 <div class="profile-summary-stack">
   <div class="highlight-block floating-card research-profile-card">
@@ -47,6 +63,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 
+<span class='anchor' id='news'></span>
 # 🔥 News
 <div class="news-panel" markdown="1">
 
@@ -64,7 +81,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 </div>
 
-<span class='anchor' id='-educations'></span>
+<span class='anchor' id='education'></span>
 # 🏫 Education
 <div class="credential-list">
   <div class="credential-card floating-card">
@@ -88,7 +105,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 
-<span class='anchor' id='-internships'></span>
+<span class='anchor' id='experience'></span>
 # 💼 Research Experience
 <div class="experience-list">
   <div class="experience-card floating-card">
@@ -120,6 +137,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 
+<span class='anchor' id='publications'></span>
 # 📃 Publications
 
 <!-- ⭐️ = (共同)第一作者；📧 = 通讯作者。teaser 图默认用占位图 images/500x300.png，
@@ -446,16 +464,19 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 </div>
 
+<span class='anchor' id='awards'></span>
 # 🏆 Awards
 - Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span> &nbsp;*2023.06*.
 - Weichai Power <span class="primary-gradient-text">Scholarship</span> &nbsp;*2022.10*.
 - Huawei <span class="primary-gradient-text">Scholarship</span> &nbsp;*2021.12*.
 - Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> &nbsp;*2020.12, 2021.12, 2022.12*.
 
+<span class='anchor' id='services'></span>
 # 👓 Services
 - *Conferences*: &nbsp;Reviewer of AAAI 2026, ICLR 2026, CVPR 2026, ECCV 2026, and NeurIPS 2026 Datasets & Benchmarks.
 <!-- TODO(可选): 期刊审稿 -->
 
+<span class='anchor' id='interests'></span>
 # 😊 Interests
 <!-- TODO(可选): 兴趣爱好卡片，参考模板 blog-card 风格。不需要可整节删掉。 -->
 
