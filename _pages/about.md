@@ -332,29 +332,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-wm-moe" class='paper-box floating-card' data-order="20230313739" data-tags="First Author, Preprint, Computer Vision, MoE">
-    <div class='paper-box-image paper-box-image-duo'>
-      <div class="badge pulse-accent">Preprint 2023</div>
-      <a class="paper-image-link" href="images/wmmoe.png" aria-label="Open full-size WM-MoE teaser">
-        <img src='images/wmmoe.webp' alt="WM-MoE teaser" width="1333" height="617" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Teaser</span>Unified adverse-weather removal for downstream perception</div>
-      <a class="paper-image-link" href="images/wmmoe-method.png" aria-label="Open full-size WM-MoE method diagram">
-        <img src='images/wmmoe-method.webp' alt="WM-MoE method diagram" width="1800" height="1012" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Method</span>Weather-aware router and multi-scale experts for blind restoration</div>
-    </div>
-    <div class='paper-box-text'>
-      <h3>WM-MoE: Weather-Aware Multi-Scale Mixture-of-Experts for Blind Adverse Weather Removal</h3>
-      <div class="authors"><span class="author-highlight">Yulin Luo</span>, Rui Zhao, Xiaobao Wei, Jinwei Chen, et al., Shanghang Zhang📧</div>
-      <div class="venue">arXiv preprint, 2023</div>
-      <div class="paper-tldr"><span>In Short:</span> Uses weather-aware multi-scale experts to route restoration features under mixed rain, haze, snow, and low-visibility degradation.</div>
-      <div class="links">
-        <a href="https://arxiv.org/abs/2303.13739" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      </div>
-    </div>
-  </div>
-
   <div id="pub-robomind" class='paper-box floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">RSS 2025</div>
