@@ -51,7 +51,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         </div>
       </li>
       <li><span class="primary-gradient-text">Evaluation-driven co-evolution</span>:
-        turning diagnosed gaps into model redesign and new data construction and selection paradigms, then using improved models and data to define the next evaluation cycle.
+        turning diagnosed gaps into model and data redesign, then using improved models and data to define the next evaluation cycle.
         <div class="profile-evidence-links">
           <a href="#pub-ssd-llm">SSD-LLM <span>ECCV'24</span></a>
         </div>
