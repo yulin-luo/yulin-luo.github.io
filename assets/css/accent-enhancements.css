@@ -225,6 +225,41 @@
   gap: 0.5rem;
 }
 
+.profile-evidence-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  margin: 0.38rem 0 0.15rem 1.05rem;
+}
+
+.profile-evidence-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.18rem 0.52rem;
+  border: 1px solid rgba(26, 79, 138, 0.18);
+  border-radius: 999px;
+  background: rgba(26, 79, 138, 0.055);
+  color: #1a4f8a;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.profile-evidence-links a:hover {
+  border-color: rgba(26, 79, 138, 0.36);
+  background: rgba(26, 79, 138, 0.095);
+  color: #0f3157;
+}
+
+.profile-evidence-links span {
+  color: #7a2434;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
 .scholar-badge {
   display: inline-flex;
   align-items: center;
