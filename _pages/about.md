@@ -267,9 +267,10 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
+      <div class="paper-short-name">Short name: DeepVision-VLA</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">ACM International Conference on Multimedia (ACM MM), 2026</div>
-      <div class="paper-tldr"><span>In Short:</span> Studies whether stronger visual representations can improve VLA policies before action decoding, connecting vision foundation models with robot control.</div>
+      <div class="paper-tldr"><span>In Short:</span> Introduces DeepVision-VLA to enhance vision foundation representations before action decoding, improving VLA policies for precise robot control.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://2026.acmmm.org/" class="btn-accent"><i class="fas fa-award"></i> ACM MM</a>
