@@ -40,7 +40,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 # 🔥 News
 <div class="news-panel" markdown="1">
 
-- *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-look-before-acting">Look Before Acting</a></b>, a vision-representation enhancement method for VLA models, is accepted to <span class="accent-text">ACM MM 2026</span>. (first author)
+- *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-deepvision-vla">DeepVision-VLA</a></b>, a vision-representation enhancement method for VLA models, is accepted to <span class="accent-text">ACM MM 2026</span>. (first author)
 - *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b>, a robot-scenario benchmark for evaluating MLLMs as embodied brains, is accepted to <span class="accent-text">ECCV 2026</span>. (first author)
 - *2025.11*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-moase">MoASE</a></b>, a sparse MoE adaptation method for robust continual test-time vision models, is accepted as <span class="news-highlight-oral">Oral</span> at <span class="accent-text">AAAI 2026</span>. (co-first author)
 - *2025.09*: &nbsp;🎉 <a class="news-paper-link" href="#pub-seear1">SEEA-R1</a>, a tree-structured RL fine-tuning method for self-evolving embodied agents, is accepted to <span class="accent-text">NeurIPS 2025</span>.
@@ -253,21 +253,20 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
 
-  <div id="pub-look-before-acting" class='paper-box floating-card' data-order="20260315618" data-tags="First Author, Conference, CCF-A, Embodied AI, VLA">
+  <div id="pub-deepvision-vla" class='paper-box floating-card' data-order="20260315618" data-tags="First Author, Conference, CCF-A, Embodied AI, VLA">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ACM MM 2026</div>
-      <a class="paper-image-link" href="images/look-before-acting-teaser.png" aria-label="Open full-size Look Before Acting teaser">
-        <img src='images/look-before-acting-teaser.webp' alt="Look Before Acting teaser" width="1281" height="521" decoding="async" loading="lazy">
+      <a class="paper-image-link" href="images/deepvision-vla-teaser.png" aria-label="Open full-size DeepVision-VLA teaser">
+        <img src='images/deepvision-vla-teaser.webp' alt="DeepVision-VLA teaser" width="1281" height="521" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Vision foundation representations before robot action</div>
-      <a class="paper-image-link" href="images/look-before-acting-method.png" aria-label="Open full-size Look Before Acting method diagram">
-        <img src='images/look-before-acting-method.webp' alt="Look Before Acting method diagram" width="1800" height="926" decoding="async" loading="lazy">
+      <a class="paper-image-link" href="images/deepvision-vla-method.png" aria-label="Open full-size DeepVision-VLA method diagram">
+        <img src='images/deepvision-vla-method.webp' alt="DeepVision-VLA method diagram" width="1800" height="926" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Representation enhancement pipeline for VLA policies</div>
     </div>
     <div class='paper-box-text'>
-      <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
-      <div class="paper-short-name">Short name: DeepVision-VLA</div>
+      <h3>DeepVision-VLA: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">ACM International Conference on Multimedia (ACM MM), 2026</div>
       <div class="paper-tldr"><span>In Short:</span> Introduces DeepVision-VLA to enhance vision foundation representations before action decoding, improving VLA policies for precise robot control.</div>
