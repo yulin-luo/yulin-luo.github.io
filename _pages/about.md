@@ -140,6 +140,99 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <span class='anchor' id='publications'></span>
 # 📃 Publications
 
+<section class="research-trajectory floating-card" aria-labelledby="research-trajectory-title">
+  <div class="trajectory-heading">
+    <div>
+      <h2 id="research-trajectory-title">Research Trajectory</h2>
+      <p>Three research threads shown on a shared timeline. Hollow dots mark arXiv v1 release; solid dots mark acceptance.</p>
+    </div>
+    <div class="trajectory-legend" aria-label="Timeline legend">
+      <span><i class="dot dot-arxiv"></i> arXiv v1</span>
+      <span><i class="dot dot-accepted"></i> Accepted</span>
+      <span><i class="dot dot-highlight"></i> Oral / highlight</span>
+    </div>
+  </div>
+  <div class="trajectory-axis" aria-hidden="true">
+    <span style="left: 0%">2022</span>
+    <span style="left: 20%">2023</span>
+    <span style="left: 40%">2024</span>
+    <span style="left: 60%">2025</span>
+    <span style="left: 80%">2026</span>
+    <span style="left: 100%">2027</span>
+  </div>
+  <div class="trajectory-lanes">
+    <div class="trajectory-lane">
+      <div class="lane-label"><i class="fas fa-microchip"></i><span>Model</span></div>
+      <div class="lane-track">
+        <a class="trajectory-link trajectory-span same-month" href="#pub-mofme" style="--start:38.3%; --end:38.3%; --mid:38.3%; --y:15%;" title="MoFME: arXiv v1 2023.12 → AAAI 2024 acceptance 2023.12">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">MoFME</span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-draw-and-understand" style="--start:43.3%; --end:60.0%; --mid:51.7%; --y:32%;" title="Draw-and-Understand: arXiv v1 2024.03 → ICLR 2025 acceptance 2025.01">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">Draw&amp;Understand</span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-moase" style="--start:46.7%; --end:76.7%; --mid:61.7%; --y:50%;" title="MoASE: arXiv v1 2024.05 → AAAI Oral acceptance 2025.11">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot highlight-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">MoASE</span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-seear1" style="--start:68.3%; --end:73.3%; --mid:70.8%; --y:68%;" title="SEEA-R1: arXiv v1 2025.06 → NeurIPS 2025 acceptance 2025.09">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">SEEA-R1</span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-deepvision-vla" style="--start:83.3%; --end:90.0%; --mid:86.7%; --y:85%;" title="DeepVision-VLA: arXiv v1 2026.03 → ACM MM 2026 acceptance 2026.07">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">DeepVision-VLA</span>
+        </a>
+      </div>
+    </div>
+    <div class="trajectory-lane">
+      <div class="lane-label"><i class="fas fa-clipboard-check"></i><span>Evaluation</span></div>
+      <div class="lane-track">
+        <a class="trajectory-link trajectory-span" href="#pub-robomind" style="--start:58.3%; --end:65.0%; --mid:61.7%; --y:33%;" title="RoboMIND: arXiv v1 2024.12 → RSS 2025 acceptance 2025.04">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">RoboMIND</span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-robobench" style="--start:76.1%; --end:90.0%; --mid:83.1%; --y:70%;" title="RoboBench: arXiv v1 2025.10 → ECCV 2026.07">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">RoboBench</span>
+        </a>
+      </div>
+    </div>
+    <div class="trajectory-lane">
+      <div class="lane-label"><i class="fas fa-arrows-spin"></i><span>Model-Data Co-evolution</span></div>
+      <div class="lane-track">
+        <a class="trajectory-link trajectory-span same-month" href="#pub-randstainna" style="--start:8.3%; --end:8.3%; --mid:8.3%; --y:34%;" title="RandStainNA: arXiv v1 2022.06 → MICCAI 2022 acceptance 2022.06">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">RandStainNA</span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-ssd-llm" style="--start:46.7%; --end:50.0%; --mid:48.4%; --y:66%;" title="SSD-LLM: arXiv v1 2024.05 → ECCV 2024 acceptance 2024.07">
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
+          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-label" style="left: var(--mid);">SSD-LLM</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ⭐️ = (共同)第一作者；📧 = 通讯作者。teaser 图默认用占位图 images/500x300.png，
      你把每篇的图放到 images/ 后替换 src 即可。缺 arXiv 链接的用 "#" 占位，后续补。 -->
 <div id="publications-wrapper">
