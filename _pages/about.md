@@ -405,6 +405,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
       <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
       <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2022.06 · Accepted: 2022.06</span></div>
       <div class="paper-tldr"><span>In Short:</span> Unifies stain normalization and augmentation with random color-space sampling, improving robustness for histology classification and segmentation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -458,6 +459,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
       <div class="authors">Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.03 · Accepted: 2025.01</span></div>
       <div class="paper-tldr"><span>In Short:</span> Introduces visual prompting data and benchmarks so MLLMs can follow user-drawn marks, regions, and fine-grained visual intent.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -486,6 +488,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
       <div class="authors">Wanxin Tian, Shijie Zhang, Kun Zhang, Xiaowei Chi, <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2025</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2025.06 · Accepted: 2025.09</span></div>
       <div class="paper-tldr"><span>In Short:</span> Uses tree-structured reinforcement fine-tuning to improve embodied-agent reasoning through self-evolving exploration and feedback.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -513,6 +516,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: MoFME</div>
       <div class="authors">Rongyu Zhang, <span class="author-highlight">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2023.12 · Accepted: 2023.12</span></div>
       <div class="paper-tldr"><span>In Short:</span> Modulates deweathering experts with uncertainty-aware feature-wise signals for efficient restoration under adverse weather.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
