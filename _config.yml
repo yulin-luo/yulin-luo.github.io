@@ -11,7 +11,7 @@ title                    : "Yulin Luo"
 title_separator          : "-"
 subtitle                 : "Open-World Embodied Intelligence"
 name                     : "Yulin Luo"
-description              : "Yulin Luo is a PhD student at Peking University, working on generalizable embodied foundation models for the open world."
+description              : "Yulin Luo is a PhD student at Peking University, working on open-world generalization for embodied intelligence."
 url                      : "https://yulin-luo.github.io"
 baseurl                  : ""
 repository               : "yulin-luo/yulin-luo.github.io"
@@ -90,6 +90,10 @@ include:
 exclude:
   - docs
   - google_scholar_crawler
+  - HANDOFF.md
+  - reference_homepages
+  - run_server.sh
+  - self_introduction.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -114,9 +118,7 @@ exclude:
   - package.json
   - tmp
   - vendor
-keep_files:
-  - .git
-  - .svn
+keep_files: []
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yulin Luo - Homepage"
-excerpt: "PhD student at Peking University. Research on generalizable embodied foundation models for the open world."
+excerpt: "PhD student at Peking University. Research on open-world generalization for embodied intelligence."
 author_profile: true
 redirect_from:
   - /about/
@@ -376,7 +376,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
-      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
+      <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️†, Zhuangzhe Wu⭐️, Bowen Sui⭐️, Jiaming Liu⭐️†, Chenyang Gu, Zhuoyang Liu, Qiuxuan Feng, Jiale Yu, Shuo Gu, Peng Jia, Pheng-Ann Heng, Shanghang Zhang📧</div>
       <div class="venue">ACM International Conference on Multimedia (ACM MM), 2026</div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2026.03 · Accepted: 2026.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Enhances vision foundation representations before action decoding, improving VLA policies for precise robot control.</div>
