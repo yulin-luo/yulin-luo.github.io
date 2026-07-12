@@ -1000,29 +1000,56 @@ a.profile-contact-item:hover {
 
 .trajectory-axis {
   position: relative;
-  height: 1.15rem;
-  margin: 0.25rem 0 0.35rem 8.7rem;
+  height: 1.65rem;
+  margin: 0.35rem 0 0.35rem 8.7rem;
   border-top: 1px solid rgba(1, 47, 99, 0.14);
 }
 
 .trajectory-axis span {
   position: absolute;
-  top: -0.13rem;
   transform: translateX(-50%);
-  padding-top: 0.32rem;
-  color: #6a7d91;
-  font-size: 0.68rem;
-  font-weight: 650;
 }
 
 .trajectory-axis span::before {
   content: "";
   position: absolute;
-  top: -0.1rem;
   left: 50%;
   width: 1px;
-  height: 0.36rem;
-  background: rgba(1, 47, 99, 0.20);
+  background: rgba(1, 47, 99, 0.18);
+}
+
+.trajectory-axis .axis-year {
+  top: -0.62rem;
+  color: #12345A;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.trajectory-axis .axis-year::before {
+  top: 0.78rem;
+  height: 0.62rem;
+  background: rgba(1, 47, 99, 0.24);
+}
+
+.trajectory-axis .axis-start {
+  transform: translateX(0);
+}
+
+.trajectory-axis .axis-start::before {
+  left: 0;
+}
+
+.trajectory-axis .axis-month {
+  top: -0.08rem;
+  padding-top: 0.34rem;
+  color: #75879b;
+  font-size: 0.60rem;
+  font-weight: 700;
+}
+
+.trajectory-axis .axis-month::before {
+  top: -0.10rem;
+  height: 0.34rem;
 }
 
 .trajectory-lanes {
@@ -1059,7 +1086,7 @@ a.profile-contact-item:hover {
   min-height: 4.45rem;
   border-radius: 12px;
   background:
-    linear-gradient(to right, rgba(1, 47, 99, 0.055) 1px, transparent 1px) 0 0 / 20% 100%,
+    linear-gradient(to right, rgba(1, 47, 99, 0.045) 1px, transparent 1px) 0 0 / 8.333% 100%,
     linear-gradient(to right, rgba(1, 47, 99, 0.12), rgba(1, 47, 99, 0.12)) center / 100% 1px no-repeat,
     rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(1, 47, 99, 0.07);

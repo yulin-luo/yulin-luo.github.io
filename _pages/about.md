@@ -144,7 +144,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div class="trajectory-heading">
     <div>
       <h2 id="research-trajectory-title">Research Trajectory</h2>
-      <p>Selected first / co-first works shown on a shared timeline. Hollow dots mark arXiv v1 release; solid dots mark acceptance.</p>
+      <p>Selected first / co-first works since 2024. Hollow dots mark arXiv v1 release; solid dots mark acceptance.</p>
     </div>
     <div class="trajectory-legend" aria-label="Timeline legend">
       <span><i class="dot dot-arxiv"></i> arXiv v1</span>
@@ -153,24 +153,33 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
   </div>
   <div class="trajectory-axis" aria-hidden="true">
-    <span style="left: 0%">2022</span>
-    <span style="left: 20%">2023</span>
-    <span style="left: 40%">2024</span>
-    <span style="left: 60%">2025</span>
-    <span style="left: 80%">2026</span>
-    <span style="left: 100%">2027</span>
+    <span class="axis-year axis-start" style="left: 0%">2024</span>
+    <span class="axis-month" style="left: 5.6%">03</span>
+    <span class="axis-month" style="left: 13.9%">06</span>
+    <span class="axis-month" style="left: 22.2%">09</span>
+    <span class="axis-month" style="left: 30.6%">12</span>
+    <span class="axis-year" style="left: 33.3%">2025</span>
+    <span class="axis-month" style="left: 38.9%">03</span>
+    <span class="axis-month" style="left: 47.2%">06</span>
+    <span class="axis-month" style="left: 55.6%">09</span>
+    <span class="axis-month" style="left: 63.9%">12</span>
+    <span class="axis-year" style="left: 66.7%">2026</span>
+    <span class="axis-month" style="left: 72.2%">03</span>
+    <span class="axis-month" style="left: 80.6%">06</span>
+    <span class="axis-month" style="left: 88.9%">09</span>
+    <span class="axis-month" style="left: 97.2%">12</span>
   </div>
   <div class="trajectory-lanes">
     <div class="trajectory-lane">
       <div class="lane-label"><i class="fas fa-microchip"></i><span>Model</span></div>
       <div class="lane-track">
-        <a class="trajectory-link trajectory-span" href="#pub-moase" style="--start:46.7%; --end:76.7%; --mid:61.7%; --y:34%;" title="MoASE: arXiv v1 2024.05 → AAAI Oral acceptance 2025.11">
+        <a class="trajectory-link trajectory-span" href="#pub-moase" style="--start:11.1%; --end:61.1%; --mid:36.1%; --y:34%;" title="MoASE: arXiv v1 2024.05 → AAAI Oral acceptance 2025.11">
           <span class="timeline-label label-above" style="left: var(--mid);">MoASE</span>
           <span class="span-line"></span>
           <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
           <span class="timeline-dot accepted-dot highlight-dot" style="left: var(--end);"></span>
         </a>
-        <a class="trajectory-link trajectory-span" href="#pub-deepvision-vla" style="--start:83.3%; --end:90.0%; --mid:86.7%; --y:72%;" title="DeepVision-VLA: arXiv v1 2026.03 → ACM MM 2026 acceptance 2026.07">
+        <a class="trajectory-link trajectory-span" href="#pub-deepvision-vla" style="--start:72.2%; --end:83.3%; --mid:77.8%; --y:72%;" title="DeepVision-VLA: arXiv v1 2026.03 → ACM MM 2026 acceptance 2026.07">
           <span class="timeline-label label-below" style="left: var(--mid);">DeepVision-VLA</span>
           <span class="span-line"></span>
           <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
@@ -181,13 +190,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="trajectory-lane">
       <div class="lane-label"><i class="fas fa-clipboard-check"></i><span>Evaluation</span></div>
       <div class="lane-track">
-        <a class="trajectory-link trajectory-span" href="#pub-robomind" style="--start:58.3%; --end:65.0%; --mid:61.7%; --y:34%;" title="RoboMIND: arXiv v1 2024.12 → RSS 2025 acceptance 2025.04">
+        <a class="trajectory-link trajectory-span" href="#pub-robomind" style="--start:30.6%; --end:41.7%; --mid:36.1%; --y:34%;" title="RoboMIND: arXiv v1 2024.12 → RSS 2025 acceptance 2025.04">
           <span class="timeline-label label-above" style="left: var(--mid);">RoboMIND</span>
           <span class="span-line"></span>
           <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
           <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
         </a>
-        <a class="trajectory-link trajectory-span" href="#pub-robobench" style="--start:76.1%; --end:90.0%; --mid:83.1%; --y:72%;" title="RoboBench: arXiv v1 2025.10 → ECCV 2026.07">
+        <a class="trajectory-link trajectory-span" href="#pub-robobench" style="--start:58.3%; --end:83.3%; --mid:70.8%; --y:72%;" title="RoboBench: arXiv v1 2025.10 → ECCV 2026.07">
           <span class="timeline-label label-below" style="left: var(--mid);">RoboBench</span>
           <span class="span-line"></span>
           <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
@@ -198,7 +207,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="trajectory-lane trajectory-lane-compact">
       <div class="lane-label"><i class="fas fa-arrows-spin"></i><span>Model-Data Co-evolution</span></div>
       <div class="lane-track">
-        <a class="trajectory-link trajectory-span" href="#pub-ssd-llm" style="--start:46.7%; --end:50.0%; --mid:48.4%; --y:50%;" title="SSD-LLM: arXiv v1 2024.05 → ECCV 2024 acceptance 2024.07">
+        <a class="trajectory-link trajectory-span" href="#pub-ssd-llm" style="--start:11.1%; --end:16.7%; --mid:13.9%; --y:50%;" title="SSD-LLM: arXiv v1 2024.05 → ECCV 2024 acceptance 2024.07">
           <span class="timeline-label label-above" style="left: var(--mid);">SSD-LLM</span>
           <span class="span-line"></span>
           <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
