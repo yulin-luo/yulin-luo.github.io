@@ -928,8 +928,8 @@ a.profile-contact-item:hover {
 
 /* Research trajectory timeline */
 .research-trajectory {
-  --trajectory-label-width: 7.2rem;
-  --trajectory-label-gap: 0.48rem;
+  --trajectory-label-width: 6.9rem;
+  --trajectory-label-gap: 0.52rem;
   margin: 1.35rem 0 1.9rem;
   padding: 1.28rem 1.36rem 1.38rem;
   background:
@@ -1083,10 +1083,8 @@ a.profile-contact-item:hover {
 .lane-label {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 0.48rem;
   min-width: 0;
-  text-align: right;
   color: #12345A;
   font-size: 0.90rem;
   font-weight: 760;
