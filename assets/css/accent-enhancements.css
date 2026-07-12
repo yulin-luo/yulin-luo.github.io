@@ -928,6 +928,8 @@ a.profile-contact-item:hover {
 
 /* Research trajectory timeline */
 .research-trajectory {
+  --trajectory-label-width: 7.2rem;
+  --trajectory-label-gap: 0.48rem;
   margin: 1.35rem 0 1.9rem;
   padding: 1.28rem 1.36rem 1.38rem;
   background:
@@ -1001,7 +1003,7 @@ a.profile-contact-item:hover {
 .trajectory-axis {
   position: relative;
   height: 1.82rem;
-  margin: 0.46rem 0 0.48rem 9.6rem;
+  margin: 0.46rem 0 0.48rem calc(var(--trajectory-label-width) + var(--trajectory-label-gap));
   border-top: 2px solid rgba(1, 47, 99, 0.22);
 }
 
@@ -1073,25 +1075,32 @@ a.profile-contact-item:hover {
 
 .trajectory-lane {
   display: grid;
-  grid-template-columns: 9.6rem minmax(0, 1fr);
-  gap: 0.85rem;
+  grid-template-columns: var(--trajectory-label-width) minmax(0, 1fr);
+  gap: var(--trajectory-label-gap);
   align-items: stretch;
 }
 
 .lane-label {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.48rem;
+  min-width: 0;
+  text-align: right;
   color: #12345A;
   font-size: 0.90rem;
   font-weight: 760;
-  line-height: 1.25;
+  line-height: 1.18;
 }
 
 .lane-label i {
-  width: 1.05rem;
+  flex: 0 0 1.05rem;
   color: #FE667B;
   text-align: center;
+}
+
+.lane-label span {
+  min-width: 0;
 }
 
 .lane-track {
