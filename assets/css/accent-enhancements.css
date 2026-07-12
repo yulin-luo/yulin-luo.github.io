@@ -1593,6 +1593,22 @@ a.profile-contact-item:hover {
   margin: 0.08rem 0 0.58rem;
 }
 
+.paper-box-text .paper-timeline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.34rem;
+  margin: -0.16rem 0 0.48rem;
+  color: #5D7188;
+  font-size: 0.78rem;
+  font-weight: 560;
+  line-height: 1.42;
+}
+
+.paper-box-text .paper-timeline i {
+  color: #2E6EA6;
+  font-size: 0.74rem;
+}
+
 .paper-box-text .paper-tag {
   display: inline-flex;
   align-items: center;

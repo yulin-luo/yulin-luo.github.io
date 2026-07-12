@@ -296,6 +296,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for MLLMs as Embodied Brain</h3>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayi Shi⭐️, Mengdi Zhao⭐️, Bo-Wen Zhang⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2026</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2025.10 · Accepted: 2026.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Builds a 6K-QA benchmark to diagnose embodied-brain abilities in MLLMs, and links cognitive scores to downstream VLA performance.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2510.17801" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -323,6 +324,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: SSD-LLM</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
       <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.05 · Accepted: 2024.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Turns LLMs into dataset analysts that discover hidden subpopulations, exposing dataset bias and guiding targeted data improvement.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -350,6 +352,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-short-name">Short name: MoASE</div>
       <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2026 &nbsp;(<b>Oral</b>)</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.05 · Accepted: 2025.11</span></div>
       <div class="paper-tldr"><span>In Short:</span> Interprets continual test-time adaptation through sparse neuron activations, routing activation patterns into experts for stable adaptation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -375,6 +378,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>DeepVision-VLA: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️, Zhixuan Wu⭐️, Bo Sui⭐️, Jiaming Liu⭐️, et al., Shanghang Zhang📧</div>
       <div class="venue">ACM International Conference on Multimedia (ACM MM), 2026</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2026.03 · Accepted: 2026.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Introduces DeepVision-VLA to enhance vision foundation representations before action decoding, improving VLA policies for precise robot control.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -426,6 +430,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
       <div class="authors">Kun Wu, Chengkai Hou, Jiaming Liu, et al., <span class="author-highlight">Yulin Luo</span>, et al.</div>
       <div class="venue">Robotics: Science and Systems (RSS), 2025</div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.12 · Accepted: 2025.04</span></div>
       <div class="paper-tldr"><span>In Short:</span> Collects multi-embodiment manipulation data and benchmark protocols to study general robot skills across platforms and tasks.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
