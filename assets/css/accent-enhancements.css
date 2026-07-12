@@ -1196,6 +1196,12 @@ a.profile-contact-item:hover {
   pointer-events: none;
 }
 
+.timeline-venue {
+  color: #5D7188;
+  font-size: 0.58rem;
+  font-weight: 680;
+}
+
 .timeline-label::after {
   content: "";
   position: absolute;
