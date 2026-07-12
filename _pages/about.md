@@ -303,6 +303,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/yulin-luo/RoboBench" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/LeoFan01/RoboBench" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
+        <a href="https://mp.weixin.qq.com/s/SdGEqu_1mz14DhUumTZ3FQ" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 具身智能之心</a>
       </div>
     </div>
   </div>
