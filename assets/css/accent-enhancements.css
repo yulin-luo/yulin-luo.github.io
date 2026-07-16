@@ -1568,18 +1568,19 @@ a.profile-contact-item:hover {
   max-width: 100%;
   width: fit-content;
   margin: 0.08rem 0 0.62rem;
-  padding: 0.3rem 0.68rem;
-  border: 1px solid rgba(82, 120, 154, 0.18);
+  padding: 0.28rem 0.58rem;
+  border: 1px solid rgba(55, 113, 158, 0.24);
   border-radius: 8px;
-  background: #EEF6FB;
-  color: #2F5E7D;
+  background: #DDEFFA;
+  color: #23577E;
   font-style: normal;
-  font-size: 0.90rem;
+  font-size: 0.82rem;
   font-weight: 780;
   line-height: 1.42;
   letter-spacing: 0;
-  white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(47, 94, 125, 0.08);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  box-shadow: 0 4px 12px rgba(35, 87, 126, 0.11);
 }
 
 .paper-box-text .venue::before {

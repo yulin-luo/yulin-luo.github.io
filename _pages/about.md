@@ -296,7 +296,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-text'>
       <h3>RoboBench: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models as Embodied Brain</h3>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayu Shi⭐️, Xiangju Mi⭐️, Mengdi Zhao⭐️†, Bo-Wen Zhang⭐️, Cheng Chi⭐️†, et al., Shanghang Zhang📧</div>
-      <div class="venue"><span>ECCV 2026</span></div>
+      <div class="venue"><span>European Conference on Computer Vision (ECCV), 2026</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2025.10 · Accepted: 2026.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Builds a 6K-QA benchmark to diagnose embodied-brain abilities in MLLMs, and links cognitive scores to downstream VLA performance.</div>
       <div class="links">
@@ -325,7 +325,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model</h3>
       <div class="paper-short-name">Short name: SSD-LLM</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
-      <div class="venue"><span>ECCV 2024</span></div>
+      <div class="venue"><span>European Conference on Computer Vision (ECCV), 2024</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.05 · Accepted: 2024.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Turns LLMs into dataset analysts that discover hidden subpopulations, exposing dataset bias and guiding targeted data improvement.</div>
       <div class="links">
@@ -353,7 +353,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test-Time Adaptation</h3>
       <div class="paper-short-name">Short name: MoASE</div>
       <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
-      <div class="venue"><span>AAAI 2026 · <b>Oral</b></span></div>
+      <div class="venue"><span>AAAI Conference on Artificial Intelligence (AAAI), 2026 · <b>Oral</b></span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.05 · Accepted: 2025.11</span></div>
       <div class="paper-tldr"><span>In Short:</span> Interprets continual test-time adaptation through sparse neuron activations, routing activation patterns into experts for stable adaptation.</div>
       <div class="links">
@@ -379,7 +379,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️†, Zhuangzhe Wu⭐️, Bowen Sui⭐️, Jiaming Liu⭐️†, et al., Shanghang Zhang📧</div>
-      <div class="venue"><span>ACM MM 2026</span></div>
+      <div class="venue"><span>ACM International Conference on Multimedia (ACM MM), 2026</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2026.03 · Accepted: 2026.07</span></div>
       <div class="paper-tldr"><span>In Short:</span> Enhances vision foundation representations before action decoding, improving VLA policies for precise robot control.</div>
       <div class="links">
@@ -406,7 +406,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
       <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
-      <div class="venue"><span>MICCAI 2022</span></div>
+      <div class="venue"><span>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2022.06 · Accepted: 2022.06</span></div>
       <div class="paper-tldr"><span>In Short:</span> Unifies stain normalization and augmentation with random color-space sampling, improving robustness for histology classification and segmentation.</div>
       <div class="links">
@@ -432,7 +432,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
       <div class="authors">Kun Wu⭐️, Chengkai Hou⭐️, Jiaming Liu⭐️, Zhengping Che⭐️†, Xiaozhu Ju⭐️†, ..., <span class="author-highlight">Yulin Luo</span>, ..., Shanghang Zhang📧, Jian Tang📧</div>
-      <div class="venue"><span>RSS 2025</span></div>
+      <div class="venue"><span>Robotics: Science and Systems (RSS), 2025</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.12 · Accepted: 2025.04</span></div>
       <div class="paper-tldr"><span>In Short:</span> Collects multi-embodiment manipulation data and benchmark protocols to study general robot skills across platforms and tasks.</div>
       <div class="links">
@@ -460,7 +460,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
       <div class="authors">Weifeng Lin⭐️, Xinyu Wei⭐️, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, Siyuan Huang, Shanghang Zhang, Hongsheng Li📧</div>
-      <div class="venue"><span>ICLR 2025</span></div>
+      <div class="venue"><span>International Conference on Learning Representations (ICLR), 2025</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.03 · Accepted: 2025.01</span></div>
       <div class="paper-tldr"><span>In Short:</span> Introduces visual prompting data and benchmarks so MLLMs can follow user-drawn marks, regions, and fine-grained visual intent.</div>
       <div class="links">
@@ -489,7 +489,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
       <div class="authors">Wanxin Tian⭐️, Shijie Zhang⭐️, Kevin Zhang⭐️, Xiaowei Chi, Chun-Kai Fan, Junyu Lu, <span class="author-highlight">Yulin Luo</span>, et al., Shanghang Zhang📧, Jian Tang📧</div>
-      <div class="venue"><span>NeurIPS 2025</span></div>
+      <div class="venue"><span>Advances in Neural Information Processing Systems (NeurIPS), 2025</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2025.06 · Accepted: 2025.09</span></div>
       <div class="paper-tldr"><span>In Short:</span> Uses tree-structured reinforcement fine-tuning to improve embodied-agent reasoning through self-evolving exploration and feedback.</div>
       <div class="links">
@@ -517,7 +517,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
       <div class="paper-short-name">Short name: MoFME</div>
       <div class="authors">Rongyu Zhang, <span class="author-highlight">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, Zhen Dong, et al., Yuan Du📧, Shanghang Zhang📧</div>
-      <div class="venue"><span>AAAI 2024</span></div>
+      <div class="venue"><span>AAAI Conference on Artificial Intelligence (AAAI), 2024</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2023.12 · Accepted: 2023.12</span></div>
       <div class="paper-tldr"><span>In Short:</span> Modulates deweathering experts with uncertainty-aware feature-wise signals for efficient restoration under adverse weather.</div>
       <div class="links">
