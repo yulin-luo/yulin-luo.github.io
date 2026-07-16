@@ -1564,39 +1564,26 @@ a.profile-contact-item:hover {
 .paper-box-text .venue {
   display: inline-flex;
   align-items: center;
-  gap: 0.46rem;
+  box-sizing: border-box;
   max-width: 100%;
   width: fit-content;
   margin: 0.08rem 0 0.62rem;
-  padding: 0.36rem 0.62rem;
-  border: 1px solid rgba(46, 110, 166, 0.24);
-  border-left: 4px solid #2E6EA6;
+  padding: 0.34rem 0.72rem;
+  border: 1px solid #2E6EA6;
   border-radius: 8px;
-  background: linear-gradient(90deg, rgba(46, 110, 166, 0.14) 0%, rgba(46, 110, 166, 0.055) 100%);
-  color: #12345A;
+  background: #2E6EA6;
+  color: #ffffff;
   font-style: normal;
   font-size: 0.90rem;
   font-weight: 780;
   line-height: 1.42;
   letter-spacing: 0;
   white-space: nowrap;
+  box-shadow: 0 5px 14px rgba(46, 110, 166, 0.18);
 }
 
 .paper-box-text .venue::before {
   display: none;
-}
-
-.paper-box-text .venue-label {
-  flex: 0 0 auto;
-  padding: 0.13rem 0.42rem;
-  border-radius: 999px;
-  background: #2E6EA6;
-  color: #ffffff;
-  font-size: 0.62rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-  text-transform: uppercase;
 }
 
 .paper-box-text .paper-tldr {
