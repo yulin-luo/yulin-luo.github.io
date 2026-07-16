@@ -166,6 +166,10 @@ CV 的 `Education` 部分使用正式分行结构，不使用 bullet：
 - 第二行：学位 + 学院/院系。
 - 第三行：导师；本科无导师时写 GPA / rank。
 
+SJTU 本科经历按 2019--2023 的历史归属写：
+`B.Eng. in Automation, School of Electronic Information and Electrical Engineering.`
+不要改成 2024 年后成立/调整的 `School of Automation and Perception`。
+
 更新 CV 论文列表时，`Selected Publications` 默认按以下优先级排序：
 
 1. **作者贡献位次**：
