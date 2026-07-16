@@ -1582,7 +1582,10 @@ a.profile-contact-item:hover {
 }
 
 .paper-box-text .venue::before {
-  content: "Accepted venue";
+  display: none;
+}
+
+.paper-box-text .venue-label {
   flex: 0 0 auto;
   padding: 0.13rem 0.42rem;
   border-radius: 999px;
