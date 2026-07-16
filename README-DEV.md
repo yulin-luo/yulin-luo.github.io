@@ -146,6 +146,69 @@ convert -density 150 figure.pdf -resize 500x300^ output.png
 - 转换后放到 `images/` 目录，并在 `_pages/about.md` 中引用。
 - 注意：某些 arXiv 论文源文件不是标准 gzip 格式，下载可能失败（如 Radiology VLM），此时保留占位图 `images/500x300.png`。
 
+### 4.5 CV Selected Publications 排序规则
+
+线上 CV 文件为 `files/Yulin_Luo_CV.pdf`。当前可维护源文件在：
+
+```text
+/mnt/luoyulin_code/luoyulin/paper/overleaf_cv_review/yulin_resume_62839b2f_20260705/resume_updated_draft.tex
+```
+
+编译目录在：
+
+```text
+/mnt/luoyulin_code/luoyulin/paper/overleaf_cv_review/yulin_resume_62839b2f_20260705/compile_check/
+```
+
+CV 的 `Education` 部分使用正式分行结构，不使用 bullet：
+
+- 第一行：学校名称，右侧时间。
+- 第二行：学位 + 学院/院系。
+- 第三行：导师；本科无导师时写 GPA / rank。
+
+更新 CV 论文列表时，`Selected Publications` 默认按以下优先级排序：
+
+1. **作者贡献位次**：
+   - 第一组：`Yulin Luo` 是最左一作的论文。
+   - 第二组：`Yulin Luo` 是共同一作但不是最左作者的论文。
+   - 第三组：其他合作论文。
+2. **会议等级**：同一作者贡献组内，`CCF-A` 优先于 `CCF-B`。
+3. **时间**：同一贡献组和同一 CCF 等级内，越新越靠前。
+4. **机器人/具身相关性**：作为最后的 tie-break；机器人/具身智能主线论文优先。
+
+当前确认顺序为：
+
+1. Look Before Acting / ACM MM'26 / CCF-A / first author / VLA
+2. RoboBench / ECCV'26 / CCF-B / first author / embodied benchmark
+3. SSD-LLM / ECCV'24 / CCF-B / first author
+4. MoASE / AAAI'26 Oral / CCF-A / co-first author
+5. RandStainNA / MICCAI'22 / CCF-B / co-first author
+6. MoFME / AAAI'24 / CCF-A / collaboration
+7. RoboMIND / RSS'25 / CCF-B / collaboration / embodied data
+
+更新流程：
+
+```bash
+CV_ROOT=/mnt/luoyulin_code/luoyulin/paper/overleaf_cv_review/yulin_resume_62839b2f_20260705
+WEB_ROOT=/mnt/luoyulin_code/luoyulin/experience_v4/personal_web
+
+cp "$CV_ROOT/resume_updated_draft.tex" "$CV_ROOT/compile_check/resume_updated_draft.tex"
+cd "$CV_ROOT/compile_check"
+xelatex -interaction=nonstopmode -halt-on-error resume_updated_draft.tex
+xelatex -interaction=nonstopmode -halt-on-error resume_updated_draft.tex
+
+cp "$CV_ROOT/compile_check/resume_updated_draft.pdf" "$WEB_ROOT/files/Yulin_Luo_CV.pdf"
+cd "$WEB_ROOT"
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+验证顺序：
+
+```bash
+pdftotext files/Yulin_Luo_CV.pdf - | sed -n '/Selected Publications/,/Research Internships/p'
+pdftotext _site/files/Yulin_Luo_CV.pdf - | sed -n '/Selected Publications/,/Research Internships/p'
+```
+
 ---
 
 ## 5. Google Scholar 引用自动更新
