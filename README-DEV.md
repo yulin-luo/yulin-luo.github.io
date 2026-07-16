@@ -160,11 +160,11 @@ convert -density 150 figure.pdf -resize 500x300^ output.png
 /mnt/luoyulin_code/luoyulin/paper/overleaf_cv_review/yulin_resume_62839b2f_20260705/compile_check/
 ```
 
-CV 的 `Education` 部分使用正式分行结构，不使用 bullet：
+CV 的 `Education` 部分使用学校标题 + 轻量 bullet 结构：
 
 - 第一行：学校名称，右侧时间。
-- 第二行：学位 + 学院/院系。
-- 第三行：导师；本科无导师时写 GPA / rank。
+- bullet 1：学位 + 学院/院系。
+- bullet 2：导师；本科无导师时写 GPA / rank。
 
 SJTU 本科经历按 2019--2023 的历史归属写：
 `B.Eng. in Automation, School of Electronic Information and Electrical Engineering.`
