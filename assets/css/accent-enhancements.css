@@ -1566,9 +1566,9 @@ a.profile-contact-item:hover {
   align-items: center;
   gap: 0.46rem;
   max-width: 100%;
-  width: 100%;
+  width: fit-content;
   margin: 0.08rem 0 0.62rem;
-  padding: 0.46rem 0.72rem;
+  padding: 0.36rem 0.62rem;
   border: 1px solid rgba(46, 110, 166, 0.24);
   border-left: 4px solid #2E6EA6;
   border-radius: 8px;
@@ -1579,6 +1579,7 @@ a.profile-contact-item:hover {
   font-weight: 780;
   line-height: 1.42;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .paper-box-text .venue::before {
@@ -1593,7 +1594,7 @@ a.profile-contact-item:hover {
   color: #ffffff;
   font-size: 0.62rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   line-height: 1.2;
   text-transform: uppercase;
 }
