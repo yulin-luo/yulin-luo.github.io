@@ -190,6 +190,14 @@ SJTU 本科经历按 2019--2023 的历史归属写：
 6. MoFME / AAAI'24 / CCF-A / collaboration
 7. RoboMIND / RSS'25 / CCF-B / collaboration / embodied data
 
+跨发布面一致性检查：
+
+- 个人主页 `_pages/about.md`、CV PDF、GitHub profile README 三处都要同步检查。
+- 身份口径统一使用 `Ph.D. candidate`，导师口径统一使用 `Prof. Shanghang Zhang`。
+- 研究定位统一围绕 `open-world generalization for embodied intelligence`，并保持 `Model / Evaluation / Model-Data Co-evolution` 三段叙事一致。
+- SJTU 本科自动化经历按历史归属写 `School of Electronic Information and Electrical Engineering`。
+- GitHub profile 的手写项目 star 总数如果保留，更新时必须重新查 RoboBench、SSDLLM、RoboMIND、RandStainNA 四个 repo 的当前 stars，并更新注释日期。
+
 更新流程：
 
 ```bash

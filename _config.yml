@@ -11,7 +11,7 @@ title                    : "Yulin Luo"
 title_separator          : "-"
 subtitle                 : "Open-World Embodied Intelligence"
 name                     : "Yulin Luo"
-description              : "Yulin Luo is a PhD student at Peking University, working on open-world generalization for embodied intelligence."
+description              : "Yulin Luo is a Ph.D. candidate at Peking University, working on open-world generalization for embodied intelligence."
 url                      : "https://yulin-luo.github.io"
 baseurl                  : ""
 repository               : "yulin-luo/yulin-luo.github.io"
@@ -30,7 +30,7 @@ author:
   name             : "Yulin Luo"
   avatar           : "images/lyl_photo.webp"
   og_image         : "images/lyl_photo.png"
-  bio              : "PhD @ PKU"
+  bio              : "Ph.D. Candidate @ PKU"
   location         : "Beijing, China"
   employer         :
   pubmed           :

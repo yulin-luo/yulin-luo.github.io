@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yulin Luo - Homepage"
-excerpt: "PhD student at Peking University. Research on open-world generalization for embodied intelligence."
+excerpt: "Ph.D. candidate at Peking University. Research on open-world generalization for embodied intelligence."
 author_profile: true
 redirect_from:
   - /about/
@@ -14,7 +14,7 @@ header:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='about-me'></span>
-My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a PhD student (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**, advised by Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University** in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
+My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph.D. candidate (since 2023) at the <a href="https://cs.pku.edu.cn/" class="link-accent">School of Computer Science</a>, **Peking University**, advised by Prof. <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a>. I received my Bachelor's degree in Automation from **Shanghai Jiao Tong University** in 2023. My current vision is <span class="accent-text">open-world generalization for embodied intelligence</span>. More details are available in my <a href="/files/Yulin_Luo_CV.pdf" class="link-accent"><i class="fas fa-file-pdf"></i> curriculum vitae</a>.
 
 <details class="quick-jump-nav">
   <summary aria-label="Open section navigation">
@@ -76,7 +76,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 - *2025.01*: &nbsp;🎉 <a class="news-paper-link" href="#pub-draw-and-understand">Draw-and-Understand</a>, a visual-prompt method that helps MLLMs understand user intent, is accepted to <span class="accent-text">ICLR 2025</span>.
 - *2024.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-ssd-llm">SSD-LLM</a></b>, an LLM-based dataset analyst for discovering subpopulation structure, is accepted to <span class="accent-text">ECCV 2024</span>. (first author)
 - *2023.12*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-mofme">MoFME</a></b>, an uncertainty-aware mixture-of-experts method for efficient image deweathering, is accepted to <span class="accent-text">AAAI 2024</span>.
-- *2023.09*: &nbsp;🎓 Started PhD at Peking University, advised by Prof. Shanghang Zhang.
+- *2023.09*: &nbsp;🎓 Started Ph.D. at Peking University, advised by Prof. Shanghang Zhang.
 - *2023.06*: &nbsp;🎓 Graduated with B.Eng. in Automation from Shanghai Jiao Tong University.
 - *2022.06*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-randstainna">RandStainNA</a></b>, a stain augmentation and normalization method for robust histology slide features, is accepted to <span class="accent-text">MICCAI 2022</span>. (co-first author)
 
@@ -92,7 +92,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <h3>Peking University</h3>
       <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>Ph.D. Candidate</span></div>
       <div class="credential-line"><i class="fas fa-building-columns"></i><span>School of Computer Science</span></div>
-      <div class="credential-line"><i class="fas fa-user-tie"></i><span>Advisor: Assistant Professor <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a></span></div>
+      <div class="credential-line"><i class="fas fa-user-tie"></i><span>Advisor: Prof. <a href="https://scholar.google.cz/citations?user=voqw10cAAAAJ&hl=zh-CN" class="link-accent">Shanghang Zhang</a></span></div>
     </div>
   </div>
   <div class="credential-card floating-card">
@@ -101,6 +101,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="credential-content">
       <h3>Shanghai Jiao Tong University</h3>
       <div class="credential-line"><i class="fas fa-graduation-cap"></i><span>B.Eng. in Automation</span></div>
+      <div class="credential-line"><i class="fas fa-building-columns"></i><span>School of Electronic Information and Electrical Engineering</span></div>
       <div class="credential-line"><i class="fas fa-chart-line"></i><span>GPA: 3.87/4.30; Major rank: 2/89.</span></div>
     </div>
   </div>
@@ -378,6 +379,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     </div>
     <div class='paper-box-text'>
       <h3>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</h3>
+      <div class="paper-short-name">Short name: DeepVision-VLA</div>
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️†, Zhuangzhe Wu⭐️, Bowen Sui⭐️, Jiaming Liu⭐️†, et al., Shanghang Zhang📧</div>
       <div class="venue"><span>ACM International Conference on Multimedia (ACM MM), 2026</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2026.03 · Accepted: 2026.07</span></div>
