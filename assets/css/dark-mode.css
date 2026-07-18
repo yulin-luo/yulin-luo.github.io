@@ -431,3 +431,17 @@ html[data-theme="dark"] .friend-link:hover {
 html[data-theme="dark"] .friends-note {
   color: #8fa2b8 !important;
 }
+
+
+/* --- 紧凑卡 Figures 展开钮 --- */
+html[data-theme="dark"] .paper-more summary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #d8e1ec !important;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+html[data-theme="dark"] .paper-more summary:hover,
+html[data-theme="dark"] .paper-more[open] summary {
+  color: #ff9fae !important;
+  border-color: rgba(254, 102, 123, 0.45);
+}

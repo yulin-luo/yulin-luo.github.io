@@ -2672,3 +2672,81 @@ a.profile-contact-item:hover {
   font-size: 0.82rem;
   font-style: italic;
 }
+
+
+/* --- 非一作论文紧凑卡 + 可展开 Figures --- */
+.paper-box.paper-box-compact {
+  display: block !important;
+}
+
+.paper-box.paper-box-compact .paper-box-text {
+  padding: 1.05rem 1.35rem !important;
+}
+
+.paper-more {
+  margin-top: 0.6rem;
+}
+
+.paper-more summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.78rem;
+  border: 1px solid rgba(1, 47, 99, 0.14);
+  border-radius: 999px;
+  background: rgba(1, 47, 99, 0.04);
+  color: #012F63;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+  transition: all 0.2s ease;
+}
+
+.paper-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-more summary i {
+  color: #FE667B;
+  font-size: 0.82rem;
+}
+
+.paper-more summary:hover {
+  border-color: rgba(254, 102, 123, 0.45);
+  color: #C7355A;
+}
+
+.paper-more[open] summary {
+  background: rgba(254, 102, 123, 0.08);
+  border-color: rgba(254, 102, 123, 0.35);
+  color: #C7355A;
+}
+
+.paper-more .paper-box-image {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  flex: none !important;
+  padding: 0.85rem 0 0 !important;
+}
+
+.paper-more .paper-box-image-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-auto-flow: column;
+  gap: 0.25rem 0.9rem;
+  align-items: start;
+}
+
+.paper-more .paper-box-image-duo .paper-image-link img {
+  max-height: 230px;
+}
+
+@media (max-width: 768px) {
+  .paper-more .paper-box-image-duo {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+}
