@@ -31,6 +31,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <a href="#services"><i class="fas fa-glasses"></i><span>Services</span></a>
     <a href="#interests"><i class="fas fa-futbol"></i><span>Interests</span></a>
     <a href="#travel"><i class="fas fa-plane"></i><span>Travel</span></a>
+    <a href="#friends"><i class="fas fa-link"></i><span>Friends</span></a>
   </nav>
 </details>
 
@@ -663,6 +664,19 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </figure>
     </div>
   </div>
+</div>
+
+<span class='anchor' id='friends'></span>
+# 🔗 Academic Friends
+<div class="friends-card floating-card">
+  <p class="friends-text">
+    My academic friends include
+    {% for group in site.data.friends %}
+      {% for member in group.members %}{% if forloop.last and group.members.size > 1 %}and {% endif %}{% if member.url %}<a class="friend-link" href="{{ member.url }}" target="_blank" rel="noopener">{{ member.name }}</a>{% else %}<span>{{ member.name }}</span>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      from {{ group.affiliation }}{% unless forloop.last %}; {% else %}.{% endunless %}
+    {% endfor %}
+  </p>
+  <p class="friends-note">Too many friends to list everyone — let me know if I forgot you 😂</p>
 </div>
 
 <script>

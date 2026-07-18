@@ -413,3 +413,21 @@ html[data-theme="dark"] .award-item-name {
 html[data-theme="dark"] .award-item-year {
   color: #8fa2b8 !important;
 }
+
+
+/* --- Academic Friends --- */
+html[data-theme="dark"] .friends-text {
+  color: #d8e1ec !important;
+}
+
+html[data-theme="dark"] .friend-link {
+  color: #9db8d9 !important;
+}
+
+html[data-theme="dark"] .friend-link:hover {
+  color: #FE667B !important;
+}
+
+html[data-theme="dark"] .friends-note {
+  color: #8fa2b8 !important;
+}

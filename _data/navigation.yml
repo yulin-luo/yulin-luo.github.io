@@ -25,3 +25,6 @@ main:
 
   - title: "Travel"
     url: "/#travel"
+
+  - title: "Friends"
+    url: "/#friends"

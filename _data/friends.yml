@@ -1,0 +1,8 @@
+# Academic Friends 名单：每个分组一个单位（affiliation 可带国旗 emoji），
+# members 里 name 必填，url 可留空（留空则只显示文字不生成链接）。
+# 之后告诉我要加谁，直接改这个文件即可。
+
+- affiliation: "PKU 🇨🇳"
+  members:
+    - name: "Gaole Dai"
+      url: "https://daviddaiiiii.github.io/"

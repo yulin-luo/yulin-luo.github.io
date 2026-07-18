@@ -2638,3 +2638,37 @@ a.profile-contact-item:hover {
 .paper-image-link {
   cursor: zoom-in;
 }
+
+
+/* --- Academic Friends 卡片 --- */
+.friends-card {
+  padding: 1.15rem 1.35rem;
+  margin: 0.8rem 0 1.55rem;
+}
+
+.friends-text {
+  margin: 0;
+  color: #2d3748;
+  font-size: 0.95rem;
+  line-height: 1.85;
+}
+
+.friend-link {
+  color: #012F63;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(254, 102, 123, 0.45);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.friend-link:hover {
+  color: #FE667B;
+  border-bottom-color: #FE667B;
+}
+
+.friends-note {
+  margin: 0.55rem 0 0;
+  color: #667085;
+  font-size: 0.82rem;
+  font-style: italic;
+}
