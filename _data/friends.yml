@@ -4,5 +4,16 @@
 
 - affiliation: "PKU 🇨🇳"
   members:
+    - name: "Chun-Kai Fan"
+      url: "https://scholar.google.com/citations?user=TxeAbWkAAAAJ&hl=zh-CN"
     - name: "Gaole Dai"
       url: "https://daviddaiiiii.github.io/"
+    - name: "Ruichuan An"
+      url: "https://arctanxarc.github.io/"
+    - name: "Jiaming Liu"
+      url: "https://liujiaming1996.github.io/"
+
+- affiliation: "NJU 🇨🇳"
+  members:
+    - name: "Rongyu Zhang"
+      url: "https://rongyu.me/"
