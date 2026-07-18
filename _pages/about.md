@@ -623,25 +623,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div class="interest-intro">
     <div class="interest-title">Academic Conferences</div>
     <div class="interest-text">
-      Conferences double as my way to see the world: <b>ECCV 2024</b> in Milan, Italy, and <b>ICLR 2025</b> in Singapore —
+      Conferences double as my way to see the world: <b>ICLR 2025</b> in Singapore, and <b>ECCV 2024</b> in Milan, Italy —
       with hopefully many more stamps in the passport to come.
-    </div>
-  </div>
-  <div class="travel-group">
-    <div class="travel-group-title"><i class="fas fa-location-dot"></i> ECCV 2024 · Milan, Italy</div>
-    <div class="interest-photos interest-photos-quad">
-      <figure class="interest-photo">
-        <img src="images/conference/eccv2024_1.webp" alt="Ponte Vecchio and the Arno river, Italy" width="1080" height="1080" decoding="async" loading="lazy">
-      </figure>
-      <figure class="interest-photo">
-        <img src="images/conference/eccv2024_2.webp" alt="Varenna and Lake Como views, Italy" width="1080" height="1080" decoding="async" loading="lazy">
-      </figure>
-      <figure class="interest-photo">
-        <img src="images/conference/eccv2024_3.webp" alt="Mandello del Lario railway station, Italy" width="1080" height="1080" decoding="async" loading="lazy">
-      </figure>
-      <figure class="interest-photo">
-        <img src="images/conference/eccv2024_4.webp" alt="Lake Como ferry docks and lakeside, Italy" width="1080" height="1080" decoding="async" loading="lazy">
-      </figure>
     </div>
   </div>
   <div class="travel-group">
@@ -658,6 +641,23 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </figure>
       <figure class="interest-photo">
         <img src="images/conference/iclr2025_4.webp" alt="Beach swings and seaside in Singapore" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+    </div>
+  </div>
+  <div class="travel-group">
+    <div class="travel-group-title"><i class="fas fa-location-dot"></i> ECCV 2024 · Milan, Italy</div>
+    <div class="interest-photos interest-photos-quad">
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_1.webp" alt="Ponte Vecchio and the Arno river, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_2.webp" alt="Varenna and Lake Como views, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_3.webp" alt="Mandello del Lario railway station, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_4.webp" alt="Lake Como ferry docks and lakeside, Italy" width="1080" height="1080" decoding="async" loading="lazy">
       </figure>
     </div>
   </div>
