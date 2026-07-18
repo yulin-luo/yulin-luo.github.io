@@ -29,6 +29,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <a href="#publications"><i class="fas fa-file-lines"></i><span>Publications</span></a>
     <a href="#awards"><i class="fas fa-trophy"></i><span>Awards</span></a>
     <a href="#services"><i class="fas fa-glasses"></i><span>Services</span></a>
+    <a href="#love"><i class="fas fa-heart"></i><span>Love</span></a>
     <a href="#interests"><i class="fas fa-futbol"></i><span>Interests</span></a>
     <a href="#travel"><i class="fas fa-plane"></i><span>Travel</span></a>
     <a href="#friends"><i class="fas fa-link"></i><span>Friends</span></a>
@@ -564,13 +565,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 </div>
 <!-- TODO(可选): 期刊审稿 -->
 
-<span class='anchor' id='interests'></span>
-# ⚽ Interests
+<span class='anchor' id='love'></span>
+# ❤️ Love
 <div class="interest-card floating-card">
   <div class="interest-header">
-    <img class="interest-hero interest-hero-tall" src="images/interest/girlfriend.webp" alt="My lovely girlfriend in a blossom garden" width="900" height="1200" decoding="async" loading="lazy">
+    <img class="interest-hero interest-hero-tall" src="images/interest/girlfriend.webp" alt="My lovely girlfriend" width="900" height="1200" decoding="async" loading="lazy">
     <div class="interest-intro">
-      <div class="interest-title">Love · My Girl</div>
+      <div class="interest-title">My Girl</div>
       <div class="interest-text">
         Lucky beyond words to have her — my lovely girlfriend,
         who makes the good days sweeter and the hard research days lighter.
@@ -579,6 +580,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 
+<span class='anchor' id='interests'></span>
+# ⚽ Interests
 <div class="interest-card floating-card">
   <div class="interest-header">
     <img class="interest-hero" src="images/interest/neuer.webp" alt="Manuel Neuer in the FC Bayern goalkeeper kit" width="550" height="418" decoding="async" loading="lazy">
