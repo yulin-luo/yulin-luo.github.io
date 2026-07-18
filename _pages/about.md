@@ -610,6 +610,20 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 
+<div class="interest-card floating-card">
+  <div class="interest-intro">
+    <div class="interest-title">Badminton · Lab Team</div>
+    <div class="interest-text">
+      Regular badminton player with my lab mates — we entered the <b>school badminton tournament</b> together and came home with medals.
+      Nothing resets the brain after a long research day like a few hard-fought rallies on court.
+    </div>
+  </div>
+  <figure class="interest-photo interest-photo-wide">
+    <img src="images/interest/badminton.webp" alt="Lab team with medals at the school badminton tournament" width="1800" height="1350" decoding="async" loading="lazy">
+    <figcaption>Lab team at the school badminton tournament, PKU · medal night</figcaption>
+  </figure>
+</div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.getElementById('publications-wrapper');

@@ -2413,3 +2413,23 @@ a.profile-contact-item:hover {
     height: 12rem;
   }
 }
+
+
+.interest-card + .interest-card {
+  margin-top: -0.2rem;
+}
+
+.interest-photo-wide {
+  margin-top: 0.85rem;
+}
+
+.interest-photo-wide img {
+  height: 22rem;
+  object-position: center 35%;
+}
+
+@media (max-width: 720px) {
+  .interest-photo-wide img {
+    height: 13rem;
+  }
+}
