@@ -99,7 +99,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 <div class='paper-box floating-card' data-tags="First/Co-First Author, Conference, CCF-A, Embodied AI, Benchmark">
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ECCV 2026</div>
-    <img src='images/robobench.png' alt="RoboBench teaser" width="100%">
+    <img src='images/robobench.webp' alt="RoboBench teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Paper Title</h3>

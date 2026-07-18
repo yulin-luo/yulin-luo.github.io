@@ -1,0 +1,169 @@
+URL: https://rongyu.me/
+HTML bytes: 62152
+
+TITLE:
+Rongyu Zhang - Homepage
+
+HEADINGS:
+H3: Rongyu Zhang
+H1: 👤 Biography
+H3: 🔬 AI Researcher
+H3: ✍️ Given Credits
+H3: ☎️ Contact Info
+H3: 🗺️ Research Path
+H1: 🎓 Educations
+H1: 🔥 News
+H4: 📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what
+H1: 📝 Publications
+H2: 📒 Selected publications
+H1: 💰 Grants
+H1: 🥇 Awards
+H1: 💼 Services
+H4: Journal reviewer
+H4: Conference reviewer
+H1: 💻 Internships
+H1: 🎤 Talks
+H1: 🧑‍🏫 Teaching
+H1: 😄 Miscellaneous
+H3: ❤️ Family
+H3: 🧑‍🤝‍🧑 Friends
+H3: 😄 Hobbies
+
+REPRESENTATIVE LINKS:
+- upgrade your browser: http://browsehappy.com/
+- Homepage: #about-me
+- About Me: /#about-me
+- Educations: /#-educations
+- News: /#-news
+- Publications: /#-publications
+- Grants: /#-grants
+- Awards: /#-awards
+- Services: /#-services
+- Internships: /#-internships
+- Talks: /#-talks
+- Teaching: /#-teaching
+- Miscellaneous: /#-miscellaneous
+- Email: mailto:rongyuzhang@smail.nju.edu.cn
+- Twitter: https://twitter.com/RoyZry98
+- LinkedIn: https://www.linkedin.com/in/rongyu-zhang-2b94a82a5
+- Instagram: https://instagram.com/royzry
+- Github: https://github.com/RoyZry98
+- Google Scholar: https://scholar.google.com/citations?user=rRcc9eoAAAAJ
+- (no label): https://github.com/RoyZry98
+- (no label): https://scholar.google.com/citations?user=rRcc9eoAAAAJ
+- Prof. Yuan Du: https://iscl.nju.edu.cn/42925/list.htm
+- Prof. Dan Wang: https://wangdan.people.ust.hk/
+- Prof. Shanghang Zhang: https://www.shanghangzhang.com
+- Prof. Fangxin Wang: https://mypage.cuhk.edu.cn/academics/wangfangxin/
+- My CV: assets/curriculum_vitae.pdf
+- (no label): https://scholar.google.com/citations?user=rRcc9eoAAAAJ&amp;hl=zh-CN
+- (no label): https://github.com/RoyZry98
+- Room 2728, Science Building No. 2, Peking University, Beijing, China: https://www.google.com/maps/search/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%90%86%E7%A7%91%E4%BA%8C%E5%8F%B7%E6%A5%BC/@39.990772,116.3112251,17z/data=!3m1!4b1?entry=ttu&amp;g_ep=Ego
+- Prof. Shanghang Zhang: https://www.shanghangzhang.com/
+- Prof. Dan Wang: https://web.comp.polyu.edu.hk/csdwang/
+- [Paper]: https://arxiv.org/pdf/2405.16486
+- [Code]: https://github.com/RoyZry98/MoASE-Pytorch
+- [Paper]: https://arxiv.org/abs/2503.20384
+- [Code]: https://github.com/RoyZry98/MoLe-VLA-Pytorch
+- [Paper]: https://arxiv.org/pdf/2604.19683
+- [Code]: https://github.com/LYFCLOUDFAN/mask-world-model
+- [Paper]: https://ieeexplore.ieee.org/abstract/document/10989558/
+- [Code]: https://github.com/RoyZry98/RepCaM-Pytorch
+- [Paper]: https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055
+- [Code]: https://github.com/RoyZry98/MoFME-Pytorch
+- PDF: https://arxiv.org/pdf/2604.19683
+- Code: https://github.com/LYFCLOUDFAN/mask-world-model
+- PDF: https://arxiv.org/pdf/2505.18049
+- Code: https://github.com/zhenwuweihe/SpikeGen
+- PDF: https://arxiv.org/pdf/2405.16486
+- Code: https://github.com/RoyZry98/MoASE-Pytorch
+- PDF: http://arxiv.org/abs/2503.20384
+- Code: https://github.com/RoyZry98/MoLe-VLA-Pytorch
+- PDF: https://arxiv.org/pdf/2509.22583
+
+IMAGES:
+- images/icon.png
+- https://img.shields.io/badge/Google%20Scholar-1045%20Citations-9cf?logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;style=flat
+- https://img.shields.io/badge/GitHub-Stars%20350-9cf?logo=GitHub&amp;labelColor=f6f6f6&amp;color=EC707D&amp;logoColor=000000&amp;style=flat
+- images/path.png
+- images/polyu_.png
+- images/nju_.png
+- images/cuhk_.png
+- images/qmul_.png
+- images/moase.png
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social
+- images/mole.png
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social
+- images/mwm.png
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/LYFCLOUDFAN/mask-world-model?style=social
+- images/tmc_utmp.png
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social
+- images/mm.png
+- https://img.shields.io/badge/CCF-A-red
+- images/aaai.png
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch?style=social
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/LYFCLOUDFAN/mask-world-model?style=social
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/zhenwuweihe/SpikeGen?style=social
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor?style=social
+- https://img.shields.io/badge/CAS-Q1-red
+- https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/badge/CCF-A-red
+- https://img.shields.io/github/stars/litwellchi/EmbodiedVideoAnticipator?style=social
+
+COMMON CLASS TOKENS:
+- button-59: 50
+- star-badge: 19
+- highlight-text: 15
+- masthead__menu-item: 12
+- fa-fw: 12
+- article-metadata: 10
+- middot-divider-big: 10
+- fas: 9
+- fab: 8
+- anchor: 8
+- highlight-block: 7
+- paper-box: 6
+- paper-box-image: 6
+- badge: 6
+- paper-box-text: 6
+- fa-li: 5
+- fa-clipboard-list: 5
+- nowrap: 5
+- filter: 4
+- highlight-blocks: 3
+- no-js: 2
+- author__avatar: 2
+- fa-envelope: 2
+- fa-twitter-square: 2
+- fa-linkedin: 2
+- fa-instagram: 2
+- fa-github: 2
+- fa-graduation-cap: 2
+- blue-text: 2
+- notice--danger: 1
+- align-center: 1
+- masthead: 1
+- masthead__inner-wrap: 1
+- masthead__menu: 1
+- greedy-nav: 1
+- navicon: 1
+- visible-links: 1
+- masthead__menu-item--lg: 1
+- masthead__menu-home-item: 1
+- hidden-links: 1
+
+TEXT SAMPLE:
+Rongyu Zhang - Homepage You are using an outdated browser. Please upgrade your browser to improve your experience. Homepage About Me Educations News Publications Grants Awards Services Internships Talks Teaching Miscellaneous Rongyu Zhang NJU & PolyU More Info & Contact --> Dual Ph.D. Candidate majoring in EE & CS. Email Twitter LinkedIn Instagram Github Google Scholar 👤 Biography Rongyu is a third-year dual Ph.D. candidate at Nanjing University and The Hong Kong Polytechnic University , where he is co-supervised by Prof. Yuan Du and Prof. Dan Wang . He is also a long-term visiting student at Peking University under the supervision of Prof. Shanghang Zhang . Previously, he received the M.Phil. degree from The Chinese University of Hong Kong, Shenzhen , supervised by Prof. Fangxin Wang , and the B.Sc. degree from the Queen Mary University of London . He has published over 20 papers in top-tier CCF-A and CAS-Q1 international conferences and journals such as Nature Computational Science , NeurIPS , ICML , CVPR , AAAI , TMC , and TCSVT , etc. Feel free to reach out, or learn more from My CV . 🔬 AI Researcher Research focus on efficient and generalization learning Efficiency: Dynamic Neural Network Multimodal Generalization: Embodied AI including Robotics and Autonomous Driving ✍️ Given Credits NSFC Youth Student Basic Research Program (Ph.D. Candidate) CAST Young S&amp;T Talents Support Doctoral Student Program ☎️ Contact Info Address: Room 2728, Science Building No. 2, Peking University, Beijing, China Phone: +(86) 188-1305-1303 Email: royz981203@hotmail.com rongyu.zhang@connect.polyu.hk 🗺️ Research Path 🎓 Educations The Hong Kong Polytechnic University (2023.09-Present) Dual Ph.D. in Computing Science Nanjing University (2023.09-Present) Dual Ph.D. in Electrical Science and Technology The Chinese University of Hong Kong, Shenzhen (2021.09-2023.03) M.Phil. in Computer and Information Engineering Queen Mary University of London (2017.09-2021.06) B.Sc. (Engineering) with Honours, Second Class (Upper) 🔥 News 📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me. [06.2026] 📕 I am selected for the 2026 Nanjing University PhD Student Zhujian Program (铸剑计划) . [05.2026] 🎉 One paper MWM was accepted by ICML 2026 (CCF-A) as project leader. [01.2026] 🎉 One paper SpikeGen was accepted by ICLR 2026 (CCF-A) as co-first author. [12.2025] 📕 I am selected for the 2025 National Natural Science Foundation of China (国家自然科学基金) Youth Student Basic Research Program (Ph.D. Candidate) [11.2025] 🎉 Two paper MoASE and MoLe-VLA were accepted by AAAI 2026 as Oral and Poster, respectively (CCF-A). [09.2025] 🎉 One paper Orochi was accepted by NeurlPS 2026 as Spotlight (CCF-A). [05.2025] 📕 I am selected for the China Education Development Foundation (中国教育基金会) "Endeavor Scholarship — Integrated Circuit Talent Development" Program (93 recipients nationwide). [05.2025] 🎉 One paper INIF was accepted by Nature Computational Science (CAS-Q1) as co-first author. [05.2025] 🎉 One paper UTMP was accepted by IEEE TMC (CCF-A) as first author. [05.2025] 🎉 One paper EVA was accepted by ICML 2025 (CCF-A). [04.2025] 🎉 One paper FBQuant was accepted by IJCAI 2025 (CCF-A). [04.2025] 🎉 One paper RepCaM++ was accepted by IEEE TMC (CCF-A) as first author. [03.2025] 💻 PAT (AAAI'25) has been applied to Samsung’s on-device applications for smartphones and TVs. [01.2025] 📕 I am selected for the first Doctoral Student Program of the Young S&amp;T Talents Support Project, China Association for Science and Technology (中国科协) [12.2024] 🎉 One paper BEVUDA++ was accepted by IEEE TCSVT (CAS-Q1) as first author. [12.2024] 🎉 One paper PAT was accepted by AAAI 2025 (CCF-A). [12.2024] 🏅 I was named "Outstanding Ph.D. Candidate" by NJU. [11.2024] 💰 I was offered "Bank of Jiangsu" Scholarship from NJU. [09.2024] 💻 The Panasonic Corporation is integrating the VeCAF (MM'24) into its actual business operations. [08.2024] 💼 I joined the Beijing Academy of Artificial Intelligence supervised by Prof. Shanghang Zhang . [07.2024] 🎉 One paper VeCAF was accepted by ACMMM 2024 (CCF-A) as first author. [07.2024] 🎓 I am offered a dual Ph.D. at The Hong Kong Polytechnic University supervised by Prof. Dan Wang . [05.2024] 🎉 One paper MuPFL was accepted by IEEE TMC (CCF-A) as first author. [04.2024] 📕 Our project: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation, has been selected as one of the Jiangsu Province Graduate Research and Practical Innovation Projects . [03.2024] 💻 The Panasonic Corporation is integrating the MoFME (AAAI'24) into its actual business operations. [01.2024] 🎉 One paper BEVUDA was accepted by IEEE ICRA 2024 (CCF-B) as first author. [12.2023] 🎉 One paper MoFME was accepted by AAAI 2024 (CCF-A) as first author. [08.2023] 🏅 We won 2nd place in the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentatio

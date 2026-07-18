@@ -1,4 +1,76 @@
-<!-- 页脚信息 -->
-<footer class="site-footer" style="text-align: center; padding: 20px; font-size: 0.8em; color: #666;">
-  <p>Updated at {{ site.time | date: '%Y-%m-%d' }} | Thanks <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank">Raye Ren</a> and <a href="https://jxtse.github.io" target="_blank">Jinxiang Xie</a> for this amazing template</p>
-</footer> 
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <div class="footer-name">Yulin Luo <span class="footer-name-cn">罗峪霖</span></div>
+      <div class="footer-tag">Open-world generalization for embodied intelligence</div>
+    </div>
+    <nav class="footer-col footer-links" aria-label="Footer sections">
+      <div class="footer-heading">Sections</div>
+      <a href="#about-me">About Me</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Awards</a>
+    </nav>
+    <div class="footer-col footer-connect">
+      <div class="footer-heading">Connect</div>
+      <div class="footer-icons">
+        {% if author.email %}<a href="mailto:{{ author.email }}" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+        {% if author.github %}<a href="https://github.com/{{ author.github }}" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+        {% if author.googlescholar %}<a href="{{ author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>{% endif %}
+        {% if author.xiaohongshu %}<a href="{{ author.xiaohongshu }}" aria-label="Xiaohongshu" title="Xiaohongshu"><i class="fas fa-book-open"></i></a>{% endif %}
+        <a href="{{ '/files/Yulin_Luo_CV.pdf' | relative_url }}" aria-label="Curriculum Vitae" title="CV"><i class="fas fa-file-pdf"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© {{ 'now' | date: '%Y' }} Yulin Luo · Powered by Jekyll · Updated {{ site.time | date: '%Y-%m-%d' }}</span>
+    <span>Thanks <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank" rel="noopener">Raye Ren</a> and <a href="https://jxtse.github.io" target="_blank" rel="noopener">Jinxiang Xie</a> for the template</span>
+  </div>
+</footer>
+
+<script>
+// 主题切换：初始化由 head/custom.html 的内联脚本完成（避免闪烁），这里只接管按钮
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.getElementById('theme-toggle');
+  if (toggle) {
+    var syncIcon = function() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      var icon = toggle.querySelector('i');
+      if (icon) icon.className = dark ? 'fas fa-sun' : 'fas fa-moon';
+      toggle.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    };
+    toggle.addEventListener('click', function() {
+      var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('site-theme', next); } catch (e) {}
+      syncIcon();
+    });
+    syncIcon();
+  }
+
+  // 导航 scrollspy：高亮当前 section 对应的 masthead 链接
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.masthead__menu-item a[data-section]'));
+  if (navLinks.length && 'IntersectionObserver' in window) {
+    var bySectionId = {};
+    navLinks.forEach(function(link) { bySectionId[link.dataset.section] = link; });
+    var sections = Object.keys(bySectionId)
+      .map(function(id) { return document.getElementById(id); })
+      .filter(Boolean);
+    var setActive = function(id) {
+      navLinks.forEach(function(link) {
+        link.classList.toggle('active', link.dataset.section === id);
+      });
+    };
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) setActive(entry.target.id);
+      });
+    }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+    sections.forEach(function(section) { observer.observe(section); });
+  }
+});
+</script>

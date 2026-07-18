@@ -1,0 +1,157 @@
+URL: https://tianxingchen.github.io/
+HTML bytes: 81064
+
+TITLE:
+Tianxing Chen (陈天行)
+
+HEADINGS:
+H1: Tianxing Chen
+H2: News
+H2: Education
+H2: Entrepreneurship
+H2: Research Experience
+H2: Publications &nbsp; [My Google Scholar]
+H2: Honors &amp; Academic Awards
+H2: Programming Competition Awards
+H2: Open-source Projects
+H2: Academic Services
+H2: Invited Talks
+
+REPRESENTATIVE LINKS:
+- Lumina Embodied AI Community: https://lumina-embodied.ai/
+- MMLab@HKU: https://mmlab.hk/
+- Prof. Ping Luo: https://luoping.me/
+- (no label): https://github.com/TianxingChen
+- (no label): https://scholar.google.com/citations?user=pvS8MH8AAAAJ&hl=en
+- Lumina Embodied AI Community: https://lumina-embodied.ai/
+- MMLab@HKU: https://mmlab.hk/
+- Prof. Ping Luo: https://luoping.me/
+- TianxingChen (陈天行): https://www.xiaohongshu.com/user/profile/618fe930000000001000afe7
+- Lumina具身智能社区: https://lumina-embodied.ai/
+- MMLab@HKU: https://mmlab.hk/
+- 罗平教授: https://luoping.me/
+- TianxingChen (陈天行): https://www.xiaohongshu.com/user/profile/618fe930000000001000afe7
+- Email: mailto:chentianxing2002@gmail.com
+- 邮箱: mailto:chentianxing2002@gmail.com
+- Email: mailto:chentianxing2002@gmail.com
+- Scholar: https://scholar.google.com/citations?user=pvS8MH8AAAAJ&hl=en
+- GitHub: https://github.com/TianxingChen
+- X: https://x.com/MarioChan2002
+- Rednote: https://www.xiaohongshu.com/user/profile/618fe930000000001000afe7
+- Bilibili: https://space.bilibili.com/520068753?spm_id_from=333.1007.0.0
+- Zhihu: https://www.zhihu.com/people/mario-chen-65
+- WeChat: ./assets/files/my_wechat.png
+- ManiTwin: https://manitwin.github.io/
+- RMBench: https://rmbench.github.io/
+- Embodied-AI-Guide: https://github.com/TianxingChen/Embodied-AI-Guide
+- TriFusion Workshop: https://trifusion.b12sites.com/
+- [Report]: https://www.mittrchina.com/news/detail/15038
+- [arXiv]: https://arxiv.org/abs/2506.23351
+- [Acknowledgements]: ./blog/posts/2025-bachelor-acknowledgement.html
+- Shanghai AI Laboratory: https://www.shlab.org.cn/
+- [Report]: https://mp.weixin.qq.com/s/JQpr91qI14_ukdfJMDalTw
+- [Report]: https://mp.weixin.qq.com/s/JQpr91qI14_ukdfJMDalTw
+- The University of Hong Kong (HKU): https://www.hku.hk/
+- School of Computing and Data Science (CDS): https://www.cs.hku.hk/
+- MMLab@HKU: https://mmlab.hk/
+- Ping Luo: https://luoping.me/
+- Shenzhen University (SZU): https://www.szu.edu.cn/
+- College of Computer Science and Software Engineering (CSSE): https://csse.szu.edu.cn/
+- Xspark AI: https://www.hku.hk/
+- xsparkai.com: https://xsparkai.com/
+- Lumina Embodied AI Community: https://www.szu.edu.cn/
+- lumina-embodied.ai: https://lumina-embodied.ai/
+- Edge Team: https://seed.bytedance.com/en/seed-edge
+- ScaleLab: https://scalelab-sjtu.github.io/
+- OpenGVLab: https://github.com/opengvlab
+- [My Google Scholar]: https://scholar.google.com/citations?user=YOUR_ID
+- RoboTwin 2.0 (ICML 2026): https://RoboTwin-Platform.github.io/
+- RMBench (Under Review): https://rmbench.github.io/
+- G3Flow (CVPR 2025): https://tianxingchen.github.io/G3Flow
+
+IMAGES:
+- assets/files/avatar/avatar.jpg
+- https://img.shields.io/badge/GitHub_Stars-14639-181717?style=flat&logo=github&logoColor=white
+- https://img.shields.io/badge/Citations-1016-4285F4?style=flat&logo=google-scholar&logoColor=white
+- https://img.shields.io/badge/Rednote_Followers-20k+-FF2442?style=flat&logo=xiaohongshu&logoColor=white
+- assets/files/icon/email.png
+- assets/files/icon/google_scholar.png
+- assets/files/icon/github_s.jpg
+- assets/files/icon/X_icon.png
+- assets/files/icon/xiaohongshu.png
+- assets/files/icon/bilibili.png
+- assets/files/icon/zhihu.png
+- assets/files/icon/wechat.png
+- assets/files/photo/2025-d-robotics-developer.jpg
+- assets/files/photo/2025-cicc-lumina.jpg
+- assets/files/award/2025-mit-technology-review.jpg
+- assets/files/photo/2025-graduation.jpg
+- assets/files/photo/highlight/2025-lz-2.jpg
+- assets/files/photo/highlight/2025-lz.jpg
+- assets/files/photo/2024-szu_open_day.jpg
+- assets/files/photo/highlight/1.jpg
+- assets/files/photo/highlight/2.jpg
+- assets/files/photo/highlight/3.jpg
+- assets/files/photo/2023-lyzf.jpg
+- assets/files/photo/CCF_youda.jpg
+- assets/files/photo/CCF-ctx.jpg
+- assets/files/photo/highlight/gdcpc.jpg
+- assets/files/institute/HKU-CDS.png
+- assets/files/institute/szu.jpg
+- assets/files/institute/xsparkai.png
+- assets/files/institute/lumina-logo.png
+- assets/files/institute/ByteDance_seed.png
+- assets/files/institute/sjtu.png
+- assets/files/institute/shlab_long.webp
+- assets/files/work/2026-rmbench.jpg
+- assets/files/work/2024-G3Flow.gif
+- assets/files/work/2026-syndexman.png
+- assets/files/work/2026-agent-last-exam.jpg
+- assets/files/work/2025-garmentpile++.jpg
+- assets/files/work/2026-rmbench.jpg
+- assets/files/work/2026-univtac.png
+
+COMMON CLASS TOKENS:
+- pub-link: 91
+- news-item: 38
+- news-date: 38
+- news-content: 38
+- h-year: 25
+- news-hidden: 24
+- pub-item: 24
+- pub-thumb: 24
+- pub-body: 24
+- pub-title: 24
+- pub-authors: 24
+- pub-venue: 24
+- venue-name: 24
+- pub-links: 24
+- self: 22
+- honors-hidden: 20
+- unseen-section-divider: 11
+- honor-card: 11
+- honor-card-media: 11
+- honor-card-img: 11
+- honor-card-body: 11
+- award-name: 11
+- award-event: 11
+- section-title: 10
+- talk-entry: 10
+- talk-date: 10
+- talk-desc: 10
+- social-btn: 8
+- p-year: 7
+- proj-meta: 6
+- pub-award: 5
+- svc-item: 5
+- svc-year: 5
+- svc-thumb: 5
+- svc-content: 5
+- svc-name: 5
+- svc-role: 5
+- svc-desc: 5
+- edu-item: 4
+- edu-years: 4
+
+TEXT SAMPLE:
+Tianxing Chen (陈天行) Tianxing Chen 💻 Co-Founder & CTO of Xspark AI · 🎓 PhD Student at MMLab@HKU · 🎙️ Founder of Lumina EAI Community TC Hi! I am Tianxing Chen (Chinese name: 陈天行) , Co-Founder and CTO of Xspark AI, founder of Lumina Embodied AI Community , and also a Ph.D. student at MMLab@HKU , The University of Hong Kong (since Oct. 2025), supervised by Prof. Ping Luo . My research focuses on Embodied AI Infra, including Robotic Foundation Model, Data Generator and Evaluation. Detailed Profile (详细个人介绍) Hi! I am Tianxing Chen (Chinese name: 陈天行) , Co-Founder and CTO of Xspark AI, founder of Lumina Embodied AI Community , and also a first-year Ph.D. student at MMLab@HKU , The University of Hong Kong (since Oct. 2025), supervised by Prof. Ping Luo . My research focuses on Embodied AI Infra, including Robotic Foundation Model, Data Generator and Evaluation. I have published multiple papers at top venues such as CVPR, RSS, ICLR, ICRA and ACL. My works received Best Paper Award at the ICRA 2026 ViTac Workshop and ECCV 2024 MAAS Workshop, Champion at NeurIPS 2025 MARS Challenge (Control Track), third-runnerup at IROS 2025 AgiBot World Challenge (Manipulation Track), Best Poster Award at IROS 2025 RoMaDo, RoDGE, AIR4S Workshop and ChinaSI 2025, and a CVPR Highlight recognition. I organized Embodied-AI-Guide project, and received over 10k Github stars, which is the most popular EAI tutorial. Beyond research, I have been honored with the CCF Elite Collegiate Award (99 nationwide) and the "Excellent Star of SZU", the highest undergraduate honor at Shenzhen University (ranked 2/30,000). I also won a silver medal in the ACM-ICPC regional competition and was national runner-up in the RAICOM robotics developer competition. I have served as an organizer of the ECCV 2026 Safe World Model Workshop,SIGGRAPH ASIA 2025 TriFusion Workshop, CVPR 2025 MEIS Workshop, the CVPR 2025 RoboTwin Dual-Arm Collaboration Challenge, and the Greater Bay Area Embodied AI Workshop. I am also a student committee member of the Autonomous Robotic Technology Seminar (ARTS). In addition, I share my thoughts on research and technology as a blogger and vlogger, with over 20k followers on Rednote 🎒@ TianxingChen (陈天行) . Hi！我是 陈天行 (English name: Tianxing Chen) ，Xspark AI 联合创始人兼CTO， Lumina具身智能社区 的创始人， 同时也是香港大学 MMLab@HKU 的一年级博士生（始于2025年9月）， 师从 罗平教授 。 我的研究方向是具身智能基础架构，包括机器人通用基础模型、数据合成器与评测。 我在CVPR、RSS、ICLR、ICRA、ACL等学术顶会发表多篇论文。在ICRA 2026 ViTac Workshop和ECCV 2024 MAAS Workshop上获得最佳论文奖， 获得NeurIPS 2025 MARS操作赛冠军，IROS 2025 AgiBot World操作赛季军，在IROS 2025 RoMaDo、RoDGE、AIR4S Workshop 与ChinaSI 2025上获得最佳海报奖，获得CVPR Highlight等。我组织了Embodied-AI-Guide项目，获得了超过一万Github Stars， 是最流行的具身智能教程。我曾经获得CCF优秀大学生（全国年度99人）、荔园卓越之星（深圳大学本科生最高荣誉）等荣誉。 竞赛上获得ACM-ICPC国际大学生程序设计竞赛银牌，在RAICOM机器人开发者大赛中获得赛道全国亚军等。 我也曾作为组织者举办ECCV 2026 Safe World Model Workshop、SIGGRAPH ASIA 2025 TriFusion Workshop、CVPR 2025 MEIS Workshop、 CVPR 2025 RoboTwin双臂协作竞赛、大湾区具身智能研讨会等。担任ARTS自主机器人技术研讨会的学生委员会成员。 同时，我还在小红书拥有超20k粉丝🎒@ TianxingChen (陈天行) 。 We're looking for passionate builders and researchers who believe in the vision of Xspark AI. Whether you're interested in research collaboration or joining our team (we are actively hiring in Hardware, Simulation, and Policy), we'd love to hear from you [ Email ]. 我们正在寻找认同 Xspark AI 愿景的建设者与研究者。无论你希望与我们开展科研合作，还是加入团队 （我们正在积极招募硬件、仿真、操作策略方向的技术人才），都欢迎与我们联系 [ 邮箱 ]。 --> Email Scholar GitHub X Rednote Bilibili Zhihu WeChat News --> 05/2026 🎉 Selected as Gold Reviewer at ICML 2026 ! 05/2026 🏆 UniVTAC received Best Paper Award at ICRA 2026 ViTac Workshop ! 04/2026 🎉 RoboTwin 2.0 is accepted to ICML 2026 ! 03/2026 🎉 We released ManiTwin , which is a large-scale annotated assets dataset ! 03/2026 🎉 We released RMBench , which is a memory-dependent manipulation benchmark ! 01/2026 🎉 Three papers are accepted to ICRA 2026 ! 01/2026 🎉 Four papers are accepted to ICLR 2026 ! 12/2025 🎉 Embodied-AI-Guide received over 10k Github stars and became the most popular CN EAI tutorial ! 11/2025 🎉 We received 复杂场景决策卓越奖 at 深圳市灵巧手大赛 ! --> 11/2025 🎉 We won the Champion 🏆 of NeurIPS 2025 MARS Challenge Manipulation Track ! 11/2025 🎉 Selected as 2025 D-Robotics Developer Star ! 11/2025 🎉 Received "深圳大学名校深造奖学金" (ranking 1st), CNY 100,000 ! 10/2025 🎉 RoboTwin 2.0 received Best Poster Award at IROS 2025 RoDGE Workshop ! 10/2025 🎉 AutoBio received Best Poster Award at IROS 2025 AIR4S Workshop ! 10/2025 🎉 Received the Third Runner-up Award in the Manipulation Track at the AGiBot World Challenge @ IROS 2025 ! 10/2025 🎉 LeHome received Best Poster Award at IROS 2025 RoMaDo Workshop ! 09/2025 🎉 RoboTwin 2.0 has been selected as Best Paper Finalist at IROS 2025 RoboGen Workshop ! 08/2025 📢 I am organizing the TriFusion Workshop @ SIGGRAPH ASIA 2025, which is now calling for papers ! 07/2025 🎉 Interviewed by MIT Technical Review China (《麻省理工科技评论》中国), "Next Gen" Series [Report] ! 07/2025 🎉 RoboTwin 2.0 received Outstanding Poster at ChinaSI 2025 (Ranking 1st) 🏆 ! 07/2025 🎉 Graduated with a bachelor's degree from Shenzhen Univ

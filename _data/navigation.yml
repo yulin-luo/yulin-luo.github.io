@@ -3,22 +3,19 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Education"
-    url: "/#-educations"
+    url: "/#education"
 
   - title: "Research Experience"
-    url: "/#-internships"
+    url: "/#experience"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Awards"
-    url: "/#-awards"
+    url: "/#awards"
 
   - title: "Services"
-    url: "/#-services"
-
-  - title: "Interests"
-    url: "/#-interests"
+    url: "/#services"

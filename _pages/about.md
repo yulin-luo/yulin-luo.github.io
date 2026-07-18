@@ -19,7 +19,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <details class="quick-jump-nav">
   <summary aria-label="Open section navigation">
     <i class="fas fa-compass"></i>
-    <span>Jump</span>
+    <span>Sections</span>
   </summary>
   <nav aria-label="Quick section navigation">
     <a href="#about-me"><i class="fas fa-arrow-up"></i><span>Top</span></a>
@@ -285,11 +285,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-robobench" class='paper-box floating-card' data-order="20251017801" data-tags="First Author, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2026</div>
-      <a class="paper-image-link" href="images/robobench.png" aria-label="Open full-size RoboBench teaser">
+      <a class="paper-image-link" href="images/robobench.webp" aria-label="Open full-size RoboBench teaser">
         <img src='images/robobench.webp' alt="RoboBench teaser" width="1800" height="1128" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Benchmark overview across embodied abilities</div>
-      <a class="paper-image-link" href="images/robobench-method.png" aria-label="Open full-size RoboBench construction pipeline">
+      <a class="paper-image-link" href="images/robobench-method.webp" aria-label="Open full-size RoboBench construction pipeline">
         <img src='images/robobench-method.webp' alt="RoboBench construction pipeline" width="1800" height="803" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Data construction pipeline for robot scenarios</div>
@@ -313,11 +313,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-ssd-llm" class='paper-box floating-card' data-order="20240502363" data-tags="First Author, Conference, CCF-B, Data-centric AI, Data Augmentation">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2024</div>
-      <a class="paper-image-link" href="images/ssdllm.png" aria-label="Open full-size SSD-LLM teaser">
+      <a class="paper-image-link" href="images/ssdllm.webp" aria-label="Open full-size SSD-LLM teaser">
         <img src='images/ssdllm.webp' alt="SSD-LLM teaser" width="1800" height="1039" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Workflow for discovering subpopulation structure</div>
-      <a class="paper-image-link" href="images/ssdllm-method.png" aria-label="Open full-size SSD-LLM method diagram">
+      <a class="paper-image-link" href="images/ssdllm-method.webp" aria-label="Open full-size SSD-LLM method diagram">
         <img src='images/ssdllm-method.webp' alt="SSD-LLM method diagram" width="1800" height="688" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Caption, criteria generation, refinement, and assignment</div>
@@ -341,11 +341,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-moase" class='paper-box floating-card' data-order="20240516486" data-tags="Co-First Author, Conference, CCF-A, Oral, Computer Vision, MoE">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2026 · Oral</div>
-      <a class="paper-image-link" href="images/moase-teaser.png" aria-label="Open full-size MoASE teaser">
+      <a class="paper-image-link" href="images/moase-teaser.webp" aria-label="Open full-size MoASE teaser">
         <img src='images/moase-teaser.webp' alt="MoASE teaser" width="1800" height="540" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Sparse activations motivate expert decomposition</div>
-      <a class="paper-image-link" href="images/moase-method.png" aria-label="Open full-size MoASE method diagram">
+      <a class="paper-image-link" href="images/moase-method.webp" aria-label="Open full-size MoASE method diagram">
         <img src='images/moase-method.webp' alt="MoASE method diagram" width="1322" height="440" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>MoASE routes activation patterns into experts</div>
@@ -368,11 +368,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-deepvision-vla" class='paper-box floating-card' data-order="20260315618" data-tags="First Author, Conference, CCF-A, Embodied AI, VLA">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ACM MM 2026</div>
-      <a class="paper-image-link" href="images/deepvision-vla-teaser.png" aria-label="Open full-size DeepVision-VLA teaser">
+      <a class="paper-image-link" href="images/deepvision-vla-teaser.webp" aria-label="Open full-size DeepVision-VLA teaser">
         <img src='images/deepvision-vla-teaser.webp' alt="DeepVision-VLA teaser" width="1281" height="521" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Vision foundation representations before robot action</div>
-      <a class="paper-image-link" href="images/deepvision-vla-method.png" aria-label="Open full-size DeepVision-VLA method diagram">
+      <a class="paper-image-link" href="images/deepvision-vla-method.webp" aria-label="Open full-size DeepVision-VLA method diagram">
         <img src='images/deepvision-vla-method.webp' alt="DeepVision-VLA method diagram" width="1800" height="926" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Representation enhancement pipeline for VLA policies</div>
@@ -396,11 +396,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-randstainna" class='paper-box floating-card' data-order="20220612694" data-tags="Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">MICCAI 2022</div>
-      <a class="paper-image-link" href="images/randstainna.png" aria-label="Open full-size RandStainNA teaser">
+      <a class="paper-image-link" href="images/randstainna.webp" aria-label="Open full-size RandStainNA teaser">
         <img src='images/randstainna.webp' alt="RandStainNA teaser" width="1800" height="1147" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Stain augmentation and normalization are bridged</div>
-      <a class="paper-image-link" href="images/randstainna-method.png" aria-label="Open full-size RandStainNA method diagram">
+      <a class="paper-image-link" href="images/randstainna-method.webp" aria-label="Open full-size RandStainNA method diagram">
         <img src='images/randstainna-method.webp' alt="RandStainNA method diagram" width="1800" height="1066" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Random virtual templates for stain-agnostic training</div>
@@ -422,11 +422,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-robomind" class='paper-box floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">RSS 2025</div>
-      <a class="paper-image-link" href="images/robomind.png" aria-label="Open full-size RoboMIND teaser">
+      <a class="paper-image-link" href="images/robomind.webp" aria-label="Open full-size RoboMIND teaser">
         <img src='images/robomind.webp' alt="RoboMIND teaser" width="500" height="366" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Multi-embodiment robot manipulation benchmark</div>
-      <a class="paper-image-link" href="images/robomind-method.png" aria-label="Open full-size RoboMIND annotation process">
+      <a class="paper-image-link" href="images/robomind-method.webp" aria-label="Open full-size RoboMIND annotation process">
         <img src='images/robomind-method.webp' alt="RoboMIND annotation process" width="1533" height="385" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Language-guided task process and annotation examples</div>
@@ -450,11 +450,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ICLR 2025</div>
-      <a class="paper-image-link" href="images/drawandunderstand-teaser.jpg" aria-label="Open full-size Draw-and-Understand teaser">
+      <a class="paper-image-link" href="images/drawandunderstand-teaser.webp" aria-label="Open full-size Draw-and-Understand teaser">
         <img src='images/drawandunderstand-teaser.webp' alt="Draw-and-Understand teaser" width="1800" height="560" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Visual prompting for fine-grained user intent</div>
-      <a class="paper-image-link" href="images/drawandunderstand-method.png" aria-label="Open full-size Draw-and-Understand method diagram">
+      <a class="paper-image-link" href="images/drawandunderstand-method.webp" aria-label="Open full-size Draw-and-Understand method diagram">
         <img src='images/drawandunderstand-method.webp' alt="Draw-and-Understand training strategy and model architecture" width="1800" height="959" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Two-stage training and the SPHINX-V architecture</div>
@@ -479,11 +479,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-seear1" class='paper-box floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">NeurIPS 2025</div>
-      <a class="paper-image-link" href="images/seear1-teaser.png" aria-label="Open full-size SEEA-R1 teaser">
+      <a class="paper-image-link" href="images/seear1-teaser.webp" aria-label="Open full-size SEEA-R1 teaser">
         <img src='images/seear1-teaser.webp' alt="SEEA-R1 teaser" width="789" height="390" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Self-evolving embodied agents through tree search</div>
-      <a class="paper-image-link" href="images/seear1-method.png" aria-label="Open full-size SEEA-R1 method diagram">
+      <a class="paper-image-link" href="images/seear1-method.webp" aria-label="Open full-size SEEA-R1 method diagram">
         <img src='images/seear1-method.webp' alt="SEEA-R1 data and model evolution framework" width="1800" height="1010" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Coupled data and model evolution with relative advantages</div>
@@ -506,11 +506,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div id="pub-mofme" class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">AAAI 2024</div>
-      <a class="paper-image-link" href="images/mofme.png" aria-label="Open full-size MoFME teaser">
+      <a class="paper-image-link" href="images/mofme.webp" aria-label="Open full-size MoFME teaser">
         <img src='images/mofme.webp' alt="MoFME teaser" width="1800" height="562" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Teaser</span>Deweathering pipeline for downstream perception</div>
-      <a class="paper-image-link" href="images/mofme-method.png" aria-label="Open full-size MoFME method diagram">
+      <a class="paper-image-link" href="images/mofme-method.webp" aria-label="Open full-size MoFME method diagram">
         <img src='images/mofme-method.webp' alt="MoFME method diagram" width="1800" height="740" decoding="async" loading="lazy">
       </a>
       <div class="paper-image-caption"><span>Method</span>Feature modulation experts with uncertainty-aware routing</div>
@@ -534,19 +534,54 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 <span class='anchor' id='awards'></span>
 # 🏆 Awards
-- Shanghai Jiao Tong University <span class="primary-gradient-text">Outstanding Graduate</span> &nbsp;*2023.06*.
-- Weichai Power <span class="primary-gradient-text">Scholarship</span> &nbsp;*2022.10*.
-- Huawei <span class="primary-gradient-text">Scholarship</span> &nbsp;*2021.12*.
-- Shanghai Jiao Tong University <span class="primary-gradient-text">B-Class Merit Scholarship</span> &nbsp;*2020.12, 2021.12, 2022.12*.
+<div class="award-grid">
+  <div class="award-card floating-card">
+    <div class="award-icon"><i class="fas fa-graduation-cap"></i></div>
+    <div class="award-content">
+      <div class="award-title">Outstanding Graduate</div>
+      <div class="award-org">Shanghai Jiao Tong University</div>
+    </div>
+    <div class="award-year">2023.06</div>
+  </div>
+  <div class="award-card floating-card">
+    <div class="award-icon"><i class="fas fa-award"></i></div>
+    <div class="award-content">
+      <div class="award-title">Weichai Power Scholarship</div>
+      <div class="award-org">Weichai Power</div>
+    </div>
+    <div class="award-year">2022.10</div>
+  </div>
+  <div class="award-card floating-card">
+    <div class="award-icon"><i class="fas fa-award"></i></div>
+    <div class="award-content">
+      <div class="award-title">Huawei Scholarship</div>
+      <div class="award-org">Huawei</div>
+    </div>
+    <div class="award-year">2021.12</div>
+  </div>
+  <div class="award-card floating-card">
+    <div class="award-icon"><i class="fas fa-medal"></i></div>
+    <div class="award-content">
+      <div class="award-title">B-Class Merit Scholarship</div>
+      <div class="award-org">Shanghai Jiao Tong University</div>
+    </div>
+    <div class="award-year">2020 · 2021 · 2022</div>
+  </div>
+</div>
 
 <span class='anchor' id='services'></span>
 # 👓 Services
-- *Conferences*: &nbsp;Reviewer of AAAI 2026, ICLR 2026, CVPR 2026, ECCV 2026, and NeurIPS 2026 Datasets & Benchmarks.
+<div class="service-card floating-card">
+  <div class="service-line"><i class="fas fa-pen-to-square"></i><span class="service-role">Conference Reviewer</span></div>
+  <div class="service-tags">
+    <span class="service-tag">AAAI 2026</span>
+    <span class="service-tag">ICLR 2026</span>
+    <span class="service-tag">CVPR 2026</span>
+    <span class="service-tag">ECCV 2026</span>
+    <span class="service-tag">NeurIPS 2026 Datasets &amp; Benchmarks</span>
+  </div>
+</div>
 <!-- TODO(可选): 期刊审稿 -->
-
-<span class='anchor' id='interests'></span>
-# 😊 Interests
-<!-- TODO(可选): 兴趣爱好卡片，参考模板 blog-card 风格。不需要可整节删掉。 -->
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

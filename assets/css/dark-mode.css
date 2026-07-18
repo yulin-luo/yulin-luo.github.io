@@ -1,0 +1,376 @@
+/* ==========================================================================
+   Dark Mode — 显式主题（html[data-theme="dark"]）
+   由 head/custom.html 内联脚本初始化，footer.html 中按钮切换。
+   本文件在 accent-enhancements.css 之后加载，用更高特异性覆盖浅色强制规则。
+   ========================================================================== */
+
+html[data-theme="dark"] body {
+  background-color: #0d1420 !important;
+  color: #d8e1ec !important;
+}
+
+/* --- 卡片体系 --- */
+html[data-theme="dark"] .highlight-block,
+html[data-theme="dark"] .paper-box,
+html[data-theme="dark"] .floating-card,
+html[data-theme="dark"] blockquote,
+html[data-theme="dark"] .quote-accent {
+  background: #16202e !important;
+  color: #d8e1ec !important;
+  border-color: rgba(255, 255, 255, 0.09) !important;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] .highlight-block *,
+html[data-theme="dark"] .paper-box *,
+html[data-theme="dark"] .floating-card *,
+html[data-theme="dark"] blockquote *,
+html[data-theme="dark"] .quote-accent * {
+  color: #d8e1ec !important;
+}
+
+/* 交互元素保持原配色 */
+html[data-theme="dark"] .btn-accent,
+html[data-theme="dark"] .tag-accent,
+html[data-theme="dark"] .badge {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .paper-box-text h3,
+html[data-theme="dark"] .credential-content h3,
+html[data-theme="dark"] .experience-content h3,
+html[data-theme="dark"] .award-title,
+html[data-theme="dark"] .service-role {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] .paper-box-text .authors,
+html[data-theme="dark"] .paper-box-text p,
+html[data-theme="dark"] .credential-line,
+html[data-theme="dark"] .paper-box-text .paper-tldr,
+html[data-theme="dark"] .paper-image-caption {
+  color: #b9c6d6 !important;
+}
+
+html[data-theme="dark"] .paper-box-text .paper-tldr {
+  background: rgba(255, 255, 255, 0.05);
+  border-left-color: rgba(254, 102, 123, 0.65);
+}
+
+html[data-theme="dark"] .paper-box-text .paper-tldr span {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] .author-highlight {
+  color: #ff9fae !important;
+  background: linear-gradient(180deg, transparent 58%, rgba(254, 102, 123, 0.28) 58%);
+}
+
+html[data-theme="dark"] .accent-text {
+  background: linear-gradient(135deg, #9db8d9 0%, #c3d4ea 55%, #8fb4e0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+html[data-theme="dark"] .primary-gradient-text {
+  background: linear-gradient(135deg, #9db8d9 0%, #c3d4ea 50%, #FE667B 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* --- 链接 --- */
+html[data-theme="dark"] .link-accent,
+html[data-theme="dark"] .news-paper-link {
+  color: #9db8d9 !important;
+}
+
+html[data-theme="dark"] .link-accent:hover,
+html[data-theme="dark"] .news-paper-link:hover {
+  color: #FE667B !important;
+}
+
+/* --- 徽标 / 标签 --- */
+html[data-theme="dark"] .paper-box-text .venue {
+  background: rgba(46, 110, 166, 0.22);
+  color: #a8cdf0 !important;
+  border-color: rgba(46, 110, 166, 0.4);
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .paper-box-text .paper-tag {
+  background: rgba(255, 255, 255, 0.07);
+  color: #b9c6d6 !important;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="dark"] .paper-box-text .paper-tag[data-tag="CCF-A"],
+html[data-theme="dark"] .paper-box-text .paper-tag[data-tag="CCF-B"] {
+  background: rgba(254, 102, 123, 0.16);
+  color: #ff9fae !important;
+  border-color: rgba(254, 102, 123, 0.28);
+}
+
+html[data-theme="dark"] .paper-box-text .paper-tag[data-tag="First Author"],
+html[data-theme="dark"] .paper-box-text .paper-tag[data-tag="Co-First Author"],
+html[data-theme="dark"] .paper-box-text .paper-tag[data-tag="Oral"] {
+  background: rgba(157, 184, 217, 0.16);
+  color: #c3d4ea !important;
+  border-color: rgba(157, 184, 217, 0.3);
+}
+
+html[data-theme="dark"] .paper-image-kind,
+html[data-theme="dark"] .paper-image-caption span {
+  background: rgba(255, 255, 255, 0.08);
+  color: #c3d4ea;
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .paper-box-text .paper-short-name,
+html[data-theme="dark"] .paper-box-text .paper-timeline,
+html[data-theme="dark"] .award-org,
+html[data-theme="dark"] .award-year,
+html[data-theme="dark"] .credential-period,
+html[data-theme="dark"] .experience-period,
+html[data-theme="dark"] .cn-name {
+  color: #8fa2b8 !important;
+}
+
+html[data-theme="dark"] .service-tag {
+  background: rgba(255, 255, 255, 0.06);
+  color: #a8cdf0 !important;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="dark"] .award-icon {
+  background: linear-gradient(135deg, rgba(157, 184, 217, 0.14), rgba(254, 102, 123, 0.14));
+}
+
+/* --- 图片 --- */
+html[data-theme="dark"] .paper-box-image img {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
+}
+
+/* --- News 面板 --- */
+html[data-theme="dark"] .news-panel {
+  background: linear-gradient(145deg, #16202e 0%, #121a26 100%);
+  border-color: rgba(255, 255, 255, 0.09);
+}
+
+html[data-theme="dark"] .news-panel::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* --- 过滤器 --- */
+html[data-theme="dark"] .filter-bar select,
+html[data-theme="dark"] select {
+  background-color: #16202e;
+  color: #d8e1ec;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+/* --- Masthead --- */
+html[data-theme="dark"] .masthead {
+  background-color: #0d1420;
+  border-bottom-color: rgba(255, 255, 255, 0.09);
+}
+
+html[data-theme="dark"] .masthead__wordmark,
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .greedy-nav .masthead__menu-item a {
+  color: #d8e1ec !important;
+}
+
+html[data-theme="dark"] .greedy-nav a:hover,
+html[data-theme="dark"] .greedy-nav .masthead__menu-item a:hover {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .greedy-nav .masthead__menu-item a.active {
+  color: #FE667B !important;
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: #16202e;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="dark"] .navicon,
+html[data-theme="dark"] .navicon::before,
+html[data-theme="dark"] .navicon::after {
+  background: #d8e1ec;
+}
+
+html[data-theme="dark"] .theme-toggle {
+  background: #16202e;
+  border-color: rgba(255, 255, 255, 0.16);
+  color: #d8e1ec;
+}
+
+html[data-theme="dark"] .theme-toggle:hover {
+  border-color: rgba(254, 102, 123, 0.55);
+  color: #FE667B;
+}
+
+/* --- Sidebar --- */
+html[data-theme="dark"] .author__name,
+html[data-theme="dark"] .sidebar .author__name {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] .author__bio,
+html[data-theme="dark"] .sidebar .author__bio {
+  color: #8fa2b8 !important;
+}
+
+html[data-theme="dark"] .profile-intro {
+  background: rgba(255, 255, 255, 0.05);
+  color: #b9c6d6 !important;
+}
+
+html[data-theme="dark"] .profile-contact-item {
+  background: #16202e;
+  color: #d8e1ec !important;
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] a.profile-contact-item:hover {
+  border-color: rgba(254, 102, 123, 0.55);
+  color: #ff9fae !important;
+}
+
+html[data-theme="dark"] .profile-contact-cv {
+  background: rgba(254, 102, 123, 0.12);
+}
+
+html[data-theme="dark"] .sidebar .fas,
+html[data-theme="dark"] .sidebar .fab,
+html[data-theme="dark"] .author__urls .fas,
+html[data-theme="dark"] .author__urls .fab {
+  color: #d8e1ec !important;
+}
+
+/* --- Research trajectory --- */
+html[data-theme="dark"] .research-trajectory {
+  background: linear-gradient(135deg, rgba(157, 184, 217, 0.06), rgba(254, 102, 123, 0.05)), #16202e !important;
+  border-color: rgba(255, 255, 255, 0.09);
+}
+
+/* --- 快捷导航 --- */
+html[data-theme="dark"] .quick-jump-nav summary {
+  background: rgba(22, 32, 46, 0.94);
+  color: #c3d4ea;
+  border-color: rgba(157, 184, 217, 0.3);
+}
+
+html[data-theme="dark"] .quick-jump-nav[open] summary {
+  background: #2E6EA6;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .quick-jump-nav nav {
+  background: rgba(22, 32, 46, 0.97);
+  border-color: rgba(157, 184, 217, 0.24);
+}
+
+html[data-theme="dark"] .quick-jump-nav nav a {
+  color: #d8e1ec !important;
+}
+
+html[data-theme="dark"] .quick-jump-nav nav a:hover {
+  background: rgba(157, 184, 217, 0.14);
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .quick-jump-nav nav i {
+  color: #9db8d9;
+}
+
+/* --- Footer --- */
+html[data-theme="dark"] .site-footer {
+  background: linear-gradient(180deg, rgba(157, 184, 217, 0.05), rgba(157, 184, 217, 0.09));
+  border-top-color: rgba(255, 255, 255, 0.09);
+  color: #b9c6d6;
+}
+
+html[data-theme="dark"] .footer-name,
+html[data-theme="dark"] .footer-heading {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] .footer-tag,
+html[data-theme="dark"] .footer-bottom,
+html[data-theme="dark"] .footer-name-cn {
+  color: #8fa2b8 !important;
+}
+
+html[data-theme="dark"] .footer-links a {
+  color: #b9c6d6 !important;
+}
+
+html[data-theme="dark"] .footer-links a:hover {
+  color: #ff9fae !important;
+}
+
+html[data-theme="dark"] .footer-icons a {
+  background: #16202e;
+  color: #d8e1ec !important;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+html[data-theme="dark"] .footer-icons a:hover {
+  border-color: rgba(254, 102, 123, 0.55);
+  color: #ff9fae !important;
+}
+
+html[data-theme="dark"] .footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.09);
+}
+
+html[data-theme="dark"] .footer-bottom a {
+  color: #a8cdf0;
+}
+
+/* --- 联系方式横条 / 证据链接 --- */
+html[data-theme="dark"] .contact-strip span,
+html[data-theme="dark"] .contact-strip a,
+html[data-theme="dark"] .profile-evidence-links a {
+  background: rgba(255, 255, 255, 0.06);
+  color: #c3d4ea !important;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* --- 研究经历 logo 白底保留（logos 多为深色设计） --- */
+html[data-theme="dark"] .experience-logo {
+  background: #ffffff;
+}
+
+/* --- selection --- */
+html[data-theme="dark"] ::selection {
+  background: rgba(254, 102, 123, 0.35);
+}
+
+
+/* --- 修正：标题与导航底色 --- */
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] h3 {
+  background: linear-gradient(135deg, #9db8d9 0%, #c3d4ea 50%, #FE667B 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+html[data-theme="dark"] .page__content h1 {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="dark"] .greedy-nav {
+  background: #0d1420;
+}

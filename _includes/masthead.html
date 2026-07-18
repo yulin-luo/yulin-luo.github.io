@@ -5,16 +5,19 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="#about-me">Homepage</a>
+            <a href="#about-me" class="masthead__wordmark">Yulin&nbsp;Luo</a>
           </li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}">{{ site.t.en[link.title] | default: link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}" data-section="{{ link.url | split: '#' | last }}">{{ site.t.en[link.title] | default: link.title }}</a>
             </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="切换明暗主题">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
     </div>
   </div>
 </div>

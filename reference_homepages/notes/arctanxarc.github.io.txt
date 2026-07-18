@@ -1,0 +1,124 @@
+URL: https://arctanxarc.github.io/
+HTML bytes: 60320
+
+TITLE:
+Mage - Homepage
+
+HEADINGS:
+H3: Ruichuan An
+H1: 👤 Biography
+H3: 🫡 Motivation: "Why do I do research?"
+H3: 🔬 AI Researcher
+H3: ☎️ Contact Info
+H1: 🎓 Educations
+H1: 🔥 News
+H1: 📝 Publications
+H2: 📒 Selected publications/preprints
+H1: 🥇 Honors and Awards
+H1: 💼 Mentorship and Services
+H4: Conference reviewer
+H4: Mentorship
+H1: 😄 Miscellaneous
+H3: ❤️ Family
+H3: 🧑‍🤝‍🧑 Friends
+H3: 😄 Hobbies
+
+REPRESENTATIVE LINKS:
+- upgrade your browser: http://browsehappy.com/
+- Homepage: #about-me
+- About Me: /#about-me
+- Educations: /#-educations
+- News: /#-news
+- Publications: /#-publications
+- Honors and Awards: /#-honors-and-awards
+- Mentorship and Services: /#-mentorship-and-services
+- Miscellaneous: /#-miscellaneous
+- Email: mailto:arctanxarc@gmail.com
+- Twitter: https://twitter.com/arctanxarc
+- Github: https://github.com/arctanxarc
+- Google Scholar: https://scholar.google.com/citations?user=R5iSLPQAAAAJ&hl=zh-CN
+- (no label): https://visitorbadge.io/status?path=https%3A%2F%2Fzhoues.github.io
+- (no label): https://github.com/arctanxarc
+- (no label): https://scholar.google.com/citations?user=R5iSLPQAAAAJ&hl=zh-CN
+- Wentao Zhang: https://zwt233.github.io/
+- Weinan E: https://scholar.google.com/citations?user=i2mOt14AAAAJ&amp;hl=en
+- AAIS: https://www.aais.pku.edu.cn/
+- Renrui Zhang: https://scholar.google.com/citations?hl=en&amp;user=YlL3xN4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate
+- MSRA: https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+- Mentorship: #mentorship
+- Peking University, Beijing, China: https://www.google.com/maps/place/%E5%BE%AE%E8%BD%AF%E4%BA%9A%E6%B4%B2%E7%A0%94%E7%A9%B6%E9%99%A2/@39.977248,116.3321331,17z/data=!3m1!4b1!4m6!3m5!1s0x35f053f0ab311e9f:0x4a43f1f260
+- [Paper]: https://arxiv.org/pdf/2505.14671?
+- [Code, 100+ Stars🌟]: https://github.com/arctanxarc/UniCTokens
+- [Paper]: https://arxiv.org/pdf/2506.05302
+- [Code, 300+ Stars🌟]: https://github.com/Perceive-Anything/PAM
+- [Paper]: https://arxiv.org/abs/2405.02363
+- [Code]: https://github.com/llm-as-dataset-analyst/SSDLLM
+- Kuaishou, Kling: https://github.com/KlingTeam
+- Tiktok: https://www.tiktok.com/
+- XiaoMi: https://www.mi.com/sg/
+- Tiktok: https://www.tiktok.com/
+- MinMax: https://www.minimaxi.com/
+- Ziqi Qiao: https://scholar.google.com/citations?user=G_BypiwAAAAJ&hl=zh-CN&oi=ao
+- Jiaming Liu: https://liujiaming1996.github.io/
+- Yulin Luo: https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao
+- Yuan Zhang: https://gumpest.github.io/
+- Xiaowei Chi: https://scholar.google.com/citations?hl=zh-CN&user=Vl1X_-sAAAAJ
+- Chenrui Wu: https://wuchenrui.github.io/
+- Yili Jin: https://yilijin.github.io/
+
+IMAGES:
+- images/arc_arc.png
+- https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fzhoues.github.io&label=VISITORS&countColor=%23EC707D
+- images/pku_.png
+- images/xjtu_.png
+- images/fig1_final-1.png
+- images/PAM_teaser-1.png
+- images/eccv_arc.png
+- images/qiaoqiao.jpg
+- images/friends.png
+- images/football_new.png
+
+COMMON CLASS TOKENS:
+- masthead__menu-item: 8
+- fa-fw: 8
+- highlight-block: 6
+- fas: 4
+- fab: 4
+- anchor: 3
+- paper-box: 3
+- paper-box-image: 3
+- badge: 3
+- paper-box-text: 3
+- no-js: 2
+- author__avatar: 2
+- fa-envelope: 2
+- fa-twitter-square: 2
+- fa-github: 2
+- fa-graduation-cap: 2
+- highlight-blocks: 2
+- notice--danger: 1
+- align-center: 1
+- masthead: 1
+- masthead__inner-wrap: 1
+- masthead__menu: 1
+- greedy-nav: 1
+- navicon: 1
+- visible-links: 1
+- masthead__menu-item--lg: 1
+- masthead__menu-home-item: 1
+- hidden-links: 1
+- hidden: 1
+- sidebar: 1
+- sticky: 1
+- profile_box: 1
+- author__content: 1
+- author__name: 1
+- author__bio: 1
+- author__urls-wrapper: 1
+- btn: 1
+- btn--inverse: 1
+- author__urls: 1
+- social-icons: 1
+
+TEXT SAMPLE:
+Mage - Homepage You are using an outdated browser. Please upgrade your browser to improve your experience. Homepage About Me Educations News Publications Honors and Awards Mentorship and Services Miscellaneous Ruichuan An XJTU & PKU More Info & Contact --> Mage & Niebelungen Email Twitter Github Google Scholar 👤 Biography I am a first-year master student at Peking University , where I am co-supervised by Wentao Zhang and Weinan E at AAIS . I also closely work with Renrui Zhang . Previously, I had a wonderful time at Bytedance Seed and MSRA , serving as research intern. My research focus on VLM/ Unified Model/ World Model/ Data, has accumulated 600+ citations. My work has been followed by Deepmind/ Nvidia Research/ Hunyuan and so on. I have received internship invitation and gift funding from Adobe and invited talk sessions from Microsoft because of my work, I believe this is a great recognition of my research. Many kind people helped me in my journey. If you want to talk more about research or seek advice that I might be able to provide, please no hesitation to reach out. My MBTI type is ENFJ (233), feel free to drop me an Email for any form of communication or collaboration! 📌 We have several academic intern positions at DCML Lab (Peking University) . We actively work on Data-Centric AI and Vision-Language Model . If you like what we do, don’t hesitate to contact me. I currently lead a research group of master’s and undergraduate students at Peking University. I am proud to have helped many of them secure top-tier labs and internships. You can find more details in Mentorship . 🫡 Motivation: "Why do I do research?" To have the chance collaborating with global talents, I enjoy brainstorming and learning from people with different background. For the sheer fun and joy of discovery. The three keywords I'm pursuing are Insight | Innovation | Independence . I hope my research could decorate individual's daily life one day. Even if it’s just a ripple, I want to leave a mark on this world. 🔬 AI Researcher My research aims to build next-generation Visual Foundation Models driven by Visual Priors . While language explains the world as a compressed interface, visual representations, which capture spatial structures, physical dynamics, and granular details, are essential to truly represent and simulate it. ☎️ Contact Info Address: Peking University, Beijing, China Email: arctanxarc[AT]gmail.com WeChat: arc2002822 Do not fell embarrassed to contact me. 🎓 Educations Peking University (2025.09-2027.09) M.S. in Mathematics Xi’an Jiaotong University (2021.09-2025.06) B.Eng. in Software Engineering 🔥 News [02.2026] 🎉 One paper VCU-Bridge was accepted by CVPR 2026 , I'm the project leader for the first time! [01.2026] 🎉 Three papers AesBench , SpikeGen and MV-RoboBench were accepted by ICLR 2026 , I have one first author paper! [09.2025] 🎉 Three papers UniCTokens , PAM and A-CFG were accepted by NIPS 2025 (CCF-A), I have two (co-)first author papers! [09.2025] 🎓 I joined Peking University and pursuing master's degree. [03.2025] 🏆 I was awarded the Outstanding Graduate by XJTU. [02.2025] 🎉 One paper MOVE-KD was accepted by CVPR 2025 (CCF-A), congratulations to Jiajun. [12.2024] 🎉 One paper Draw and Understand was accepted by ICLR 2025 , congratulations to Weifeng. [06.2024] 🎉 One paper SSD-LLM was accepted by ECCV 2024 , I am the co-first author, see you in Milano. [05.2024] 🎉 One paper GDAD was accepted by KDD 2024 (CCF-A), congratulations to Renhong. 📝 Publications 📒 Selected publications/preprints NIPS'2025 UniCTokens: Boosting Personalized Understanding and Generation via Unified Concept Tokens Ruichuan An , Sihan Yang, Renrui Zhang, Zijun Shen, Ming Lu, Gaole Dai, Hao Liang, Ziyu Guo, Shilin Yan, Yulin Luo, Bocheng Zou, Chaoqun Yang, Wentao Zhang Conference on Neural Information Processing Systems, 2025. [Paper] [Code, 100+ Stars🌟] NIPS'2025 Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos Weifeng Lin*, Xinyu Wei*, Ruichuan An* , Tianhe Ren, Tingwei Chen, Renrui Zhang, Ziyu Guo, Wentao Zhang, Lei Zhang, Hongsheng Li Conference on Neural Information Processing Systems, 2025. [Paper] [Code, 300+ Stars🌟] ECCV'2024 LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model Yulin Luo*, Ruichuan An* , Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Shang European Computer Vision Conference, 2024. [Paper] [Code] 🥇 Honors and Awards (2025) : Outstanding Graduate. (2024) : Rising Star of the Year (5/2233) Highest personal honors in college. (2024, 2023, 2022) : XJTU Outstanding Student*3 (2023) : Huawei Scholarship 10k CNY, only awarded to 3 undergraduate students in XJTU per year. 💼 Mentorship and Services Conference reviewer ICLR 2025, NIPS 2025, ICCV 2025, ICRA 2025, FM@ICLR 2025 Mentorship Sihan Yang, XJTU -&gt; PKU, Internship: Kuaishou, Kling , Tiktok Kai Zeng, TJU -&gt; PKU, Internship: XiaoMi , Tiktok Ming Zhong, ZJU, Internship: MinMax 😄 Miscellaneous ❤️ 
