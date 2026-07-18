@@ -594,7 +594,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="interest-text">
         Huge fan of <b>Manuel Neuer</b> (Germany &amp; FC Bayern München) — the sweeper-keeper who redefined the position.
         I guard the goal myself: starting goalkeeper for <b>SEIEE Team B</b> at Shanghai Jiao Tong University during my undergrad,
-        and currently first-choice goalkeeper for the <b>Ji-Ji-Dian Changping United</b> team at Peking University.
+        and currently first-choice goalkeeper for the <b>Changping United</b> team — a joint squad of the Integrated Circuits,
+        Computer Science, and Electronics schools at Peking University.
       </div>
     </div>
   </div>
@@ -604,8 +605,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <figcaption>SEIEE Team B, SJTU · 2019 Freshman Cup</figcaption>
     </figure>
     <figure class="interest-photo">
-      <img src="images/interest/pku-changping.webp" alt="Ji-Ji-Dian Changping United team photo, Peking University" width="1493" height="1119" decoding="async" loading="lazy">
-      <figcaption>Ji-Ji-Dian Changping United, PKU · 2026</figcaption>
+      <img src="images/interest/pku-changping.webp" alt="Changping United team photo (IC / CS / EE joint squad), Peking University" width="1493" height="1119" decoding="async" loading="lazy">
+      <figcaption>Changping United (IC · CS · EE joint team), PKU · 2026</figcaption>
     </figure>
   </div>
 </div>
