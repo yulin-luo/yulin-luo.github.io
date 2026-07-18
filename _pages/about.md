@@ -229,15 +229,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <div id="publications-wrapper">
   <div id="filter-container" class="filter-bar">
     <div class="filter-group">
-      <label for="filter-author">Author Role</label>
-      <select id="filter-author" data-dim="author">
-        <option value="">All</option>
-        <option value="First Author">First author</option>
-        <option value="Co-First Author">Co-first author</option>
-        <option value="Other">Other</option>
-      </select>
-    </div>
-    <div class="filter-group">
       <label for="filter-venue">Venue Tier</label>
       <select id="filter-venue" data-dim="venue">
         <option value="">All</option>
@@ -253,6 +244,19 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <option value="Computer Vision">Computer Vision</option>
         <option value="Medical Imaging">Medical Imaging</option>
         <option value="Data-centric AI">Data-centric AI</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-focus">Focus</label>
+      <select id="filter-focus" data-dim="focus">
+        <option value="">All</option>
+        <option value="VLA">VLA</option>
+        <option value="Benchmark">Benchmark</option>
+        <option value="Agentic">Agentic</option>
+        <option value="World Model">World Model</option>
+        <option value="MoE">MoE</option>
+        <option value="Data Augmentation">Data Augmentation</option>
+        <option value="MLLM">MLLM</option>
       </select>
     </div>
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
@@ -696,9 +700,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const resetBtn = document.getElementById('filter-reset');
 
   const dimensionMap = {
-    author: ['First Author', 'Co-First Author', 'Other'],
     venue: ['CCF-A', 'CCF-B'],
-    domain: ['Embodied AI', 'Computer Vision', 'Medical Imaging', 'Data-centric AI']
+    domain: ['Embodied AI', 'Computer Vision', 'Medical Imaging', 'Data-centric AI'],
+    focus: ['VLA', 'Benchmark', 'Agentic', 'World Model', 'MoE', 'Data Augmentation', 'MLLM']
   };
 
   const visibleTagLabels = {
