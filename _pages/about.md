@@ -303,7 +303,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Chun-Kai Fan⭐️, Menghang Dong⭐️, Jiayu Shi⭐️, Xiangju Mi⭐️, Mengdi Zhao⭐️†, Bo-Wen Zhang⭐️, Cheng Chi⭐️†, et al., Shanghang Zhang📧</div>
       <div class="venue"><span>European Conference on Computer Vision (ECCV), 2026</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2025.10 · Accepted: 2026.07</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Builds a 6K-QA benchmark to diagnose embodied-brain abilities in MLLMs, and links cognitive scores to downstream VLA performance.</div>
+      <div class="paper-tldr"><span>Claim:</span> Can an MLLM serve as a robot's brain? RoboBench turns the question into measurable diagnosis — 6K QA across embodied cognitive dimensions — and shows cognitive scores genuinely predict downstream VLA performance; now the official evaluation suite of Tencent HY-Embodied.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2510.17801" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -332,7 +332,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Ruichuan An⭐️, Bocheng Zou, Yiming Tang, Jiaming Liu, Shanghang Zhang📧</div>
       <div class="venue"><span>European Conference on Computer Vision (ECCV), 2024</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.05 · Accepted: 2024.07</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Turns LLMs into dataset analysts that discover hidden subpopulations, exposing dataset bias and guiding targeted data improvement.</div>
+      <div class="paper-tldr"><span>Claim:</span> Datasets hide structure no one labeled. SSD-LLM casts the LLM as a dataset analyst that discovers hidden subpopulations by itself — exposing dataset bias and prescribing which data to add next, a concrete mechanism for model–data co-evolution.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.02363" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://doi.org/10.1007/978-3-031-73414-4_14" class="btn-accent"><i class="fas fa-award"></i> ECCV</a>
@@ -360,7 +360,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors">Rongyu Zhang⭐️, Aosong Cheng⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Gaole Dai, Huanrui Yang, et al., Shanghang Zhang📧</div>
       <div class="venue"><span>AAAI Conference on Artificial Intelligence (AAAI), 2026 · <b>Oral</b></span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.05 · Accepted: 2025.11</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Interprets continual test-time adaptation through sparse neuron activations, routing activation patterns into experts for stable adaptation.</div>
+      <div class="paper-tldr"><span>Claim:</span> A new reading of continual test-time adaptation: each domain fires its own sparse neuron pattern, so routing activations into decomposed experts turns catastrophic forgetting into a routing problem — stable adaptation without revisiting old data.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2405.16486" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://doi.org/10.1609/aaai.v40i42.40922" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
@@ -387,7 +387,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors"><span class="author-highlight">Yulin Luo</span>⭐️, Hao Chen⭐️†, Zhuangzhe Wu⭐️, Bowen Sui⭐️, Jiaming Liu⭐️†, et al., Shanghang Zhang📧</div>
       <div class="venue"><span>ACM International Conference on Multimedia (ACM MM), 2026</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2026.03 · Accepted: 2026.07</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Enhances vision foundation representations before action decoding, improving VLA policies for precise robot control.</div>
+      <div class="paper-tldr"><span>Claim:</span> The bottleneck of VLA lies in seeing, not acting: enhancing vision foundation representations before action decoding — <i>look before acting</i> — improves precise robot control without touching the action head, pointing to representation quality as a general lever for embodied foundation models.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://2026.acmmm.org/" class="btn-accent"><i class="fas fa-award"></i> ACM MM</a>
@@ -414,7 +414,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
       <div class="venue"><span>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2022.06 · Accepted: 2022.06</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Unifies stain normalization and augmentation with random color-space sampling, improving robustness for histology classification and segmentation.</div>
+      <div class="paper-tldr"><span>Claim:</span> Histology models break when the stain changes. RandStainNA shows normalization and augmentation are two sides of one coin — random color-space sampling buys robustness across hospitals, scanners, and staining protocols.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://doi.org/10.1007/978-3-031-16434-7_21" class="btn-accent"><i class="fas fa-award"></i> MICCAI</a>
@@ -440,7 +440,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors">Kun Wu⭐️, Chengkai Hou⭐️, Jiaming Liu⭐️, Zhengping Che⭐️†, Xiaozhu Ju⭐️†, ..., <span class="author-highlight">Yulin Luo</span>, ..., Shanghang Zhang📧, Jian Tang📧</div>
       <div class="venue"><span>Robotics: Science and Systems (RSS), 2025</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.12 · Accepted: 2025.04</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Collects multi-embodiment manipulation data and benchmark protocols to study general robot skills across platforms and tasks.</div>
+      <div class="paper-tldr"><span>Claim:</span> Skills should transfer across robot bodies, not be re-learned per platform. RoboMIND contributes the multi-embodiment data and benchmark protocols to test — and push — general manipulation across embodiments and tasks.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2412.13877" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://roboticsconference.org/program/papers/152/" class="btn-accent"><i class="fas fa-award"></i> RSS</a>
@@ -468,7 +468,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors">Weifeng Lin⭐️, Xinyu Wei⭐️, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, Siyuan Huang, Shanghang Zhang, Hongsheng Li📧</div>
       <div class="venue"><span>International Conference on Learning Representations (ICLR), 2025</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2024.03 · Accepted: 2025.01</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Introduces visual prompting data and benchmarks so MLLMs can follow user-drawn marks, regions, and fine-grained visual intent.</div>
+      <div class="paper-tldr"><span>Claim:</span> Language is a lossy way to point. This work lets users <i>draw</i> what they mean — marks, regions, strokes — and gives MLLMs the data and benchmark needed to follow fine-grained visual intent.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2403.20271" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://iclr.cc/virtual/2025/poster/29098" class="btn-accent"><i class="fas fa-award"></i> ICLR</a>
@@ -497,7 +497,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors">Wanxin Tian⭐️, Shijie Zhang⭐️, Kevin Zhang⭐️, Xiaowei Chi, Chun-Kai Fan, Junyu Lu, <span class="author-highlight">Yulin Luo</span>, et al., Shanghang Zhang📧, Jian Tang📧</div>
       <div class="venue"><span>Advances in Neural Information Processing Systems (NeurIPS), 2025</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2025.06 · Accepted: 2025.09</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Uses tree-structured reinforcement fine-tuning to improve embodied-agent reasoning through self-evolving exploration and feedback.</div>
+      <div class="paper-tldr"><span>Claim:</span> Embodied agents should improve by reflecting on their own experience. SEEA-R1's tree-structured reinforcement fine-tuning converts self-exploration and feedback into a self-evolving reasoning loop.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.21669" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/7103cd82de95a7b30983fcf74ba499ac-Abstract-Conference.html" class="btn-accent"><i class="fas fa-award"></i> NeurIPS</a>
@@ -525,7 +525,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="authors">Rongyu Zhang, <span class="author-highlight">Yulin Luo</span>, Jiaming Liu, Huanrui Yang, Zhen Dong, et al., Yuan Du📧, Shanghang Zhang📧</div>
       <div class="venue"><span>AAAI Conference on Artificial Intelligence (AAAI), 2024</span></div>
       <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2023.12 · Accepted: 2023.12</span></div>
-      <div class="paper-tldr"><span>In Short:</span> Modulates deweathering experts with uncertainty-aware feature-wise signals for efficient restoration under adverse weather.</div>
+      <div class="paper-tldr"><span>Claim:</span> One model should face all weather. MoFME routes uncertainty-aware, feature-wise signals into specialized experts, achieving restoration that adapts per condition rather than per dataset.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2312.16610" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
         <a href="https://doi.org/10.1609/aaai.v38i15.29622" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
