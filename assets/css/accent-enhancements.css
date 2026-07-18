@@ -2424,28 +2424,50 @@ a.profile-contact-item:hover {
 }
 
 .interest-photo-wide img {
-  height: 22rem;
-  object-position: center 35%;
+  height: auto;
+  max-height: 27rem;
+  object-fit: contain;
+  object-position: center;
 }
 
 @media (max-width: 720px) {
   .interest-photo-wide img {
-    height: 13rem;
+    max-height: 17rem;
   }
 }
 
 
 /* 女友卡片：竖版人像更高的 hero */
 .interest-hero-tall {
-  width: 9.5rem;
-  height: 12.6rem;
+  width: 11rem;
+  height: 14.6rem;
   object-position: center 22%;
+}
+
+/* Travel 分区内标题 */
+.travel-group + .travel-group {
+  margin-top: 1.05rem;
+}
+
+.travel-group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.42rem;
+  color: #012F63;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.travel-group-title i {
+  color: #FE667B !important;
+  font-size: 0.86rem;
 }
 
 /* 会议卡片：四图横排 */
 .interest-photos-quad {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 0.85rem;
+  margin-top: 0.55rem;
 }
 
 .interest-photos-quad .interest-photo img {
@@ -2463,7 +2485,7 @@ a.profile-contact-item:hover {
   }
 
   .interest-hero-tall {
-    width: 8.5rem;
-    height: 11.3rem;
+    width: 9rem;
+    height: 12rem;
   }
 }

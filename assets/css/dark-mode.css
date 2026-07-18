@@ -388,3 +388,9 @@ html[data-theme="dark"] .interest-text {
 html[data-theme="dark"] .interest-photo figcaption {
   color: #8fa2b8 !important;
 }
+
+
+/* --- Travel 分区标题 --- */
+html[data-theme="dark"] .travel-group-title {
+  color: #e8eef6 !important;
+}

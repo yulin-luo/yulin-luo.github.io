@@ -589,7 +589,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 # ⚽ Interests
 <div class="interest-card floating-card">
   <div class="interest-header">
-    <img class="interest-hero interest-hero-tall" src="images/interest/girlfriend.webp" alt="My lovely girlfriend in a blossom garden" width="1200" height="1800" decoding="async" loading="lazy">
+    <img class="interest-hero interest-hero-tall" src="images/interest/girlfriend.webp" alt="My lovely girlfriend in a blossom garden" width="900" height="1200" decoding="async" loading="lazy">
     <div class="interest-intro">
       <div class="interest-title">Love · My Girl</div>
       <div class="interest-text">
@@ -629,13 +629,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div class="interest-intro">
     <div class="interest-title">Badminton · Lab Team</div>
     <div class="interest-text">
-      Regular badminton player with my lab mates — we entered the <b>school badminton tournament</b> together and came home with medals.
+      Regular badminton player with my lab mates — we entered the <b>school badminton tournament</b> together and <b>took silver</b>.
       Nothing resets the brain after a long research day like a few hard-fought rallies on court.
     </div>
   </div>
   <figure class="interest-photo interest-photo-wide">
     <img src="images/interest/badminton.webp" alt="Lab team with medals at the school badminton tournament" width="1800" height="1350" decoding="async" loading="lazy">
-    <figcaption>Lab team at the school badminton tournament, PKU · medal night</figcaption>
+    <figcaption>Lab team at the school badminton tournament, PKU · silver medal</figcaption>
   </figure>
 </div>
 
@@ -649,23 +649,39 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       with hopefully many more stamps in the passport to come.
     </div>
   </div>
-  <div class="interest-photos interest-photos-quad">
-    <figure class="interest-photo">
-      <img src="images/conference/eccv2024_1.webp" alt="Ponte Vecchio and the Arno river, Italy" width="1080" height="1080" decoding="async" loading="lazy">
-      <figcaption>ECCV 2024 · Italy</figcaption>
-    </figure>
-    <figure class="interest-photo">
-      <img src="images/conference/eccv2024_4.webp" alt="Lake Como ferry docks, Italy" width="1080" height="1080" decoding="async" loading="lazy">
-      <figcaption>ECCV 2024 · Italy</figcaption>
-    </figure>
-    <figure class="interest-photo">
-      <img src="images/conference/iclr2025_2.webp" alt="Singapore coastline views" width="1080" height="1080" decoding="async" loading="lazy">
-      <figcaption>ICLR 2025 · Singapore</figcaption>
-    </figure>
-    <figure class="interest-photo">
-      <img src="images/conference/iclr2025_4.webp" alt="Beach swings and seaside in Singapore" width="1080" height="1080" decoding="async" loading="lazy">
-      <figcaption>ICLR 2025 · Singapore</figcaption>
-    </figure>
+  <div class="travel-group">
+    <div class="travel-group-title"><i class="fas fa-location-dot"></i> ECCV 2024 · Milan, Italy</div>
+    <div class="interest-photos interest-photos-quad">
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_1.webp" alt="Ponte Vecchio and the Arno river, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_2.webp" alt="Varenna and Lake Como views, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_3.webp" alt="Mandello del Lario railway station, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/eccv2024_4.webp" alt="Lake Como ferry docks and lakeside, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+    </div>
+  </div>
+  <div class="travel-group">
+    <div class="travel-group-title"><i class="fas fa-location-dot"></i> ICLR 2025 · Singapore</div>
+    <div class="interest-photos interest-photos-quad">
+      <figure class="interest-photo">
+        <img src="images/conference/iclr2025_1.webp" alt="NUS campus and city walk, Singapore" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/iclr2025_2.webp" alt="Singapore coastline views" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/iclr2025_3.webp" alt="Sentosa seaside and water park, Singapore" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+      <figure class="interest-photo">
+        <img src="images/conference/iclr2025_4.webp" alt="Beach swings and seaside in Singapore" width="1080" height="1080" decoding="async" loading="lazy">
+      </figure>
+    </div>
   </div>
 </div>
 
