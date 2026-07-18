@@ -2433,3 +2433,37 @@ a.profile-contact-item:hover {
     height: 13rem;
   }
 }
+
+
+/* 女友卡片：竖版人像更高的 hero */
+.interest-hero-tall {
+  width: 9.5rem;
+  height: 12.6rem;
+  object-position: center 22%;
+}
+
+/* 会议卡片：四图横排 */
+.interest-photos-quad {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 0.85rem;
+}
+
+.interest-photos-quad .interest-photo img {
+  height: 9rem;
+  object-position: center;
+}
+
+@media (max-width: 720px) {
+  .interest-photos-quad {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .interest-photos-quad .interest-photo img {
+    height: 8rem;
+  }
+
+  .interest-hero-tall {
+    width: 8.5rem;
+    height: 11.3rem;
+  }
+}

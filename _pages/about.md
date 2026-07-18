@@ -588,6 +588,19 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 # ⚽ Interests
 <div class="interest-card floating-card">
   <div class="interest-header">
+    <img class="interest-hero interest-hero-tall" src="images/interest/girlfriend.webp" alt="My lovely girlfriend in a blossom garden" width="1200" height="1800" decoding="async" loading="lazy">
+    <div class="interest-intro">
+      <div class="interest-title">Love · My Girl</div>
+      <div class="interest-text">
+        Happily taken — my lovely girlfriend is the sweetest part of my life,
+        and my strongest supporter through the ups and downs of research.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="interest-card floating-card">
+  <div class="interest-header">
     <img class="interest-hero" src="images/interest/neuer.webp" alt="Manuel Neuer in the FC Bayern goalkeeper kit" width="550" height="418" decoding="async" loading="lazy">
     <div class="interest-intro">
       <div class="interest-title">Football · Goalkeeper</div>
@@ -623,6 +636,34 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <img src="images/interest/badminton.webp" alt="Lab team with medals at the school badminton tournament" width="1800" height="1350" decoding="async" loading="lazy">
     <figcaption>Lab team at the school badminton tournament, PKU · medal night</figcaption>
   </figure>
+</div>
+
+<div class="interest-card floating-card">
+  <div class="interest-intro">
+    <div class="interest-title">Travel · Academic Conferences</div>
+    <div class="interest-text">
+      Conferences double as my way to see the world: <b>ECCV 2024</b> in Milan, Italy, and <b>ICLR 2025</b> in Singapore —
+      with hopefully many more stamps in the passport to come.
+    </div>
+  </div>
+  <div class="interest-photos interest-photos-quad">
+    <figure class="interest-photo">
+      <img src="images/conference/eccv2024_1.webp" alt="Ponte Vecchio and the Arno river, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      <figcaption>ECCV 2024 · Italy</figcaption>
+    </figure>
+    <figure class="interest-photo">
+      <img src="images/conference/eccv2024_4.webp" alt="Lake Como ferry docks, Italy" width="1080" height="1080" decoding="async" loading="lazy">
+      <figcaption>ECCV 2024 · Italy</figcaption>
+    </figure>
+    <figure class="interest-photo">
+      <img src="images/conference/iclr2025_2.webp" alt="Singapore coastline views" width="1080" height="1080" decoding="async" loading="lazy">
+      <figcaption>ICLR 2025 · Singapore</figcaption>
+    </figure>
+    <figure class="interest-photo">
+      <img src="images/conference/iclr2025_4.webp" alt="Beach swings and seaside in Singapore" width="1080" height="1080" decoding="async" loading="lazy">
+      <figcaption>ICLR 2025 · Singapore</figcaption>
+    </figure>
+  </div>
 </div>
 
 <script>
