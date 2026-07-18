@@ -593,8 +593,8 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="interest-intro">
       <div class="interest-title">Love · My Girl</div>
       <div class="interest-text">
-        Happily taken — my lovely girlfriend is the sweetest part of my life,
-        and my strongest supporter through the ups and downs of research.
+        Lucky beyond words to have her — my lovely girlfriend,
+        who makes the good days sweeter and the hard research days lighter.
       </div>
     </div>
   </div>
