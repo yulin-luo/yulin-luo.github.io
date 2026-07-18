@@ -364,15 +364,17 @@
 .generalization-figure img {
   display: block;
   width: 100%;
-  max-height: 420px;
+  height: auto;
+  max-height: none;
   object-fit: contain;
-  border-radius: 0;
-  box-shadow: none;
+  border-radius: 10px;
+  border: 1px solid rgba(1, 47, 99, 0.1);
+  box-shadow: 0 4px 16px rgba(1, 47, 99, 0.08);
 }
 
 @media (max-width: 768px) {
   .generalization-figure img {
-    max-height: 300px;
+    border-radius: 8px;
   }
 }
 
