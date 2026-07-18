@@ -374,20 +374,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <details class="pub-group-details" id="pub-group-coauthor">
     <summary><i class="fas fa-layer-group"></i><span>Co-authored Papers</span><span class="pub-group-count">5</span></summary>
     <div class="pub-group-body">
-  <div id="pub-randstainna" class='paper-box paper-box-compact floating-card' data-order="20220612694" data-tags="Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
-    <div class='paper-box-text'>
-      <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
-      <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
-      <div class="venue"><span>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</span></div>
-      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2022.06 · Accepted: 2022.06</span></div>
-      <div class="paper-tldr"><span>Claim:</span> Histology models break when the stain changes. RandStainNA unifies stain normalization and augmentation into one scheme — random color-space sampling within a practicable range — consistently improving generalization across diagnostic tasks and backbones.</div>
-      <div class="links">
-        <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://doi.org/10.1007/978-3-031-16434-7_21" class="btn-accent"><i class="fas fa-award"></i> MICCAI</a>
-        <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-      </div>
-      <details class="paper-more">
-        <summary><i class="fas fa-images"></i><span>Figures</span></summary>
+  <div id="pub-randstainna" class='paper-box floating-card' data-order="20220612694" data-tags="Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">MICCAI 2022</div>
       <a class="paper-image-link" href="images/randstainna.webp" aria-label="Open full-size RandStainNA teaser">
@@ -399,10 +386,31 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </a>
       <div class="paper-image-caption"><span>Method</span>Random virtual templates for stain-agnostic training</div>
     </div>
-      </details>
+    <div class='paper-box-text'>
+      <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
+      <div class="authors">Yiqing Shen⭐️, <span class="author-highlight">Yulin Luo</span>⭐️, Dinggang Shen, Jing Ke📧</div>
+      <div class="venue"><span>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</span></div>
+      <div class="paper-timeline"><i class="fas fa-clock"></i><span>arXiv v1: 2022.06 · Accepted: 2022.06</span></div>
+      <div class="paper-tldr"><span>Claim:</span> Histology models break when the stain changes. RandStainNA unifies stain normalization and augmentation into one scheme — random color-space sampling within a practicable range — consistently improving generalization across diagnostic tasks and backbones.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2206.12694" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+        <a href="https://doi.org/10.1007/978-3-031-16434-7_21" class="btn-accent"><i class="fas fa-award"></i> MICCAI</a>
+        <a href="https://github.com/yiqings/RandStainNA" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      </div>
     </div>
   </div>
-  <div id="pub-robomind" class='paper-box paper-box-compact floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
+  <div id="pub-robomind" class='paper-box floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
+    <div class='paper-box-image paper-box-image-duo'>
+      <div class="badge pulse-accent">RSS 2025</div>
+      <a class="paper-image-link" href="images/robomind.webp" aria-label="Open full-size RoboMIND teaser">
+        <img src='images/robomind.webp' alt="RoboMIND teaser" width="500" height="366" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Teaser</span>Multi-embodiment robot manipulation benchmark</div>
+      <a class="paper-image-link" href="images/robomind-method.webp" aria-label="Open full-size RoboMIND annotation process">
+        <img src='images/robomind-method.webp' alt="RoboMIND annotation process" width="1533" height="385" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Language-guided task process and annotation examples</div>
+    </div>
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
       <div class="authors">Kun Wu⭐️, Chengkai Hou⭐️, Jiaming Liu⭐️, Zhengping Che⭐️†, Xiaozhu Ju⭐️†, ..., <span class="author-highlight">Yulin Luo</span>, ..., Shanghang Zhang📧, Jian Tang📧</div>
@@ -416,23 +424,20 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://github.com/x-humanoid-robomind" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
       </div>
-      <details class="paper-more">
-        <summary><i class="fas fa-images"></i><span>Figures</span></summary>
-    <div class='paper-box-image paper-box-image-duo'>
-      <div class="badge pulse-accent">RSS 2025</div>
-      <a class="paper-image-link" href="images/robomind.webp" aria-label="Open full-size RoboMIND teaser">
-        <img src='images/robomind.webp' alt="RoboMIND teaser" width="500" height="366" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Teaser</span>Multi-embodiment robot manipulation benchmark</div>
-      <a class="paper-image-link" href="images/robomind-method.webp" aria-label="Open full-size RoboMIND annotation process">
-        <img src='images/robomind-method.webp' alt="RoboMIND annotation process" width="1533" height="385" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Method</span>Language-guided task process and annotation examples</div>
-    </div>
-      </details>
     </div>
   </div>
-  <div id="pub-draw-and-understand" class='paper-box paper-box-compact floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
+  <div id="pub-draw-and-understand" class='paper-box floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
+    <div class='paper-box-image paper-box-image-duo'>
+      <div class="badge pulse-accent">ICLR 2025</div>
+      <a class="paper-image-link" href="images/drawandunderstand-teaser.webp" aria-label="Open full-size Draw-and-Understand teaser">
+        <img src='images/drawandunderstand-teaser.webp' alt="Draw-and-Understand teaser" width="1800" height="560" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Teaser</span>Visual prompting for fine-grained user intent</div>
+      <a class="paper-image-link" href="images/drawandunderstand-method.webp" aria-label="Open full-size Draw-and-Understand method diagram">
+        <img src='images/drawandunderstand-method.webp' alt="Draw-and-Understand training strategy and model architecture" width="1800" height="959" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Two-stage training and the SPHINX-V architecture</div>
+    </div>
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
       <div class="authors">Weifeng Lin⭐️, Xinyu Wei⭐️, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, Siyuan Huang, Shanghang Zhang, Hongsheng Li📧</div>
@@ -447,23 +452,20 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://huggingface.co/datasets/Afeng-x/Draw-and-Understand/tree/main/MDVP-bench" class="btn-accent"><i class="fas fa-database"></i> Bench</a>
         <a href="https://huggingface.co/Afeng-x/SPHINX-V-Model" class="btn-accent"><i class="fas fa-cube"></i> CKPT</a>
       </div>
-      <details class="paper-more">
-        <summary><i class="fas fa-images"></i><span>Figures</span></summary>
-    <div class='paper-box-image paper-box-image-duo'>
-      <div class="badge pulse-accent">ICLR 2025</div>
-      <a class="paper-image-link" href="images/drawandunderstand-teaser.webp" aria-label="Open full-size Draw-and-Understand teaser">
-        <img src='images/drawandunderstand-teaser.webp' alt="Draw-and-Understand teaser" width="1800" height="560" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Teaser</span>Visual prompting for fine-grained user intent</div>
-      <a class="paper-image-link" href="images/drawandunderstand-method.webp" aria-label="Open full-size Draw-and-Understand method diagram">
-        <img src='images/drawandunderstand-method.webp' alt="Draw-and-Understand training strategy and model architecture" width="1800" height="959" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Method</span>Two-stage training and the SPHINX-V architecture</div>
-    </div>
-      </details>
     </div>
   </div>
-  <div id="pub-seear1" class='paper-box paper-box-compact floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+  <div id="pub-seear1" class='paper-box floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
+    <div class='paper-box-image paper-box-image-duo'>
+      <div class="badge pulse-accent">NeurIPS 2025</div>
+      <a class="paper-image-link" href="images/seear1-teaser.webp" aria-label="Open full-size SEEA-R1 teaser">
+        <img src='images/seear1-teaser.webp' alt="SEEA-R1 teaser" width="789" height="390" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Teaser</span>Self-evolving embodied agents through tree search</div>
+      <a class="paper-image-link" href="images/seear1-method.webp" aria-label="Open full-size SEEA-R1 method diagram">
+        <img src='images/seear1-method.webp' alt="SEEA-R1 data and model evolution framework" width="1800" height="1010" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Coupled data and model evolution with relative advantages</div>
+    </div>
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
       <div class="authors">Wanxin Tian⭐️, Shijie Zhang⭐️, Kevin Zhang⭐️, Xiaowei Chi, Chun-Kai Fan, Junyu Lu, <span class="author-highlight">Yulin Luo</span>, et al., Shanghang Zhang📧, Jian Tang📧</div>
@@ -476,23 +478,20 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://seea-r1.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/AurumTian/seea-r1" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
-      <details class="paper-more">
-        <summary><i class="fas fa-images"></i><span>Figures</span></summary>
-    <div class='paper-box-image paper-box-image-duo'>
-      <div class="badge pulse-accent">NeurIPS 2025</div>
-      <a class="paper-image-link" href="images/seear1-teaser.webp" aria-label="Open full-size SEEA-R1 teaser">
-        <img src='images/seear1-teaser.webp' alt="SEEA-R1 teaser" width="789" height="390" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Teaser</span>Self-evolving embodied agents through tree search</div>
-      <a class="paper-image-link" href="images/seear1-method.webp" aria-label="Open full-size SEEA-R1 method diagram">
-        <img src='images/seear1-method.webp' alt="SEEA-R1 data and model evolution framework" width="1800" height="1010" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Method</span>Coupled data and model evolution with relative advantages</div>
-    </div>
-      </details>
     </div>
   </div>
-  <div id="pub-mofme" class='paper-box paper-box-compact floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
+  <div id="pub-mofme" class='paper-box floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
+    <div class='paper-box-image paper-box-image-duo'>
+      <div class="badge pulse-accent">AAAI 2024</div>
+      <a class="paper-image-link" href="images/mofme.webp" aria-label="Open full-size MoFME teaser">
+        <img src='images/mofme.webp' alt="MoFME teaser" width="1800" height="562" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Teaser</span>Deweathering pipeline for downstream perception</div>
+      <a class="paper-image-link" href="images/mofme-method.webp" aria-label="Open full-size MoFME method diagram">
+        <img src='images/mofme-method.webp' alt="MoFME method diagram" width="1800" height="740" decoding="async" loading="lazy">
+      </a>
+      <div class="paper-image-caption"><span>Method</span>Feature modulation experts with uncertainty-aware routing</div>
+    </div>
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
       <div class="paper-short-name">Short name: MoFME</div>
@@ -505,20 +504,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://doi.org/10.1609/aaai.v38i15.29622" class="btn-accent"><i class="fas fa-award"></i> AAAI</a>
         <a href="https://github.com/RoyZry98/MoFME-Pytorch" class="btn-accent"><i class="fab fa-github"></i> Code</a>
       </div>
-      <details class="paper-more">
-        <summary><i class="fas fa-images"></i><span>Figures</span></summary>
-    <div class='paper-box-image paper-box-image-duo'>
-      <div class="badge pulse-accent">AAAI 2024</div>
-      <a class="paper-image-link" href="images/mofme.webp" aria-label="Open full-size MoFME teaser">
-        <img src='images/mofme.webp' alt="MoFME teaser" width="1800" height="562" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Teaser</span>Deweathering pipeline for downstream perception</div>
-      <a class="paper-image-link" href="images/mofme-method.webp" aria-label="Open full-size MoFME method diagram">
-        <img src='images/mofme-method.webp' alt="MoFME method diagram" width="1800" height="740" decoding="async" loading="lazy">
-      </a>
-      <div class="paper-image-caption"><span>Method</span>Feature modulation experts with uncertainty-aware routing</div>
-    </div>
-      </details>
     </div>
   </div>
     </div>
