@@ -29,6 +29,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <a href="#publications"><i class="fas fa-file-lines"></i><span>Publications</span></a>
     <a href="#awards"><i class="fas fa-trophy"></i><span>Awards</span></a>
     <a href="#services"><i class="fas fa-glasses"></i><span>Services</span></a>
+    <a href="#interests"><i class="fas fa-futbol"></i><span>Interests</span></a>
   </nav>
 </details>
 
@@ -582,6 +583,32 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
 </div>
 <!-- TODO(可选): 期刊审稿 -->
+
+<span class='anchor' id='interests'></span>
+# ⚽ Interests
+<div class="interest-card floating-card">
+  <div class="interest-header">
+    <img class="interest-hero" src="images/interest/neuer.webp" alt="Manuel Neuer in the FC Bayern goalkeeper kit" width="550" height="418" decoding="async" loading="lazy">
+    <div class="interest-intro">
+      <div class="interest-title">Football · Goalkeeper</div>
+      <div class="interest-text">
+        Huge fan of <b>Manuel Neuer</b> (Germany &amp; FC Bayern München) — the sweeper-keeper who redefined the position.
+        I guard the goal myself: starting goalkeeper for <b>SEIEE Team B</b> at Shanghai Jiao Tong University during my undergrad,
+        and currently first-choice goalkeeper for the <b>Ji-Ji-Dian Changping United</b> team at Peking University.
+      </div>
+    </div>
+  </div>
+  <div class="interest-photos">
+    <figure class="interest-photo">
+      <img src="images/interest/sjtu-seie-b.webp" alt="SEIEE Team B group photo, Shanghai Jiao Tong University" width="1920" height="1275" decoding="async" loading="lazy">
+      <figcaption>SEIEE Team B, SJTU · 2019 Freshman Cup</figcaption>
+    </figure>
+    <figure class="interest-photo">
+      <img src="images/interest/pku-changping.webp" alt="Ji-Ji-Dian Changping United team photo, Peking University" width="1493" height="1119" decoding="async" loading="lazy">
+      <figcaption>Ji-Ji-Dian Changping United, PKU · 2026</figcaption>
+    </figure>
+  </div>
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

@@ -374,3 +374,17 @@ html[data-theme="dark"] .page__content h1 {
 html[data-theme="dark"] .greedy-nav {
   background: #0d1420;
 }
+
+
+/* --- Interests --- */
+html[data-theme="dark"] .interest-title {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] .interest-text {
+  color: #b9c6d6 !important;
+}
+
+html[data-theme="dark"] .interest-photo figcaption {
+  color: #8fa2b8 !important;
+}
