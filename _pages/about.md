@@ -547,7 +547,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="award-icon"><i class="fas fa-award"></i></div>
     <div class="award-content">
       <div class="award-title">Weichai Power Scholarship</div>
-      <div class="award-org">Weichai Power</div>
+      <div class="award-org">Shanghai Jiao Tong University</div>
     </div>
     <div class="award-year">2022.10</div>
   </div>
@@ -555,7 +555,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="award-icon"><i class="fas fa-award"></i></div>
     <div class="award-content">
       <div class="award-title">Huawei Scholarship</div>
-      <div class="award-org">Huawei</div>
+      <div class="award-org">Shanghai Jiao Tong University</div>
     </div>
     <div class="award-year">2021.12</div>
   </div>
