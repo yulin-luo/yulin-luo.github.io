@@ -432,7 +432,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </details>
     </div>
   </div>
-  <div id="pub-draw-and-understand" class='paper-box paper-box-compact floating-card' data-order="20240320271" data-tags="Other, Conference, Computer Vision, MLLM">
+  <div id="pub-draw-and-understand" class='paper-box paper-box-compact floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
       <div class="authors">Weifeng Lin⭐️, Xinyu Wei⭐️, Ruichuan An, Peng Gao, Bocheng Zou, <span class="author-highlight">Yulin Luo</span>, Siyuan Huang, Shanghang Zhang, Hongsheng Li📧</div>
