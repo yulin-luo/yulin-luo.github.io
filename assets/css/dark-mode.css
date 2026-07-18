@@ -445,3 +445,21 @@ html[data-theme="dark"] .paper-more[open] summary {
   color: #ff9fae !important;
   border-color: rgba(254, 102, 123, 0.45);
 }
+
+
+/* --- 非一作折叠区 --- */
+html[data-theme="dark"] .pub-group-details > summary {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #d8e1ec !important;
+}
+
+html[data-theme="dark"] .pub-group-details > summary:hover {
+  border-color: rgba(254, 102, 123, 0.5);
+  background: rgba(254, 102, 123, 0.08);
+}
+
+html[data-theme="dark"] .pub-group-count {
+  background: rgba(255, 255, 255, 0.1);
+  color: #b9c6d6;
+}

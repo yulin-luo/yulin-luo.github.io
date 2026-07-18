@@ -2750,3 +2750,63 @@ a.profile-contact-item:hover {
     grid-auto-flow: row;
   }
 }
+
+
+/* --- 非一作折叠区 --- */
+.pub-group-details {
+  margin: 0.2rem 0 0.8rem;
+}
+
+.pub-group-details > summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.68rem 1.1rem;
+  border: 1px dashed rgba(1, 47, 99, 0.22);
+  border-radius: 12px;
+  background: rgba(1, 47, 99, 0.03);
+  color: #012F63;
+  font-size: 0.92rem;
+  font-weight: 750;
+  cursor: pointer;
+  list-style: none;
+  transition: all 0.25s ease;
+}
+
+.pub-group-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-group-details > summary::after {
+  content: '▸';
+  color: #FE667B;
+  font-size: 0.9rem;
+  transition: transform 0.25s ease;
+}
+
+.pub-group-details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.pub-group-details > summary i {
+  color: #FE667B;
+}
+
+.pub-group-details > summary:hover {
+  border-color: rgba(254, 102, 123, 0.45);
+  background: rgba(254, 102, 123, 0.05);
+}
+
+.pub-group-count {
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(1, 47, 99, 0.08);
+  color: #526173;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.pub-group-body {
+  margin-top: 0.85rem;
+}

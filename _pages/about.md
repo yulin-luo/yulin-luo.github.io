@@ -72,7 +72,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 <div class="news-panel" markdown="1">
 
 - *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-deepvision-vla">DeepVision-VLA</a></b>, a vision-representation enhancement method for VLA models, is accepted to <span class="accent-text">ACM MM 2026</span>. (first author)
-- *2026.07*: &nbsp;📊 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b> is included in the official evaluation suite of <a class="news-paper-link" href="https://github.com/Tencent-Hunyuan/HY-Embodied" target="_blank" rel="noopener">HY-Embodied</a>, with <span class="accent-text">RoboBench-MCQ</span> and <span class="accent-text">RoboBench-Planning</span> reported for HY-Embodied-0.5 and Hy-Embodied-VLM-1.0.
+- *2026.07*: &nbsp;📊 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b> is included in the official evaluation suite of <a class="news-paper-link" href="https://github.com/Tencent-Hunyuan/HY-Embodied" target="_blank" rel="noopener">HY-Embodied</a> (RoboBench-MCQ &amp; RoboBench-Planning).
 - *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b>, a robot-scenario benchmark for evaluating MLLMs as embodied brains, is accepted to <span class="accent-text">ECCV 2026</span>. (first author)
 - *2025.11*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-moase">MoASE</a></b>, a sparse MoE adaptation method for robust continual test-time vision models, is accepted as <span class="news-highlight-oral">Oral</span> at <span class="accent-text">AAAI 2026</span>. (co-first author)
 - *2025.09*: &nbsp;🎉 <a class="news-paper-link" href="#pub-seear1">SEEA-R1</a>, a tree-structured RL fine-tuning method for self-evolving embodied agents, is accepted to <span class="accent-text">NeurIPS 2025</span>.
@@ -286,6 +286,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <button id="filter-reset" class="filter-reset-btn">Reset</button>
   </div>
 
+  <div class="pub-group" id="pub-group-first">
   <div id="pub-robobench" class='paper-box floating-card' data-order="20251017801" data-tags="First Author, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-image paper-box-image-duo'>
       <div class="badge pulse-accent">ECCV 2026</div>
@@ -396,7 +397,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </div>
     </div>
   </div>
+  </div>
 
+  <details class="pub-group-details" id="pub-group-coauthor">
+    <summary><i class="fas fa-layer-group"></i><span>Co-authored Papers</span><span class="pub-group-count">5</span></summary>
+    <div class="pub-group-body">
   <div id="pub-randstainna" class='paper-box paper-box-compact floating-card' data-order="20220612694" data-tags="Co-First Author, Conference, CCF-B, Medical Imaging, Data Augmentation">
     <div class='paper-box-text'>
       <h3>RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization</h3>
@@ -425,7 +430,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </details>
     </div>
   </div>
-
   <div id="pub-robomind" class='paper-box paper-box-compact floating-card' data-order="20241213877" data-tags="Other, Conference, CCF-B, Embodied AI, Benchmark">
     <div class='paper-box-text'>
       <h3>RoboMIND: Benchmark on Multi-Embodiment Intelligence Normative Data for Robot Manipulation</h3>
@@ -456,7 +460,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </details>
     </div>
   </div>
-
   <div id="pub-draw-and-understand" class='paper-box paper-box-compact floating-card' data-order="20240320271" data-tags="Other, Conference, CCF-A, Computer Vision, MLLM">
     <div class='paper-box-text'>
       <h3>Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want</h3>
@@ -488,7 +491,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </details>
     </div>
   </div>
-
   <div id="pub-seear1" class='paper-box paper-box-compact floating-card' data-order="20250621669" data-tags="Other, Conference, CCF-A, Embodied AI, Agentic, World Model">
     <div class='paper-box-text'>
       <h3>SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents</h3>
@@ -518,7 +520,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </details>
     </div>
   </div>
-
   <div id="pub-mofme" class='paper-box paper-box-compact floating-card' data-order="20231216610" data-tags="Other, Conference, CCF-A, Computer Vision, MoE">
     <div class='paper-box-text'>
       <h3>Efficient Deweather Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation</h3>
@@ -548,6 +549,13 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       </details>
     </div>
   </div>
+    </div>
+  </details>
+
+
+
+
+
 
 </div>
 
@@ -704,11 +712,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
 
-  // Default order is reverse chronological by arXiv id when available.
-  paperBoxes.sort((a, b) => {
-    return Number(b.dataset.order || 0) - Number(a.dataset.order || 0);
+  // Default order is reverse chronological within each group container.
+  const groupContainers = Array.from(new Set(paperBoxes.map(box => box.parentElement)));
+  groupContainers.forEach(container => {
+    const boxes = Array.from(container.children).filter(el => el.classList && el.classList.contains('paper-box'));
+    boxes.sort((a, b) => Number(b.dataset.order || 0) - Number(a.dataset.order || 0));
+    boxes.forEach(box => container.appendChild(box));
   });
-  paperBoxes.forEach(box => wrapper.appendChild(box));
+
+  // 锚点命中折叠区时自动展开
+  function openCollapsedFor(target) {
+    if (!target) return;
+    const details = target.closest('details.pub-group-details');
+    if (details) details.open = true;
+  }
+  document.querySelectorAll('a[href^="#pub-"]').forEach(link => {
+    link.addEventListener('click', () => {
+      openCollapsedFor(document.querySelector(link.getAttribute('href')));
+    });
+  });
+  if (location.hash) openCollapsedFor(document.querySelector(location.hash));
+  window.addEventListener('hashchange', () => openCollapsedFor(document.querySelector(location.hash)));
 
   const filterContainer = document.getElementById('filter-container');
   const selects = filterContainer ? filterContainer.querySelectorAll('select[data-dim]') : [];
