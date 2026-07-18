@@ -2489,3 +2489,66 @@ a.profile-contact-item:hover {
     height: 12rem;
   }
 }
+
+
+/* --- Awards 分组卡片（同校奖项合并） --- */
+.award-card-group {
+  display: block;
+  padding: 1rem 1.35rem 0.7rem;
+  margin: 0.8rem 0 1.55rem;
+}
+
+.award-group-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(1, 47, 99, 0.09);
+}
+
+.award-group-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+}
+
+.award-group-name {
+  color: #012F63;
+  font-size: 0.98rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.award-group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.award-group-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.52rem 0;
+  border-bottom: 1px dashed rgba(1, 47, 99, 0.08);
+}
+
+.award-group-list li:last-child {
+  border-bottom: none;
+}
+
+.award-item-name {
+  color: #2d3748;
+  font-size: 0.92rem;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.award-item-year {
+  flex: 0 0 auto;
+  color: #526173;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}

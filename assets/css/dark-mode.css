@@ -394,3 +394,22 @@ html[data-theme="dark"] .interest-photo figcaption {
 html[data-theme="dark"] .travel-group-title {
   color: #e8eef6 !important;
 }
+
+
+/* --- Awards 分组卡片 --- */
+html[data-theme="dark"] .award-group-name {
+  color: #e8eef6 !important;
+}
+
+html[data-theme="dark"] .award-group-header,
+html[data-theme="dark"] .award-group-list li {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] .award-item-name {
+  color: #d8e1ec !important;
+}
+
+html[data-theme="dark"] .award-item-year {
+  color: #8fa2b8 !important;
+}

@@ -536,39 +536,17 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 
 <span class='anchor' id='awards'></span>
 # 🏆 Awards
-<div class="award-grid">
-  <div class="award-card floating-card">
-    <div class="award-icon"><i class="fas fa-graduation-cap"></i></div>
-    <div class="award-content">
-      <div class="award-title">Outstanding Graduate</div>
-      <div class="award-org">Shanghai Jiao Tong University</div>
-    </div>
-    <div class="award-year">2023.06</div>
+<div class="award-card award-card-group floating-card">
+  <div class="award-group-header">
+    <img class="award-group-logo" src="images/sjtu-logo-official.svg" alt="Shanghai Jiao Tong University logo" width="75" height="75" decoding="async" loading="lazy">
+    <div class="award-group-name">Shanghai Jiao Tong University</div>
   </div>
-  <div class="award-card floating-card">
-    <div class="award-icon"><i class="fas fa-award"></i></div>
-    <div class="award-content">
-      <div class="award-title">Weichai Power Scholarship</div>
-      <div class="award-org">Shanghai Jiao Tong University</div>
-    </div>
-    <div class="award-year">2022.10</div>
-  </div>
-  <div class="award-card floating-card">
-    <div class="award-icon"><i class="fas fa-award"></i></div>
-    <div class="award-content">
-      <div class="award-title">Huawei Scholarship</div>
-      <div class="award-org">Shanghai Jiao Tong University</div>
-    </div>
-    <div class="award-year">2021.12</div>
-  </div>
-  <div class="award-card floating-card">
-    <div class="award-icon"><i class="fas fa-medal"></i></div>
-    <div class="award-content">
-      <div class="award-title">B-Class Merit Scholarship</div>
-      <div class="award-org">Shanghai Jiao Tong University</div>
-    </div>
-    <div class="award-year">2020 · 2021 · 2022</div>
-  </div>
+  <ul class="award-group-list">
+    <li><span class="award-item-name">Outstanding Graduate</span><span class="award-item-year">2023.06</span></li>
+    <li><span class="award-item-name">Weichai Power Scholarship</span><span class="award-item-year">2022.10</span></li>
+    <li><span class="award-item-name">Huawei Scholarship</span><span class="award-item-year">2021.12</span></li>
+    <li><span class="award-item-name">B-Class Merit Scholarship</span><span class="award-item-year">2020 · 2021 · 2022</span></li>
+  </ul>
 </div>
 
 <span class='anchor' id='services'></span>
