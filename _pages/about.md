@@ -604,17 +604,19 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 </div>
 
 <div class="interest-card floating-card">
-  <div class="interest-intro">
-    <div class="interest-title">Badminton · Lab Team</div>
-    <div class="interest-text">
-      Regular badminton player with my lab mates — we entered the <b>school badminton tournament</b> together and <b>took silver</b>.
-      Nothing resets the brain after a long research day like a few hard-fought rallies on court.
+  <div class="interest-header">
+    <figure class="interest-hero-figure">
+      <img class="interest-hero interest-hero-landscape" src="images/interest/badminton.webp" alt="Lab team with silver medals at the school badminton tournament" width="1800" height="1350" decoding="async" loading="lazy">
+      <figcaption>Lab team at the school badminton tournament, PKU · silver medal</figcaption>
+    </figure>
+    <div class="interest-intro">
+      <div class="interest-title">Badminton · Lab Team</div>
+      <div class="interest-text">
+        Regular badminton player with my lab mates — we entered the <b>school badminton tournament</b> together and <b>took silver</b>.
+        Nothing resets the brain after a long research day like a few hard-fought rallies on court.
+      </div>
     </div>
   </div>
-  <figure class="interest-photo interest-photo-wide">
-    <img src="images/interest/badminton.webp" alt="Lab team with medals at the school badminton tournament" width="1800" height="1350" decoding="async" loading="lazy">
-    <figcaption>Lab team at the school badminton tournament, PKU · silver medal</figcaption>
-  </figure>
 </div>
 
 <span class='anchor' id='travel'></span>
