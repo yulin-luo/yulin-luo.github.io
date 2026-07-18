@@ -30,6 +30,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <a href="#awards"><i class="fas fa-trophy"></i><span>Awards</span></a>
     <a href="#services"><i class="fas fa-glasses"></i><span>Services</span></a>
     <a href="#interests"><i class="fas fa-futbol"></i><span>Interests</span></a>
+    <a href="#travel"><i class="fas fa-plane"></i><span>Travel</span></a>
   </nav>
 </details>
 
@@ -638,9 +639,11 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </figure>
 </div>
 
+<span class='anchor' id='travel'></span>
+# ✈️ Travel
 <div class="interest-card floating-card">
   <div class="interest-intro">
-    <div class="interest-title">Travel · Academic Conferences</div>
+    <div class="interest-title">Academic Conferences</div>
     <div class="interest-text">
       Conferences double as my way to see the world: <b>ECCV 2024</b> in Milan, Italy, and <b>ICLR 2025</b> in Singapore —
       with hopefully many more stamps in the passport to come.
