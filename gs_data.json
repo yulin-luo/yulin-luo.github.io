@@ -1,0 +1,126 @@
+{
+  "scholar_id": "SgeV4NkAAAAJ",
+  "name": "Yulin Luo",
+  "source": "https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=en&pagesize=100",
+  "updated": "2026-07-20T11:07:49.115837+00:00",
+  "publications": {
+    "SgeV4NkAAAAJ:LkGwnXOMwfcC": {
+      "bib": {
+        "title": "Robomind: Benchmark on multi-embodiment intelligence normative data for robot manipulation"
+      },
+      "num_citations": 194,
+      "author_pub_id": "SgeV4NkAAAAJ:LkGwnXOMwfcC",
+      "pub_year": "2024"
+    },
+    "SgeV4NkAAAAJ:u-x6o8ySG0sC": {
+      "bib": {
+        "title": "Randstainna: Learning stain-agnostic features from histology slides by bridging stain augmentation and normalization"
+      },
+      "num_citations": 114,
+      "author_pub_id": "SgeV4NkAAAAJ:u-x6o8ySG0sC",
+      "pub_year": "2022"
+    },
+    "SgeV4NkAAAAJ:UeHWp8X0CEIC": {
+      "bib": {
+        "title": "Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want"
+      },
+      "num_citations": 110,
+      "author_pub_id": "SgeV4NkAAAAJ:UeHWp8X0CEIC",
+      "pub_year": "2024"
+    },
+    "SgeV4NkAAAAJ:WF5omc3nYNoC": {
+      "bib": {
+        "title": "Mc-llava: Multi-concept personalized vision-language model"
+      },
+      "num_citations": 74,
+      "author_pub_id": "SgeV4NkAAAAJ:WF5omc3nYNoC",
+      "pub_year": "2024"
+    },
+    "SgeV4NkAAAAJ:d1gkVwhDpl0C": {
+      "bib": {
+        "title": "A federated learning system for histopathology image analysis with an orchestral stain-normalization GAN"
+      },
+      "num_citations": 67,
+      "author_pub_id": "SgeV4NkAAAAJ:d1gkVwhDpl0C",
+      "pub_year": "2022"
+    },
+    "SgeV4NkAAAAJ:Y0pCki6q_DkC": {
+      "bib": {
+        "title": "LLM as dataset analyst: Subpopulation structure discovery with large language model"
+      },
+      "num_citations": 63,
+      "author_pub_id": "SgeV4NkAAAAJ:Y0pCki6q_DkC",
+      "pub_year": "2024"
+    },
+    "SgeV4NkAAAAJ:qjMakFHDy7sC": {
+      "bib": {
+        "title": "Efficient Deweahter Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation"
+      },
+      "num_citations": 51,
+      "author_pub_id": "SgeV4NkAAAAJ:qjMakFHDy7sC",
+      "pub_year": "2024"
+    },
+    "SgeV4NkAAAAJ:8k81kl-MbHgC": {
+      "bib": {
+        "title": "Wow: Towards a world omniscient world model through embodied interaction"
+      },
+      "num_citations": 48,
+      "author_pub_id": "SgeV4NkAAAAJ:8k81kl-MbHgC",
+      "pub_year": "2025"
+    },
+    "SgeV4NkAAAAJ:2osOgNQ5qMEC": {
+      "bib": {
+        "title": "WM-MoE: Weather-aware Multi-scale Mixture-of-Experts for Blind Adverse Weather Removal"
+      },
+      "num_citations": 31,
+      "author_pub_id": "SgeV4NkAAAAJ:2osOgNQ5qMEC",
+      "pub_year": "2023"
+    },
+    "SgeV4NkAAAAJ:0EnyYjriUFMC": {
+      "bib": {
+        "title": "SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents"
+      },
+      "num_citations": 16,
+      "author_pub_id": "SgeV4NkAAAAJ:0EnyYjriUFMC",
+      "pub_year": "2025"
+    },
+    "SgeV4NkAAAAJ:zYLM7Y9cAGgC": {
+      "bib": {
+        "title": "Decomposing the neurons: Activation sparsity via mixture of experts for continual test time adaptation"
+      },
+      "num_citations": 16,
+      "author_pub_id": "SgeV4NkAAAAJ:zYLM7Y9cAGgC",
+      "pub_year": "2024"
+    },
+    "SgeV4NkAAAAJ:KlAtU1dfN6UC": {
+      "bib": {
+        "title": "Robobench: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models as Embodied Brain"
+      },
+      "num_citations": 15,
+      "author_pub_id": "SgeV4NkAAAAJ:KlAtU1dfN6UC",
+      "pub_year": "2025"
+    },
+    "SgeV4NkAAAAJ:ULOm3_A8WrAC": {
+      "bib": {
+        "title": "Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test"
+      },
+      "num_citations": 9,
+      "author_pub_id": "SgeV4NkAAAAJ:ULOm3_A8WrAC",
+      "pub_year": "2026"
+    },
+    "SgeV4NkAAAAJ:qxL8FJ1GzNcC": {
+      "bib": {
+        "title": "Look before acting: Enhancing vision foundation representations for vision-language-action models"
+      },
+      "num_citations": 4,
+      "author_pub_id": "SgeV4NkAAAAJ:qxL8FJ1GzNcC",
+      "pub_year": "2026"
+    }
+  },
+  "citedby": 812,
+  "citedby5y": 812,
+  "hindex": 12,
+  "hindex5y": 12,
+  "i10index": 12,
+  "i10index5y": 12
+}
