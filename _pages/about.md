@@ -150,7 +150,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   <div class="trajectory-heading">
     <div>
       <h2 id="research-trajectory-title">Research Trajectory</h2>
-      <p>Selected first / co-first works since 2024. Hollow dots mark arXiv v1 release; solid dots mark acceptance.</p>
+      <p>A module-level timeline of selected works. Hollow dots mark arXiv v1 release; solid dots mark acceptance.</p>
     </div>
     <div class="trajectory-legend" aria-label="Timeline legend">
       <span><i class="dot dot-arxiv"></i> arXiv v1</span>
@@ -177,47 +177,59 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="trajectory-lanes">
     <div class="trajectory-lane">
-      <div class="lane-label"><i class="fas fa-microchip"></i><span>Model</span></div>
+      <div class="lane-label"><i class="fas fa-pen-nib"></i><span>Data &amp; MLLM Interaction</span></div>
       <div class="lane-track">
-        <a class="trajectory-link trajectory-span" href="#pub-moase" style="--start:11.1%; --end:61.1%; --mid:36.1%; --y:34%;" title="MoASE: arXiv v1 2024.05 → AAAI Oral acceptance 2025.11">
-          <span class="timeline-label label-above" style="left: var(--mid);">MoASE <span class="timeline-venue">(AAAI'26 Oral)</span></span>
+        <a class="trajectory-link trajectory-span" href="#pub-draw-and-understand" target="_self" style="--start:5.6%; --end:33.3%; --mid:19.4%; --y:32%;" title="Draw-and-Understand: arXiv v1 2024.03 to ICLR 2025 acceptance 2025.01">
+          <span class="timeline-label label-above"><strong>Draw &amp; Understand</strong><span class="timeline-venue">ICLR'25</span><span class="timeline-date">2024.03 -> 2025.01</span></span>
           <span class="span-line"></span>
-          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
-          <span class="timeline-dot accepted-dot highlight-dot" style="left: var(--end);"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot"></span>
         </a>
-        <a class="trajectory-link trajectory-span" href="#pub-deepvision-vla" style="--start:72.2%; --end:83.3%; --mid:77.8%; --y:72%;" title="DeepVision-VLA: arXiv v1 2026.03 → ACM MM 2026 acceptance 2026.07">
-          <span class="timeline-label label-below" style="left: var(--mid);">DeepVision-VLA <span class="timeline-venue">(ACM MM'26)</span></span>
+        <a class="trajectory-link trajectory-span" href="#pub-ssd-llm" target="_self" style="--start:11.1%; --end:16.7%; --mid:13.9%; --y:72%;" title="SSD-LLM: arXiv v1 2024.05 to ECCV 2024 acceptance 2024.07">
+          <span class="timeline-label label-below"><strong>SSD-LLM</strong><span class="timeline-venue">ECCV'24</span><span class="timeline-date">2024.05 -> 2024.07</span></span>
           <span class="span-line"></span>
-          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
-          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot"></span>
         </a>
       </div>
     </div>
     <div class="trajectory-lane">
-      <div class="lane-label"><i class="fas fa-clipboard-check"></i><span>Evaluation</span></div>
+      <div class="lane-label"><i class="fas fa-microchip"></i><span>Model Generalization</span></div>
       <div class="lane-track">
-        <a class="trajectory-link trajectory-span" href="#pub-robomind" style="--start:30.6%; --end:41.7%; --mid:36.1%; --y:34%;" title="RoboMIND: arXiv v1 2024.12 → RSS 2025 acceptance 2025.04">
-          <span class="timeline-label label-above" style="left: var(--mid);">RoboMIND <span class="timeline-venue">(RSS'25)</span></span>
+        <a class="trajectory-link trajectory-span" href="#pub-moase" target="_self" style="--start:11.1%; --end:61.1%; --mid:36.1%; --y:32%;" title="MoASE: arXiv v1 2024.05 to AAAI Oral acceptance 2025.11">
+          <span class="timeline-label label-above"><strong>MoASE</strong><span class="timeline-venue">AAAI'26 Oral</span><span class="timeline-date">2024.05 -> 2025.11</span></span>
           <span class="span-line"></span>
-          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
-          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot highlight-dot"></span>
         </a>
-        <a class="trajectory-link trajectory-span" href="#pub-robobench" style="--start:58.3%; --end:83.3%; --mid:70.8%; --y:72%;" title="RoboBench: arXiv v1 2025.10 → ECCV 2026.07">
-          <span class="timeline-label label-below" style="left: var(--mid);">RoboBench <span class="timeline-venue">(ECCV'26)</span></span>
+        <a class="trajectory-link trajectory-span" href="#pub-deepvision-vla" target="_self" style="--start:72.2%; --end:83.3%; --mid:77.8%; --y:72%;" title="DeepVision-VLA: arXiv v1 2026.03 to ACM MM 2026 acceptance 2026.07">
+          <span class="timeline-label label-below"><strong>DeepVision-VLA</strong><span class="timeline-venue">ACM MM'26</span><span class="timeline-date">2026.03 -> 2026.07</span></span>
           <span class="span-line"></span>
-          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
-          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot"></span>
         </a>
       </div>
     </div>
-    <div class="trajectory-lane trajectory-lane-compact">
-      <div class="lane-label"><i class="fas fa-arrows-rotate"></i><span>Model-Data Co-evolution</span></div>
+    <div class="trajectory-lane trajectory-lane-wide">
+      <div class="lane-label"><i class="fas fa-clipboard-check"></i><span>Embodied Agents &amp; Evaluation</span></div>
       <div class="lane-track">
-        <a class="trajectory-link trajectory-span" href="#pub-ssd-llm" style="--start:11.1%; --end:16.7%; --mid:13.9%; --y:50%;" title="SSD-LLM: arXiv v1 2024.05 → ECCV 2024 acceptance 2024.07">
-          <span class="timeline-label label-above" style="left: var(--mid);">SSD-LLM <span class="timeline-venue">(ECCV'24)</span></span>
+        <a class="trajectory-link trajectory-span" href="#pub-robomind" target="_self" style="--start:30.6%; --end:41.7%; --mid:36.1%; --y:24%;" title="RoboMIND: arXiv v1 2024.12 to RSS 2025 acceptance 2025.04">
+          <span class="timeline-label label-above"><strong>RoboMIND</strong><span class="timeline-venue">RSS'25</span><span class="timeline-date">2024.12 -> 2025.04</span></span>
           <span class="span-line"></span>
-          <span class="timeline-dot arxiv-dot" style="left: var(--start);"></span>
-          <span class="timeline-dot accepted-dot" style="left: var(--end);"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot"></span>
+        </a>
+        <a class="trajectory-link trajectory-span" href="#pub-seear1" target="_self" style="--start:47.2%; --end:55.6%; --mid:51.4%; --y:50%;" title="SEEA-R1: arXiv v1 2025.06 to NeurIPS 2025 acceptance 2025.09">
+          <span class="timeline-label label-below"><strong>SEEA-R1</strong><span class="timeline-venue">NeurIPS'25</span><span class="timeline-date">2025.06 -> 2025.09</span></span>
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot"></span>
+        </a>
+        <a class="trajectory-link trajectory-span trajectory-label-right" href="#pub-robobench" target="_self" style="--start:58.3%; --end:83.3%; --mid:70.8%; --y:76%;" title="RoboBench: arXiv v1 2025.10 to ECCV 2026 acceptance 2026.07">
+          <span class="timeline-label label-above"><strong>RoboBench</strong><span class="timeline-venue">ECCV'26</span><span class="timeline-date">2025.10 -> 2026.07</span></span>
+          <span class="span-line"></span>
+          <span class="timeline-dot arxiv-dot"></span>
+          <span class="timeline-dot accepted-dot"></span>
         </a>
       </div>
     </div>
@@ -690,6 +702,16 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('a[href^="#pub-"]').forEach(link => {
     link.addEventListener('click', () => {
       openCollapsedFor(document.querySelector(link.getAttribute('href')));
+    });
+  });
+  document.querySelectorAll('.research-trajectory a[href^="#pub-"]').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      const hash = link.getAttribute('href');
+      const target = document.querySelector(hash);
+      if (!target) return;
+      history.replaceState(null, '', hash);
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
   if (location.hash) openCollapsedFor(document.querySelector(location.hash));
