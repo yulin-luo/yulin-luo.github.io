@@ -1043,7 +1043,7 @@ a.profile-contact-item:hover {
   min-height: 4.45rem;
   border-radius: 12px;
   background:
-    linear-gradient(to right, rgba(1, 47, 99, 0.055) 1px, transparent 1px) 0 0 / 20% 100%,
+    linear-gradient(to right, rgba(1, 47, 99, 0.055) 1px, transparent 1px) 0 0 / 33.333% 100%,
     linear-gradient(to right, rgba(1, 47, 99, 0.12), rgba(1, 47, 99, 0.12)) center / 100% 1px no-repeat,
     rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(1, 47, 99, 0.07);
