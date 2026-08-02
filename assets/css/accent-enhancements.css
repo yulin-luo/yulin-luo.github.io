@@ -912,10 +912,8 @@ a.profile-contact-item:hover {
 
 /* Research trajectory timeline */
 .research-trajectory {
-  --trajectory-label-width: 6.9rem;
-  --trajectory-label-gap: 0.52rem;
-  margin: 1.35rem 0 1.9rem;
-  padding: 1.28rem 1.36rem 1.38rem;
+  margin: 1.2rem 0 1.7rem;
+  padding: 1.05rem 1.15rem 1.2rem;
   background:
     linear-gradient(135deg, rgba(1, 47, 99, 0.028), rgba(254, 102, 123, 0.026)),
     #fff;
@@ -928,23 +926,23 @@ a.profile-contact-item:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 1.15rem;
-  margin-bottom: 1.08rem;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
 }
 
 .trajectory-heading h2 {
-  margin: 0 0 0.26rem;
+  margin: 0 0 0.18rem;
   color: #12345A;
-  font-size: 1.32rem;
-  line-height: 1.18;
+  font-size: 1.05rem;
+  line-height: 1.25;
   letter-spacing: 0;
 }
 
 .trajectory-heading p {
   margin: 0;
   color: #53687f;
-  font-size: 0.94rem;
-  line-height: 1.48;
+  font-size: 0.80rem;
+  line-height: 1.4;
 }
 
 .trajectory-legend {
@@ -952,12 +950,12 @@ a.profile-contact-item:hover {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 0.58rem;
+  gap: 0.5rem;
   color: #4d6077;
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   line-height: 1.2;
   white-space: nowrap;
-  padding-top: 0.20rem;
+  padding-top: 0.14rem;
 }
 
 .trajectory-legend span {
@@ -967,8 +965,8 @@ a.profile-contact-item:hover {
 }
 
 .trajectory-legend .dot {
-  width: 0.64rem;
-  height: 0.64rem;
+  width: 0.56rem;
+  height: 0.56rem;
   display: inline-block;
   border-radius: 50%;
   border: 2px solid #2E6EA6;
@@ -986,144 +984,74 @@ a.profile-contact-item:hover {
 
 .trajectory-axis {
   position: relative;
-  height: 1.82rem;
-  margin: 0.46rem 0 0.48rem calc(var(--trajectory-label-width) + var(--trajectory-label-gap));
-  border-top: 2px solid rgba(1, 47, 99, 0.22);
-}
-
-.trajectory-axis::after {
-  content: "";
-  position: absolute;
-  top: -0.34rem;
-  right: -0.02rem;
-  width: 0.48rem;
-  height: 0.48rem;
-  border-top: 2px solid rgba(1, 47, 99, 0.30);
-  border-right: 2px solid rgba(1, 47, 99, 0.30);
-  transform: rotate(45deg);
-  transform-origin: center;
+  height: 1.15rem;
+  margin: 0.25rem 0 0.35rem 8.7rem;
+  border-top: 1px solid rgba(1, 47, 99, 0.14);
 }
 
 .trajectory-axis span {
   position: absolute;
+  top: -0.13rem;
   transform: translateX(-50%);
+  padding-top: 0.32rem;
+  color: #6a7d91;
+  font-size: 0.68rem;
+  font-weight: 650;
 }
 
 .trajectory-axis span::before {
   content: "";
   position: absolute;
+  top: -0.1rem;
   left: 50%;
   width: 1px;
-  background: rgba(1, 47, 99, 0.18);
-}
-
-.trajectory-axis .axis-year {
-  top: -0.70rem;
-  color: #12345A;
-  font-size: 0.82rem;
-  font-weight: 800;
-}
-
-.trajectory-axis .axis-year::before {
-  top: 0.88rem;
-  height: 0.62rem;
-  background: rgba(1, 47, 99, 0.24);
-}
-
-.trajectory-axis .axis-start {
-  transform: translateX(0);
-}
-
-.trajectory-axis .axis-start::before {
-  left: 0;
-}
-
-.trajectory-axis .axis-month {
-  top: -0.08rem;
-  padding-top: 0.40rem;
-  color: #75879b;
-  font-size: 0.70rem;
-  font-weight: 700;
-}
-
-.trajectory-axis .axis-month::before {
-  top: -0.10rem;
-  height: 0.34rem;
+  height: 0.36rem;
+  background: rgba(1, 47, 99, 0.20);
 }
 
 .trajectory-lanes {
   display: flex;
   flex-direction: column;
-  gap: 0.52rem;
+  gap: 0.42rem;
 }
 
 .trajectory-lane {
   display: grid;
-  grid-template-columns: var(--trajectory-label-width) minmax(0, 1fr);
-  gap: var(--trajectory-label-gap);
+  grid-template-columns: 8.7rem minmax(0, 1fr);
+  gap: 0.75rem;
   align-items: stretch;
 }
 
 .lane-label {
   display: flex;
   align-items: center;
-  gap: 0.48rem;
-  min-width: 0;
+  gap: 0.42rem;
   color: #12345A;
-  font-size: 0.90rem;
+  font-size: 0.78rem;
   font-weight: 760;
-  line-height: 1.18;
+  line-height: 1.25;
 }
 
 .lane-label i {
-  flex: 0 0 1.05rem;
+  width: 1.05rem;
   color: #FE667B;
   text-align: center;
 }
 
-.lane-label span {
-  min-width: 0;
-}
-
 .lane-track {
   position: relative;
-  min-height: 4.95rem;
+  min-height: 4.45rem;
   border-radius: 12px;
   background:
-    linear-gradient(to right, rgba(1, 47, 99, 0.045) 1px, transparent 1px) 0 0 / 8.333% 100%,
+    linear-gradient(to right, rgba(1, 47, 99, 0.055) 1px, transparent 1px) 0 0 / 20% 100%,
+    linear-gradient(to right, rgba(1, 47, 99, 0.12), rgba(1, 47, 99, 0.12)) center / 100% 1px no-repeat,
     rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(1, 47, 99, 0.07);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.88);
 }
 
-.lane-track::before {
-  content: "";
-  position: absolute;
-  left: 0.46rem;
-  right: 0.82rem;
-  top: 50%;
-  height: 2px;
-  transform: translateY(-50%);
-  background: linear-gradient(90deg, rgba(1, 47, 99, 0.12), rgba(1, 47, 99, 0.22));
-  border-radius: 99px;
-  z-index: 0;
-}
-
-.lane-track::after {
-  content: "";
-  position: absolute;
-  right: 0.42rem;
-  top: 50%;
-  width: 0.44rem;
-  height: 0.44rem;
-  border-top: 2px solid rgba(1, 47, 99, 0.26);
-  border-right: 2px solid rgba(1, 47, 99, 0.26);
-  transform: translateY(-50%) rotate(45deg);
-  z-index: 0;
-}
-
 .trajectory-lane-compact .lane-track {
-  min-height: 4.05rem;
+  min-height: 3.65rem;
 }
 
 .trajectory-link {
@@ -1141,11 +1069,11 @@ a.profile-contact-item:hover {
 }
 
 .trajectory-link:hover .label-above {
-  transform: translate(-50%, -1.92rem);
+  transform: translate(-50%, -1.75rem);
 }
 
 .trajectory-link:hover .label-below {
-  transform: translate(-50%, 0.88rem);
+  transform: translate(-50%, 0.78rem);
 }
 
 .trajectory-link:hover .span-line {
@@ -1182,8 +1110,8 @@ a.profile-contact-item:hover {
 .timeline-dot {
   position: absolute;
   top: 0;
-  width: 0.82rem;
-  height: 0.82rem;
+  width: 0.72rem;
+  height: 0.72rem;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -1209,26 +1137,20 @@ a.profile-contact-item:hover {
 .timeline-label {
   position: absolute;
   top: 0;
-  transform: translate(-50%, -1.78rem);
-  padding: 0.16rem 0.58rem;
+  transform: translate(-50%, -1.62rem);
+  padding: 0.12rem 0.48rem;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.96);
   color: #233d58;
   border: 1px solid rgba(1, 47, 99, 0.12);
   box-shadow: 0 2px 8px rgba(1, 47, 99, 0.08);
-  font-size: 0.76rem;
+  font-size: 0.66rem;
   font-weight: 720;
   line-height: 1.2;
   white-space: nowrap;
   transition: color 0.2s, transform 0.2s;
   z-index: 3;
   pointer-events: none;
-}
-
-.timeline-venue {
-  color: #5D7188;
-  font-size: 0.67rem;
-  font-weight: 680;
 }
 
 .timeline-label::after {
@@ -1242,7 +1164,7 @@ a.profile-contact-item:hover {
 }
 
 .label-above {
-  transform: translate(-50%, -1.78rem);
+  transform: translate(-50%, -1.62rem);
 }
 
 .label-above::after {
@@ -1250,7 +1172,7 @@ a.profile-contact-item:hover {
 }
 
 .label-below {
-  transform: translate(-50%, 0.76rem);
+  transform: translate(-50%, 0.66rem);
 }
 
 .label-below::after {
