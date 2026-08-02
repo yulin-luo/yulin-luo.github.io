@@ -160,8 +160,17 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
   </div>
   <div class="trajectory-axis" aria-hidden="true">
     <span style="left: 0%">2024</span>
+    <i class="axis-tick" style="left: 5.6%"></i>
+    <i class="axis-tick" style="left: 13.9%"></i>
+    <i class="axis-tick" style="left: 22.2%"></i>
     <span style="left: 33.3%">2025</span>
+    <i class="axis-tick" style="left: 38.9%"></i>
+    <i class="axis-tick" style="left: 47.2%"></i>
+    <i class="axis-tick" style="left: 55.6%"></i>
     <span style="left: 66.7%">2026</span>
+    <i class="axis-tick" style="left: 72.2%"></i>
+    <i class="axis-tick" style="left: 80.6%"></i>
+    <i class="axis-tick" style="left: 88.9%"></i>
     <span style="left: 100%">2027</span>
   </div>
   <div class="trajectory-lanes">

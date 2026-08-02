@@ -1009,6 +1009,15 @@ a.profile-contact-item:hover {
   background: rgba(1, 47, 99, 0.20);
 }
 
+.trajectory-axis .axis-tick {
+  position: absolute;
+  top: -0.08rem;
+  width: 1px;
+  height: 0.24rem;
+  transform: translateX(-50%);
+  background: rgba(1, 47, 99, 0.16);
+}
+
 .trajectory-lanes {
   display: flex;
   flex-direction: column;
