@@ -120,7 +120,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
     <div class="experience-content">
       <h3><a href="https://evophys.com/" class="link-accent">EvoPhys</a> <span class="cn-name">(宇万智能)</span></h3>
       <div class="credential-line"><i class="fas fa-briefcase"></i><span>Chief AI Officer (CAIO)</span></div>
-      <div class="credential-line"><i class="fas fa-globe"></i><span>Generalizable foundation models integrating world engine and world policy.</span></div>
+      <div class="credential-line"><i class="fas fa-globe"></i><span>Unified foundation models integrating world engine and world policy.</span></div>
     </div>
   </div>
   <div class="experience-card floating-card">
