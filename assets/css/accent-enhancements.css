@@ -818,7 +818,7 @@ a.profile-contact-item:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, rgba(1, 47, 99, 0.96), rgba(254, 102, 123, 0.9));
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.01em;

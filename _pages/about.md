@@ -115,7 +115,16 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 # 💼 Research Experience
 <div class="experience-list">
   <div class="experience-card floating-card">
-    <div class="experience-period"><i class="fas fa-calendar-days"></i> 2025.12 - Present</div>
+    <div class="experience-period"><i class="fas fa-calendar-days"></i> 2026.07 - Present</div>
+    <div class="experience-logo experience-logo-text" aria-hidden="true">EP</div>
+    <div class="experience-content">
+      <h3><a href="https://evophys.com/" class="link-accent">EvoPhys</a></h3>
+      <div class="credential-line"><i class="fas fa-briefcase"></i><span>Chief AI Officer (CAIO)</span></div>
+      <div class="credential-line"><i class="fas fa-globe"></i><span>Generalizable foundation models integrating world engine and world policy.</span></div>
+    </div>
+  </div>
+  <div class="experience-card floating-card">
+    <div class="experience-period"><i class="fas fa-calendar-days"></i> 2025.12 - 2026.07</div>
     <img class="experience-logo" src="images/simplexity-logo.svg" alt="Simplexity Robotics logo" width="80" height="21" decoding="async" loading="lazy">
     <div class="experience-content">
       <h3><a href="https://www.simplexityrobotics.com/" class="link-accent">Simplexity Robotics</a> <span class="cn-name">(至简动力)</span></h3>
