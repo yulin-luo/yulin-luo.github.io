@@ -71,7 +71,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
 # 🔥 News
 <div class="news-panel" markdown="1">
 
-- *2026.09*: &nbsp;🖼️ The <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b> <a class="news-paper-link" href="https://robo-bench.github.io/static/pdfs/robobench_eccv2026_poster.pdf" target="_blank" rel="noopener">ECCV 2026 poster</a> is released — meet us in Malmö, Sept 8–12 (<a class="news-paper-link" href="https://eccv.ecva.net/virtual/2026/poster/4213" target="_blank" rel="noopener">virtual page</a>).
 - *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-deepvision-vla">DeepVision-VLA</a></b>, a vision-representation enhancement method for VLA models, is accepted to <span class="accent-text">ACM MM 2026</span>. (first author)
 - *2026.07*: &nbsp;📊 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b> is included in the official evaluation suite of <a class="news-paper-link" href="https://github.com/Tencent-Hunyuan/HY-Embodied" target="_blank" rel="noopener">HY-Embodied</a> (RoboBench-MCQ &amp; RoboBench-Planning).
 - *2026.07*: &nbsp;🎉 <b><a class="news-paper-link" href="#pub-robobench">RoboBench</a></b>, a robot-scenario benchmark for evaluating MLLMs as embodied brains, is accepted to <span class="accent-text">ECCV 2026</span>. (first author)
@@ -294,7 +293,6 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://robo-bench.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
         <a href="https://github.com/yulin-luo/RoboBench" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/LeoFan01/RoboBench" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
-        <a href="https://robo-bench.github.io/static/pdfs/robobench_eccv2026_poster.pdf" class="btn-accent" target="_blank" rel="noopener"><i class="fas fa-image"></i> Poster</a>
         <a href="https://www.youtube.com/watch?v=_W3FSK75IRQ" class="btn-accent" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Video</a>
         <a href="https://eccv.ecva.net/virtual/2026/poster/4213" class="btn-accent" target="_blank" rel="noopener"><i class="fas fa-chalkboard"></i> ECCV Page</a>
         <a href="https://mp.weixin.qq.com/s/SdGEqu_1mz14DhUumTZ3FQ" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 具身智能之心</a>
