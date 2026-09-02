@@ -1581,6 +1581,11 @@ a.profile-contact-item:hover {
   margin-top: 0.65rem;
 }
 
+.paper-box-text .links .btn-accent {
+  white-space: nowrap;
+  padding: 10px 16px;
+}
+
 @media (min-width: 769px) {
   .paper-box-text .links {
     flex-wrap: nowrap;
