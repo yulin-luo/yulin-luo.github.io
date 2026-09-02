@@ -295,6 +295,7 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
         <a href="https://github.com/yulin-luo/RoboBench" class="btn-accent"><i class="fab fa-github"></i> Code</a>
         <a href="https://huggingface.co/datasets/LeoFan01/RoboBench" class="btn-accent"><i class="fas fa-database"></i> Dataset</a>
         <a href="https://robo-bench.github.io/static/pdfs/robobench_eccv2026_poster.pdf" class="btn-accent" target="_blank" rel="noopener"><i class="fas fa-image"></i> Poster</a>
+        <a href="https://www.youtube.com/watch?v=_W3FSK75IRQ" class="btn-accent" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Video</a>
         <a href="https://eccv.ecva.net/virtual/2026/poster/4213" class="btn-accent" target="_blank" rel="noopener"><i class="fas fa-chalkboard"></i> ECCV Page</a>
         <a href="https://mp.weixin.qq.com/s/SdGEqu_1mz14DhUumTZ3FQ" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 具身智能之心</a>
       </div>
