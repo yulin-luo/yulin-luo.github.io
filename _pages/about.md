@@ -375,8 +375,10 @@ My name is <span class="author-highlight">Yulin Luo</span> (罗峪霖). I'm a Ph
       <div class="paper-tldr"><span>Claim:</span> A systematic look inside the VLA backbone reveals that visual-token sensitivity decays with depth: injecting multi-level visual features into deeper layers (VL-MoT + action-guided visual pruning) yields <b>+9.0% / +7.5%</b> over prior SOTA on simulated and real-world tasks — <i>look before acting</i>.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2603.15618" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-        <a href="https://2026.acmmm.org/" class="btn-accent"><i class="fas fa-award"></i> ACM MM</a>
+        <a href="https://dl.acm.org/doi/10.1145/3767308.3835774" class="btn-accent"><i class="fas fa-award"></i> ACM MM</a>
         <a href="https://deepvision-vla.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+        <a href="https://github.com/yulin-luo/deepvision-vla" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+        <a href="https://deepvision-vla.github.io/static/pdfs/deepvision-vla-acmmm2026-poster.pdf" class="btn-accent"><i class="fas fa-file-pdf"></i> Poster</a>
         <a href="https://mp.weixin.qq.com/s/q9brBo3pf750Lq6UXchK3g" class="btn-accent media-link" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 量子位</a>
       </div>
     </div>
