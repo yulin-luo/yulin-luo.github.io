@@ -20,9 +20,6 @@ main:
   - title: "Services"
     url: "/#services"
 
-  - title: "Love"
-    url: "/#love"
-
   - title: "Interests"
     url: "/#interests"
 
